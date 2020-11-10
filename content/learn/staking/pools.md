@@ -38,11 +38,8 @@ While we will offer support for the cold staking pool code itself, we won’t be
 
 | Pool name             | Link                          | Pool fees |
 | --------------------- | ----------------------------- | --------- |
-| **Rhombus.Page Pool** | https://pool.rhombus.page     | 2.5 %     |
-| **Crymel's Pool**     | https://rhombus.crymel.icu    | 2.5 %     |
-| **CoinRollin**        | https://coinroll.in           | 1 %       |
-| **Arcadia's Pool**    | https://stake.arcadia.agency/ | 3 %       |
-| **Coldstakingpool**   | https://coldstakingpool.com/  | 2.5%      |
+| **Rhombus.Page Pool** |                               | 2.5 %     |
+
 
 _Last update: 2020/10/01_
 

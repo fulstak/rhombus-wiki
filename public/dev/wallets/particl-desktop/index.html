@@ -153,23 +153,6 @@
             <li>
             
                 <span class="flex">
-                    <a href="/wiki/learn/marketplace/" class="gdoc-nav__entry ">
-                        Marketplace
-                    </a>
-                </span>
-            
-
-            
-            
-            </li>
-            
-            
-        
-            
-            
-            <li>
-            
-                <span class="flex">
                     <a href="/wiki/learn/misc/" class="gdoc-nav__entry ">
                         Misc.
                     </a>
@@ -574,7 +557,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.news"
+                <a href="https://rhombus.io"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -699,7 +682,7 @@
     <span>
         
             <svg class="icon code"><use xlink:href="#code"></use></svg>
-            <a href="https://github.com/l0rdicon/rhombus-wiki/edit/master/content/dev/wallets/rhombus-desktop.md">
+            <a href="https://github.com/l0rdicon/rhombus-wiki/edit/master/content/dev/wallets/particl-desktop.md">
                 Edit this page
             </a>
         
@@ -728,7 +711,7 @@
 check <a href="https://github.com/rhombus/rhombus-desktop">official repo of Rhombus Desktop</a> (on <code>dev</code> branch)
 </blockquote>
 
-<div class="gdoc-page__anchorwrap"><h2 id="contribute">Contribute<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#contribute" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contribute" href="#contribute"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="contribute">Contribute<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#contribute" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Contribute" href="#contribute"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p><a href="https://snyk.io/test/github/rhombus/rhombus-desktop"><img src="https://snyk.io/test/github/rhombus/rhombus-desktop/badge.svg" alt="Snyk"></a>
 <a href="https://travis-ci.org/rhombus/rhombus-desktop"><img src="https://travis-ci.org/rhombus/rhombus-desktop.svg?branch=master" alt="Build Status"></a>
 <a href="https://coveralls.io/github/rhombus/rhombus-desktop?branch=master"><img src="https://coveralls.io/repos/github/rhombus/rhombus-desktop/badge.svg?branch=master" alt="Coverage Status"></a>
@@ -736,18 +719,18 @@ check <a href="https://github.com/rhombus/rhombus-desktop">official repo of Rhom
 <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/rhombus/rhombus-desktop.svg" alt="Greenkeeper badge"></a></p>
 <p>Join us in <a href="https://app.element.io/#/room/#rhombus-dev:matrix.org">#rhombus-dev:matrix.org</a> on <a href="https://element.io">Element</a> (formerly Riot) for more info and/or assistance.</p>
 <p>Keep in mind that the development currently happens on a private fork of this repo.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="requirements">Requirements<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Requirements" href="#requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="requirements">Requirements<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Requirements" href="#requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <ul>
 <li><a href="https://nodejs.org/">Node.js®</a> v10</li>
 <li><a href="https://git-scm.com/">git</a></li>
 <li><a href="https://yarnpkg.com/en/">yarn</a></li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h2 id="installation">Installation<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="installation">Installation<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>Clone the repo &amp; fetch dependencies:</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/rhombus/rhombus-desktop
 <span class="nb">cd</span> rhombus-desktop
 yarn install
-</code></pre></div><div class="gdoc-page__anchorwrap"><h2 id="development">Development<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#development" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Development" href="#development"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h2 id="development">Development<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#development" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Development" href="#development"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <blockquote>
 <p>Note: most recent development happens on <code>dev</code> branch</p>
 </blockquote>
@@ -762,26 +745,26 @@ yarn install
 </ul>
 </li>
 </ol>
-<div class="gdoc-page__anchorwrap"><h3 id="interact-with-rhombus-core-daemon">Interact with rhombus-core daemon<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#interact-with-rhombus-core-daemon" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Interact with rhombus-core daemon" href="#interact-with-rhombus-core-daemon"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="interact-with-rhombus-core-daemon">Interact with rhombus-core daemon<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#interact-with-rhombus-core-daemon" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Interact with rhombus-core daemon" href="#interact-with-rhombus-core-daemon"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>You can directly interact with the daemon ran by the Electron version:</p>
 <pre><code>./rhombus-cli -testnet getblockchaininfo
-</code></pre><div class="gdoc-page__anchorwrap"><h2 id="packaging">Packaging<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#packaging" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Packaging" href="#packaging"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="gdoc-page__anchorwrap"><h3 id="windows-only-requirements">Windows-only requirements<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#windows-only-requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows-only requirements" href="#windows-only-requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+</code></pre><div class="gdoc-page__anchorwrap"><h2 id="packaging">Packaging<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#packaging" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Packaging" href="#packaging"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="windows-only-requirements">Windows-only requirements<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#windows-only-requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows-only requirements" href="#windows-only-requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Building for Windows requires the 32-bit libraries to be available:</p>
 <pre><code>sudo apt-get install gcc-multilib
 sudo apt-get install g++-multilib
-</code></pre><div class="gdoc-page__anchorwrap"><h3 id="packaging-commands">Packaging commands<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#packaging-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Packaging commands" href="#packaging-commands"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+</code></pre><div class="gdoc-page__anchorwrap"><h3 id="packaging-commands">Packaging commands<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#packaging-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Packaging commands" href="#packaging-commands"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ul>
 <li><code>yarn run package:win</code> – Windows</li>
 <li><code>yarn run package:mac</code> – macOS</li>
 <li><code>yarn run package:linux</code> – Linux</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h2 id="troubleshooting">Troubleshooting<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#troubleshooting" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Troubleshooting" href="#troubleshooting"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="gdoc-page__anchorwrap"><h3 id="development-issues">Development issues<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#development-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Development issues" href="#development-issues"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<div class="gdoc-page__anchorwrap"><h4 id="blockchain-syncing-stuck">Blockchain syncing stuck<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#blockchain-syncing-stuck" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blockchain syncing stuck" href="#blockchain-syncing-stuck"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h2 id="troubleshooting">Troubleshooting<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#troubleshooting" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Troubleshooting" href="#troubleshooting"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="development-issues">Development issues<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#development-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Development issues" href="#development-issues"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h4 id="blockchain-syncing-stuck">Blockchain syncing stuck<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#blockchain-syncing-stuck" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blockchain syncing stuck" href="#blockchain-syncing-stuck"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>Restart the app with <code>-reindex</code> flag:</p>
 <pre><code>yarn run start:electron:dev -testnet --devtools -reindex
-</code></pre><div class="gdoc-page__anchorwrap"><h4 id="marketplace-fails-to-load">Marketplace fails to load<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#marketplace-fails-to-load" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Marketplace fails to load" href="#marketplace-fails-to-load"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+</code></pre><div class="gdoc-page__anchorwrap"><h4 id="marketplace-fails-to-load">Marketplace fails to load<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#marketplace-fails-to-load" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Marketplace fails to load" href="#marketplace-fails-to-load"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>Delete marketplace <code>database</code> folder and restart app:</p>
 <table>
 <thead>
@@ -805,7 +788,7 @@ sudo apt-get install g++-multilib
 </tr>
 </tbody>
 </table>
-<div class="gdoc-page__anchorwrap"><h3 id="other-issues">Other issues<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/rhombus-desktop/#other-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Other issues" href="#other-issues"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="other-issues">Other issues<a data-clipboard-text="https://rhombus.io/wiki/dev/wallets/particl-desktop/#other-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Other issues" href="#other-issues"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>See our <a href="/support">Rhombus Wiki</a> for most common problems or join <a href="https://app.element.io/#/room/#rhombushelp:matrix.org">#rhombushelp:matrix.org</a> on <a href="https://element.io">Element</a> for community help.</p>
 
 
@@ -814,8 +797,8 @@ sudo apt-get install g++-multilib
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-10-21T16:19:21&#43;02:00">
-                    October 21, 2020
+                <time datetime="2020-11-10T06:08:56Z">
+                    November 10, 2020
                 </time>
             </p>
             
@@ -854,7 +837,7 @@ sudo apt-get install g++-multilib
     <ul>
       
       <li>
-        <a href="/wiki/dev/wallets/rhombus-core/compile-sign-builds/">
+        <a href="/wiki/dev/wallets/particl-core/compile-sign-builds/">
           <span class="title">Compile &amp; Sign Rhombus Core builds</span>
           <small>How to compile own Rhombus Core builds via Gitian and sign them with PGP</small>
         </a>
@@ -882,14 +865,14 @@ sudo apt-get install g++-multilib
       </li>
       
       <li>
-        <a href="/wiki/dev/wallets/rhombus-copay/">
+        <a href="/wiki/dev/wallets/particl-copay/">
           <span class="title">Rhombus Copay</span>
           <small>Tips and notes for getting you up and running for Rhombus Copay development in minutes</small>
         </a>
       </li>
       
       <li>
-        <a href="/wiki/tutorial/wallets/rhombus-desktop/">
+        <a href="/wiki/tutorial/wallets/particl-desktop/">
           <span class="title">Rhombus Desktop</span>
           <small>Rhombus&#39;s main GUI wallet with most of the features, including Rhombus Open Marketplace</small>
         </a>

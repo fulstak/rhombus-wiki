@@ -5,7 +5,7 @@ more:
     external: false
     icon: "heart"
   - name: Rhombus News
-    ref: "https://rhombus.news"
+    ref: "https://rhombus.io"
     external: true
     icon: "notification"
   - name: Downloads

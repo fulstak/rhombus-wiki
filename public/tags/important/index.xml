@@ -16,17 +16,6 @@
     </item>
     
     <item>
-      <title>Getting started with Rhombus Open Marketplace</title>
-      <link>https://rhombus.io/wiki/tutorial/marketplace/intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/marketplace/intro/</guid>
-      <description>Requirements There are couple of things needed before you can access the Rhombus Open Marketplace:
- Rhombus Desktop client installed &amp;amp; working functional (default) wallet within Rhombus Desktop RHOM coins for buying/selling (get some on available exchanges)  Make sure you have a Rhombus Desktop installed with a working wallet before continuing.
-Create Market-enabled wallet To enable the Open Marketplace, you need to create a second wallet and name it Market.</description>
-    </item>
-    
-    <item>
       <title>How to stake</title>
       <link>https://rhombus.io/wiki/tutorial/staking/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -35,16 +24,6 @@ Create Market-enabled wallet To enable the Open Marketplace, you need to create 
       <description>Staking methods Comparison  Standalone staking Cold staking       To learn more in-depth about Rhombus&amp;rsquo;s Staking feature, read Rhombus Staking (intro).
 Staking methods You can choose from few options on how to stake:
  Standalone – staking happens directly in your desktop wallet, your PC should be online ideally 24/7 (see below) Staking on a Pool – easily &amp;ldquo;pair&amp;rdquo; your desktop wallet with a Staking Pool; staking will happen automatically on pool Staking on dedicated staking device (DSD) – a fancy way to describe staking on your own SBC like Raspberry Pi or Rock64 without need to rely on third-party pool  Comparison     Standalone Staking pools Dedicated staking devices     Difficulty to setup easiest easy moderate   Staking happens directly in wallet on a pool on dedicated device   Staking type &amp;ldquo;hot&amp;rdquo; staking Cold Staking Cold Staking   Fees – 1–3 % –   Security lower high high   Howto guides – setup guide setup guide    Standalone staking is easiest and fastest way to start staking.</description>
-    </item>
-    
-    <item>
-      <title>Rhombus Open Marketplace</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/overview/</guid>
-      <description>About Open Marketplace Features  Payments Listings No metadata IP address anonymization       About Open Marketplace  Buy and sell products and services from anyone else in the world without leaving a trail and using your favorite cryptocurrency.
- The Rhombus Open Marketplace is a hybrid between blockchain and peer-to-peer technologies. It operates with no central authority or middleman and is exclusively owned and operated by its network of participants.</description>
     </item>
     
     <item>

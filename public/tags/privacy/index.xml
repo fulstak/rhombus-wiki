@@ -45,10 +45,10 @@ While it could eventually be enabled by default or through the Settings page, To
     
     <item>
       <title>Self-hosting RHOM payment processor</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</link>
+      <link>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</guid>
+      <guid>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</guid>
       <description>By hosting your own instance of Rhombus&amp;rsquo;s BTCPayServer, you can create your very own independent payment processor for both Rhombus and Bitcoin.
    About BTCPayServer Features Available servers Installation  Requirements Generate docker-compose.yml Run BTCPayServer       About BTCPayServer   BTCPayServer has been ported to work on Rhombus by Rob (spazzymoto) by claiming a community-posted bounty on forums.  Features See official BTCPayServer website for complete info about features and abilities.</description>
     </item>
@@ -80,16 +80,6 @@ Basics  Never brag about how much RHOM or BTC you own, online or offline. All it
       
       <guid>https://rhombus.io/wiki/tutorial/privacy/coin-control/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
-    </item>
-    
-    <item>
-      <title>Private markets</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/private-bubbles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/private-bubbles/</guid>
-      <description>They are not accessible from the public interface of the Open Marketplace. The only way to access them is by entering their unique Market ID in the Rhombus Desktop client.
-The Market ID is only known to the person that initially generated the private market and to the people he shared it with. While private markets aren&amp;rsquo;t part of the first mainnet version of the Open Marketplace, they will be implemented during the Beta phase of development.</description>
     </item>
     
   </channel>

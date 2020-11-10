@@ -24,7 +24,7 @@ Controlled via command line interface, **Rhombus-cli is usually used on remote m
 {{< button href="https://github.com/rhombus/rhombus-core/issues" >}}Report bugs{{< /button >}}
 
 {{< hint info >}}
-Also check out **[Partyman staking utility](/learn/staking/partyman/) which is a great tool to manage your staking node with ease** – it's beginner-friendly and automates many of the tedious tasks related to maintenance of your node!
+Also check out **[Rhomtools staking utility](/learn/staking/rhomtools/) which is a great tool to manage your staking node with ease** – it's beginner-friendly and automates many of the tedious tasks related to maintenance of your node!
 {{< /hint >}}
 
 

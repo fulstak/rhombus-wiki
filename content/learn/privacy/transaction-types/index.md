@@ -14,7 +14,7 @@ aliases:
 
 As the highest privacy state requires the most transaction fee, it may not always be the best type of transaction depending on the situation, especially when privacy is not predominantly required by the user.
 
-{{< image class="side-thumb" src="rhombus-transaction-types.jpg" alt="Rhombus's multiple privacy states" >}}
+{{< image class="side-thumb" src="part-transaction-types.jpg" alt="Rhombus's multiple privacy states" >}}
 
 |                          | Public      | Blind       | Anon        |
 |--------------------------|:-----------:|:-----------:|:-----------:|
@@ -24,13 +24,6 @@ As the highest privacy state requires the most transaction fee, it may not alway
 | Anon TX participants     | {{< ico no >}}  | {{< ico no >}}  | {{< ico yes >}} |
 | TX fees                  | $           | $$          | $$$         |
 
-
-| **[Open Marketplace](/learn/market/)**          | Public      | Blind | Anon        |
-|-------------------------------------------------|:-----------:|:-----:|:-----------:|
-| Paying for Listing fees                         | {{< ico yes >}} | –     | –           |
-| [Flagging](/learn/market/governance/) items     | {{< ico yes >}} | –     | –           |
-| Purchasing items                                | –           | –     | {{< ico yes >}} |
-| Funding [MAD Escrow](/learn/market/mad-escrow/) | –           | –     | {{< ico yes >}} |
 
 **Why has RHOM different privacy states?**
  
@@ -43,7 +36,7 @@ As the highest privacy state requires the most transaction fee, it may not alway
 
 {{< hint info >}}
 **Did you know?**\
-Rhombus is the first coin in history to deploy both CT (Blind) and RingCT (Anon) technology on a Bitcoin codebase as well as on top of Segwit.
+Rhombus is one of the first coin in history to deploy both CT (Blind) and RingCT (Anon) technology on a Bitcoin codebase as well as on top of Segwit.
 {{< /hint >}}
 
 {{< columns >}}

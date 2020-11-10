@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tutorial/merchants/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accepting RHOM for Merchants</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/accepting-part/</link>
+      <link>https://rhombus.io/wiki/tutorial/merchants/accepting-rhom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/accepting-part/</guid>
+      <guid>https://rhombus.io/wiki/tutorial/merchants/accepting-rhom/</guid>
       <description>Advantages Accepting Rhombus (and many other cryptocurrencies) gives you – as a Seller – many advantages over traditional fiat payment systems:
  No chargebacks – all cryptocurrency transactions are final, no chargebacks are possible Complete control – you are the only owner of the private keys to your wallet, no one can freeze your account or shut it down  If further security and financial privacy are important to your and your business, see our Rhombus Open Marketplace, which was developed with exactly those in mind.</description>
     </item>
     
     <item>
       <title>Self-hosting RHOM payment processor</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</link>
+      <link>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</guid>
+      <guid>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</guid>
       <description>By hosting your own instance of Rhombus&amp;rsquo;s BTCPayServer, you can create your very own independent payment processor for both Rhombus and Bitcoin.
    About BTCPayServer Features Available servers Installation  Requirements Generate docker-compose.yml Run BTCPayServer       About BTCPayServer   BTCPayServer has been ported to work on Rhombus by Rob (spazzymoto) by claiming a community-posted bounty on forums.  Features See official BTCPayServer website for complete info about features and abilities.</description>
     </item>

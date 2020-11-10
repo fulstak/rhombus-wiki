@@ -14,7 +14,7 @@ tags:
 
 ## Native Segregated Witness (Segwit)
 
-The Rhombus platform is the first blockchain in the industry to ever be deployed with a **native implementation of Segwit**.
+The Rhombus platform was deployed with a **native implementation of Segwit**.
 
 This has the added benefit of making all transactions (including private ones) go through Segwit by default, resulting in **better scalability and cheaper transaction fees**.
 
@@ -60,10 +60,3 @@ By transacting and settling off-blockchain, the Lightning Network allows for exc
 ### Cross-Chain
 
 Cross-chain atomic swaps can occur off-chain instantly with heterogeneous blockchain consensus rules. So long as the chains can support the same cryptographic hash function, it is possible to make transactions across blockchains without trust in 3rd party custodians.
-
-
-## Data Storage Network (DSN)
-
-{{< hint info >}}
-Read more about Open Marketplace-related scalability with [Data Storage Network (DSN)](/learn/market/data-storage-network/)
-{{< /hint >}}

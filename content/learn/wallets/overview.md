@@ -14,7 +14,7 @@ You can use one or all of them, it's up to you.
 ## Overview
 
 {{< hint info >}}
-[Rhombus Desktop](/tutorial/wallets/rhombus-desktop/) is a recommended wallet for most users as it offers the best of Rhombus's features, including Rhombus Open Marketplace.
+[Rhombus Desktop](/tutorial/wallets/rhombus-desktop/) is a recommended wallet for most users as it offers the best of Rhombus's features
 {{< /hint >}}
 
 
@@ -72,7 +72,6 @@ Overview of Rhombus wallets with supported features:
 | Send/receive [Blind & Anon (Private) tokens](/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
 | **[Staking](/learn/staking/)** (standalone) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
 | **[Cold staking](/learn/staking/#cold-staking)** (via Pool or DSD) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
-| Access to **Rhombus Open Marketplace** | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} | {{< ico no >}} | {{< ico no >}} |
 | Signing/verifying of messages | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} |
 | Advanced wallet management | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} |
 | Coin control | {{< ico no >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |

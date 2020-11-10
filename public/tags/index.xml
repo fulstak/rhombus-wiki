@@ -15,15 +15,6 @@
     </item>
     
     <item>
-      <title>atomic swaps</title>
-      <link>https://rhombus.io/wiki/tags/atomic-swaps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/atomic-swaps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bitcoin</title>
       <link>https://rhombus.io/wiki/tags/bitcoin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -114,15 +105,6 @@
     </item>
     
     <item>
-      <title>fees</title>
-      <link>https://rhombus.io/wiki/tags/fees/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/fees/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>governance</title>
       <link>https://rhombus.io/wiki/tags/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -159,24 +141,6 @@
     </item>
     
     <item>
-      <title>MAD escrow</title>
-      <link>https://rhombus.io/wiki/tags/MAD-escrow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/MAD-escrow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>market</title>
-      <link>https://rhombus.io/wiki/tags/market/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/market/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>multiwallet</title>
       <link>https://rhombus.io/wiki/tags/multiwallet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -186,11 +150,20 @@
     </item>
     
     <item>
-      <title>OMP</title>
-      <link>https://rhombus.io/wiki/tags/OMP/</link>
+      <title>pools</title>
+      <link>https://rhombus.io/wiki/tags/pools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/OMP/</guid>
+      <guid>https://rhombus.io/wiki/tags/pools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://rhombus.io/wiki/tags/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rhombus.io/wiki/tags/privacy/</guid>
       <description></description>
     </item>
     
@@ -227,24 +200,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rhombus.io/wiki/tags/Rhombus-Desktop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pools</title>
-      <link>https://rhombus.io/wiki/tags/pools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/pools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://rhombus.io/wiki/tags/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/privacy/</guid>
       <description></description>
     </item>
     
@@ -290,15 +245,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rhombus.io/wiki/tags/sellers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SMSG</title>
-      <link>https://rhombus.io/wiki/tags/SMSG/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/SMSG/</guid>
       <description></description>
     </item>
     

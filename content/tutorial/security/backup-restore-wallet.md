@@ -29,7 +29,7 @@ With [Rhombus Core](/tutorial/wallets/rhombus-core/), you can easily backup your
   2. manually locate your `wallet.dat` file on disk (see below)
   3. copy the file to a safe and secure place manually (do not move – copy!)
 
-When making backups, it's sane to name the backup files properly, e.g. including wallet name/type and date, like `part-wallet-personal_2019-06-03.dat`. This will help you greatly later, when you'll have many backup files.
+When making backups, it's sane to name the backup files properly, e.g. including wallet name/type and date, like `rhom-wallet-personal_2019-06-03.dat`. This will help you greatly later, when you'll have many backup files.
 
 
 ### Where is wallet.dat?

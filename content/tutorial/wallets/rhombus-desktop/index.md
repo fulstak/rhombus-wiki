@@ -1,6 +1,6 @@
 ---
 title: Rhombus Desktop
-subtitle: Rhombus's main GUI wallet with most of the features, including Rhombus Open Marketplace 
+subtitle: Rhombus's main GUI wallet with most of the features 
 slug:
 weight: 1
 tags:

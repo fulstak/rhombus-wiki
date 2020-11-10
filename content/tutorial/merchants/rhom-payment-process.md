@@ -16,10 +16,6 @@ By hosting your own instance of Rhombus's BTCPayServer, you can create your very
 
 {{< vimeo 330290302 >}}
 
-{{< hint info >}}
-BTCPayServer has been ported to work on Rhombus by [Rob (spazzymoto)](https://github.com/spazzymoto/btcpayserver) by claiming a community-posted bounty on [forums](https://rhombus.community).
-{{< /hint >}}
-
 ## Features
 
 See [official BTCPayServer website](https://btcpayserver.org/) for complete info about features and abilities. To name a few:

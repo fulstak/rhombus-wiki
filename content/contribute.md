@@ -35,7 +35,7 @@ Let's get through these one by one:
 
 **Registering on GitHub**
 
-Head over to [GitHub](https://github.com) and sign up if you haven't already. GitHub is one of the most popular open source hubs, so your new account will come in handy in the future. Even our new [Rhombus Community Crowdfunding](https://ccs.rhombus.io) relies on GitHub!
+Head over to [GitHub](https://github.com) and sign up if you haven't already. GitHub is one of the most popular open source hubs, so your new account will come in handy in the future.
 
 **Markdown syntax**
 
@@ -165,7 +165,6 @@ example/
 {{</* image src="<path to image>" [class="side-thumb"] [alt="desc"] [caption="caption"] */>}}
 
 {{</* image src="image.png" class="side-thumb" alt="Send dialog in Rhombus Desktop" */>}}
-{{</* image src="image2.png" alt="Infographic describing Rhombus Market orders" caption="Rhombus Marketplace orders" */>}}
 ```
 
 - `class="side-thumb"` transforms the image into thumbnail pinned to the side (without it, image takes full width of the page)

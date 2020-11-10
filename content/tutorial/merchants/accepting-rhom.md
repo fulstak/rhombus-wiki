@@ -14,14 +14,10 @@ Accepting Rhombus (and many other cryptocurrencies) gives you – as a Seller �
 - **No chargebacks** – all cryptocurrency transactions are final, no chargebacks are possible
 - **Complete control** – you are the only owner of the private keys to your wallet, no one can freeze your account or shut it down
 
-{{< hint info >}}
-**If further security and financial privacy are important to your and your business**, see our [Rhombus Open Marketplace](learn:market:), which was developed with exactly those in mind.
-{{< /hint >}}
-
 
 ## Online stores
 
-Accepting RHOM payments in your online stores is possible with use of Rhombus [BTCPayServer](/tutorial/merchants/part-payment-processor/). Hosting it on your server and connecting your wallet will allow receiving payments directly to your wallet (even a cold storage via [hardware wallets](/learn/wallets/hardware)) and detailed tracking of paid orders etc.
+Accepting RHOM payments in your online stores is possible with use of Rhombus [BTCPayServer](/tutorial/merchants/rhom-payment-processor/). Hosting it on your server and connecting your wallet will allow receiving payments directly to your wallet (even a cold storage via [hardware wallets](/learn/wallets/hardware)) and detailed tracking of paid orders etc.
 
 
 ## Physical stores

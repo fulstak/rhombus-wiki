@@ -103,7 +103,7 @@ In Rhombus Core, go to Staking setup again (_Window_ → _Staking Setup_) – yo
 If you're self-hosting your staking node, SSH into your device again and in partyman's folder run:
 
 ```
-./partyman status
+./rhomtools status
 ```
 
 The output of that command should indicate `rhombusd staking currently?: YES` as well as display the number of coins being staked by the staking node next to `rhombusd staking wallet weight: <amount of your coins>`

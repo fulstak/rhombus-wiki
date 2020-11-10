@@ -47,10 +47,10 @@ This has the added benefit of making all transactions (including private ones) g
     
     <item>
       <title>Accepting RHOM for Merchants</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/accepting-part/</link>
+      <link>https://rhombus.io/wiki/tutorial/merchants/accepting-rhom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/accepting-part/</guid>
+      <guid>https://rhombus.io/wiki/tutorial/merchants/accepting-rhom/</guid>
       <description>Advantages Accepting Rhombus (and many other cryptocurrencies) gives you – as a Seller – many advantages over traditional fiat payment systems:
  No chargebacks – all cryptocurrency transactions are final, no chargebacks are possible Complete control – you are the only owner of the private keys to your wallet, no one can freeze your account or shut it down  If further security and financial privacy are important to your and your business, see our Rhombus Open Marketplace, which was developed with exactly those in mind.</description>
     </item>
@@ -68,10 +68,10 @@ If you can spare the time and processing power, please do!     Notes Preparation
     
     <item>
       <title>FAQ: RHOM coin</title>
-      <link>https://rhombus.io/wiki/support/faq/part-coin/</link>
+      <link>https://rhombus.io/wiki/support/faq/rhom-coin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/support/faq/part-coin/</guid>
+      <guid>https://rhombus.io/wiki/support/faq/rhom-coin/</guid>
       <description>What is RHOM? Can I store RHOM on a hardware wallet? Where can I buy RHOM coins?  Will RHOM be added to other exchanges?   What is RHOM&amp;rsquo;s codebase? What are the transactions fees for RHOM? What are RHOM&amp;rsquo;s transactions sizes? What is RHOM&amp;rsquo;s inflation rate? Why has RHOM different privacy states? Are whitepapers available for the CT and RingCT privacy protocols? Is Segwit enabled?</description>
     </item>
     
@@ -99,17 +99,6 @@ Windows  Windows  Rhombus Desktop: FIXME Rhombus Core: FIXME   macOS  macOS  Rho
     </item>
     
     <item>
-      <title>Getting started with Rhombus Open Marketplace</title>
-      <link>https://rhombus.io/wiki/tutorial/marketplace/intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/marketplace/intro/</guid>
-      <description>Requirements There are couple of things needed before you can access the Rhombus Open Marketplace:
- Rhombus Desktop client installed &amp;amp; working functional (default) wallet within Rhombus Desktop RHOM coins for buying/selling (get some on available exchanges)  Make sure you have a Rhombus Desktop installed with a working wallet before continuing.
-Create Market-enabled wallet To enable the Open Marketplace, you need to create a second wallet and name it Market.</description>
-    </item>
-    
-    <item>
       <title>Hosting your own Coldstaking Pool</title>
       <link>https://rhombus.io/wiki/tutorial/advanced/hosting-coldstaking-pool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -128,6 +117,15 @@ VPS Setup Example   </description>
       <description>Staking methods Comparison  Standalone staking Cold staking       To learn more in-depth about Rhombus&amp;rsquo;s Staking feature, read Rhombus Staking (intro).
 Staking methods You can choose from few options on how to stake:
  Standalone – staking happens directly in your desktop wallet, your PC should be online ideally 24/7 (see below) Staking on a Pool – easily &amp;ldquo;pair&amp;rdquo; your desktop wallet with a Staking Pool; staking will happen automatically on pool Staking on dedicated staking device (DSD) – a fancy way to describe staking on your own SBC like Raspberry Pi or Rock64 without need to rely on third-party pool  Comparison     Standalone Staking pools Dedicated staking devices     Difficulty to setup easiest easy moderate   Staking happens directly in wallet on a pool on dedicated device   Staking type &amp;ldquo;hot&amp;rdquo; staking Cold Staking Cold Staking   Fees – 1–3 % –   Security lower high high   Howto guides – setup guide setup guide    Standalone staking is easiest and fastest way to start staking.</description>
+    </item>
+    
+    <item>
+      <title>Proposals</title>
+      <link>https://rhombus.io/wiki/learn/misc/proposals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rhombus.io/wiki/learn/misc/proposals/</guid>
+      <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
@@ -155,16 +153,6 @@ This wallet is intended to be the centerpiece and default wallet of the Rhombus 
     </item>
     
     <item>
-      <title>Rhombus Open Marketplace</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/overview/</guid>
-      <description>About Open Marketplace Features  Payments Listings No metadata IP address anonymization       About Open Marketplace  Buy and sell products and services from anyone else in the world without leaving a trail and using your favorite cryptocurrency.
- The Rhombus Open Marketplace is a hybrid between blockchain and peer-to-peer technologies. It operates with no central authority or middleman and is exclusively owned and operated by its network of participants.</description>
-    </item>
-    
-    <item>
       <title>Rhombus with Tor</title>
       <link>https://rhombus.io/wiki/tutorial/privacy/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -172,15 +160,6 @@ This wallet is intended to be the centerpiece and default wallet of the Rhombus 
       <guid>https://rhombus.io/wiki/tutorial/privacy/tor/</guid>
       <description>a) Using the Tor Browser b) Using the Tor Daemon c) Tor as a Hidden Service     The only privacy protocol that’s not enabled by default on Rhombus Desktop is the ability to hide your IP address using the Tor network.
 While it could eventually be enabled by default or through the Settings page, Tor currently needs to be activated manually to route your Rhombus Desktop connection through its network.</description>
-    </item>
-    
-    <item>
-      <title>Proposals</title>
-      <link>https://rhombus.io/wiki/learn/misc/proposals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/misc/proposals/</guid>
-      <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
@@ -255,40 +234,12 @@ Time offset error If you see a time offset error icon, it means that your machin
     </item>
     
     <item>
-      <title>FAQ: Rhombus Open Marketplace</title>
-      <link>https://rhombus.io/wiki/support/faq/market/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/support/faq/market/</guid>
-      <description>Are there fees for using the marketplace? Who collects the fees? Do I need to keep my computer online for my listings to stay up? How long do listings stay up? Can I use any other coin other than RHOM? Are regular (fiat) currencies and traditional means of payment accepted? How much privacy does the marketplace offer? Is the marketplace moderated? How does the escrow system functions?</description>
-    </item>
-    
-    <item>
-      <title>How to Buy/Sell on Open Marketplace</title>
-      <link>https://rhombus.io/wiki/tutorial/marketplace/buying-selling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/marketplace/buying-selling/</guid>
-      <description>If you&amp;rsquo;ve already installed the Rhombus Open Marketplace and have it enabled on your Rhombus Desktop client, then you&amp;rsquo;re all set and ready to start buying and selling stuff for crypto without giving away your data.
-   Complete Buy flow  Listing stage Bidding stage Order stage Escrow stage Escrow stage, pt. II Packaging &amp;amp; shipping stage Delivered/complete stage       Complete Buy flow If you haven&amp;rsquo;t installed or enabled the Rhombus Open Marketplace yet, then follow our Getting started with Rhombus Open Marketplace guide!</description>
-    </item>
-    
-    <item>
       <title>How to choose a good password</title>
       <link>https://rhombus.io/wiki/tutorial/security/good-passwords/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rhombus.io/wiki/tutorial/security/good-passwords/</guid>
       <description>Trezor wrote a very detailed and in-depth article about choosing strong passphrases for protecting recovery seeds. You can obviously follow this guide to password/passphrase-protect any kind of valuable information (like your Rhombus recovery seed).</description>
-    </item>
-    
-    <item>
-      <title>MAD Escrow</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/mad-escrow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/mad-escrow/</guid>
-      <description>About MAD Escrow Game Theory How does it work? Private by design Scalability     About MAD Escrow Marketplaces usually have mechanisms in place to resolve disputes between buyers and vendors. This is a vital part of e-commerce because trusting strangers, especially when money is involved, has never proven to be reliable. As buyers and vendors do not know and trust each other, there has to be protection against one of the party never honoring their end of the trade.</description>
     </item>
     
     <item>
@@ -304,15 +255,6 @@ Getting started Installation Please note that even though some of these steps ar
     </item>
     
     <item>
-      <title>Rhombus Foundation</title>
-      <link>https://rhombus.io/wiki/learn/misc/rhombus-foundation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/misc/rhombus-foundation/</guid>
-      <description>About Rhombus Foundation Purpose Funding &amp;amp; finances  Initial funding Financial reports Donations   Board members Address     About Rhombus Foundation The Rhombus Foundation (Rhombus Stiftung) is a non-profit Swiss foundation registered in Zug on July 2017 with the help of Swiss law firm MME enabling the organization and deployment of funding and logistics to ensure the safe development of the Rhombus project and vision.</description>
-    </item>
-    
-    <item>
       <title>Rhombus Insight</title>
       <link>https://rhombus.io/wiki/dev/api/insight/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -325,10 +267,10 @@ Blockchain status Get current blockchain data (block height, supply, difficulty(
     
     <item>
       <title>Self-hosting RHOM payment processor</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</link>
+      <link>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/part-payment-processor/</guid>
+      <guid>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</guid>
       <description>By hosting your own instance of Rhombus&amp;rsquo;s BTCPayServer, you can create your very own independent payment processor for both Rhombus and Bitcoin.
    About BTCPayServer Features Available servers Installation  Requirements Generate docker-compose.yml Run BTCPayServer       About BTCPayServer   BTCPayServer has been ported to work on Rhombus by Rob (spazzymoto) by claiming a community-posted bounty on forums.  Features See official BTCPayServer website for complete info about features and abilities.</description>
     </item>
@@ -392,16 +334,6 @@ Hardware wallets have major advantages over standard software wallets: private k
     </item>
     
     <item>
-      <title>Marketplace fees</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/fees/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/fees/</guid>
-      <description>Traditional marketplaces usually have pretty complicated or extensive fee schedules. Depending on various variables such as what kind of products you sell, the number of transactions you do, your membership subscription plan, your feedback, and similar sets of data, fees can vary greatly.
-The total cost associated with selling online usually includes a listing fee, a final value fee (sales fee taken on the value of the item), a subscription fee, a payment processing fee, escrow fee, and more.</description>
-    </item>
-    
-    <item>
       <title>Multi-signature wallets</title>
       <link>https://rhombus.io/wiki/tutorial/security/multisig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -411,12 +343,13 @@ The total cost associated with selling online usually includes a listing fee, a 
     </item>
     
     <item>
-      <title>Orders</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/orders/</link>
+      <title>Partyman staking utility</title>
+      <link>https://rhombus.io/wiki/learn/staking/partyman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/marketplace/orders/</guid>
-      <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
+      <guid>https://rhombus.io/wiki/learn/staking/partyman/</guid>
+      <description>About Partyman Use cases  Advantages   Features     About Partyman  Partyman displaying staking status  Partyman automates all kinds of heavy lifting related to running your own (staking) node. It&amp;rsquo;s very lightweight and runs on many platforms, including ARM (for DSD like Raspberry Pi, Rock64 and others).
+As CLI, it doesn&amp;rsquo;t offer any graphical interface, but it&amp;rsquo;s still very usable and user-friendly.</description>
     </item>
     
     <item>
@@ -436,16 +369,6 @@ This guide is written purely for Linux (specificaly Ubuntu-based distributions).
       
       <guid>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
-    </item>
-    
-    <item>
-      <title>Partyman staking utility</title>
-      <link>https://rhombus.io/wiki/learn/staking/partyman/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/staking/partyman/</guid>
-      <description>About Partyman Use cases  Advantages   Features     About Partyman  Partyman displaying staking status  Partyman automates all kinds of heavy lifting related to running your own (staking) node. It&amp;rsquo;s very lightweight and runs on many platforms, including ARM (for DSD like Raspberry Pi, Rock64 and others).
-As CLI, it doesn&amp;rsquo;t offer any graphical interface, but it&amp;rsquo;s still very usable and user-friendly.</description>
     </item>
     
     <item>
@@ -496,16 +419,6 @@ Please limit your calls to the Query API to 1 every 10 seconds.</description>
       <description>This tutorial assumes Rhombus has been properly installed on your Ledger Nano S/X hardware device and that your Rhombus Core wallet is set up for Rhombus on Ledger.
 Requirements Before starting the setup process, make sure you have:
  Cold staking public key – you can get it by either:  self-hosting a cold staking node (on Raspberri Pi/Rock64 etc.) or by joining one of the available staking pools   A Ledger hardware wallet with Rhombus installed on it Ledger Live app ready to use Rhombus Core wallet installed and fully synced  Staking setup Get your staking public key Staking Pool  Via staking pool Choose one of the available staking pools and note somewhere its staking public key (they are usually right there on the top of the page).</description>
-    </item>
-    
-    <item>
-      <title>Community governance</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/governance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/governance/</guid>
-      <description>It is instead governed by its community of holders rather than a team of staff or a third-parties.
-Decentralized moderation Since it is fully anonymous, it is not unlikely that undesirable items and services would be listed for sale. This is why there has to be a way to moderate the marketplace. This ensures the marketplace preserves its legitimacy and that it doesn&amp;rsquo;t become an enabler of immoral businesses and activities.</description>
     </item>
     
     <item>
@@ -577,52 +490,12 @@ Mainly, Rhombus Copay is the most accessible mobile Rhombus wallet and allows us
     </item>
     
     <item>
-      <title>Private markets</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/private-bubbles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/private-bubbles/</guid>
-      <description>They are not accessible from the public interface of the Open Marketplace. The only way to access them is by entering their unique Market ID in the Rhombus Desktop client.
-The Market ID is only known to the person that initially generated the private market and to the people he shared it with. While private markets aren&amp;rsquo;t part of the first mainnet version of the Open Marketplace, they will be implemented during the Beta phase of development.</description>
-    </item>
-    
-    <item>
-      <title>Currency agnosticism</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/currency-agnosticism/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/currency-agnosticism/</guid>
-      <description>What&amp;rsquo;s currency agnosticism? Atomic Swaps Third-Party Integrations     What&amp;rsquo;s currency agnosticism? That means buyers aren&amp;rsquo;t limited to using the RHOM coin as a form of payment. They are able to use many currencies, including Bitcoin, among others. This provides a use-case for many different coins and gives them a fee-less and untraceable way to spend their cryptocurrencies without having to either go through a third-party or sell their coins for fiat on exchanges.</description>
-    </item>
-    
-    <item>
       <title>Rhombus CLI</title>
       <link>https://rhombus.io/wiki/tutorial/wallets/rhombus-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rhombus.io/wiki/tutorial/wallets/rhombus-cli/</guid>
       <description>About Rhombus CLI Features Getting started  Installation Backup &amp;amp; Restore   Usage  Basic commands Informative Actions  Confidential Transactions (Blind)   Wallet unlocking  With enhanced privacy Standard unlocking          Preview of Rhombus CLI  About Rhombus CLI Rhombus-cli offers all the essential features, but doesn&amp;rsquo;t include all the advanced bells and whistles of Rhombus graphical clients.</description>
-    </item>
-    
-    <item>
-      <title>Data Storage Network (DSN)</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/data-storage-network/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/data-storage-network/</guid>
-      <description>Contrary to on-chain storage, storing data on DSN allows the platform to scale well regardless of the amount of data it uses. This form of storage works without relying on servers and without centralizing powers into masternodes.
-About DSN DSN is a generic term that describes a specific set of software with the purpose of storing and retrieving data on the internet. The usage of the term DSN is simply a layer of abstraction.</description>
-    </item>
-    
-    <item>
-      <title>Secure Messaging (SMSG)</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/smsg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/smsg/</guid>
-      <description>About SMSG SMSG is a decentralized P2P message mixnet where all nodes store a copy of everyone&amp;rsquo;s end-to-end encrypted messages and data for a duration of 48 hours (which can be increased for a fee).
- It is the default and most private DSN available for use on the platform.
- The reference implementation is developed in C++ and incorporated into the Rhombus daemon. It operates parallel to Rhombus&amp;rsquo;s network and is hosted on the same nodes running the blockchain.</description>
     </item>
     
     <item>
@@ -633,16 +506,6 @@ About DSN DSN is a generic term that describes a specific set of software with t
       <guid>https://rhombus.io/wiki/learn/wallets/hardware/</guid>
       <description>Advantages They have major advantages over standard software wallets: private keys are stored in a protected area of a microcontroller, and cannot be transferred out of the device in plaintext. That means your funds are safe even when connected to an infected or malicious computer or a phishing/scam web page.
 Supported hardware wallets Ledger wallet Rhombus is currently supported by Ledger Wallet and has been integrated in such a way that it supports cold staking.</description>
-    </item>
-    
-    <item>
-      <title>Open Market Protocol (OMP)</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/open-market-protocol/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/open-market-protocol/</guid>
-      <description>Design Extensibility Privacy Portability     It is a standardized and open format containing most of the economic interactions of an online marketplace. The OMP is available as an open-source protocol on Rhombus&amp;rsquo;s Github page and is licensed under the terms of the MIT license.
-Read Open Market Protocol documentation for in-depth info.  Design The Open Market Protocol is divided into two distinct formats.</description>
     </item>
     
     <item>

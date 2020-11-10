@@ -13,8 +13,6 @@ aliases:
 
 Rhombus Core is more lightweight than [Rhombus Desktop](/tutorial/wallets/rhombus-desktop/), offers some advanced features like Coin Control and compatibility with [hardware wallets](/learn/wallets/hardware/).
 
-However it acts like a wallet only, so you won't have access to Rhombus Open Marketplace.
-
 
 {{< button href="https://rhombus.io/downloads" class="primary" >}}Download Rhombus Core{{< /button >}}
 {{< button href="https://github.com/rhombus/rhombus-core/issues" >}}Report bugs{{< /button >}}

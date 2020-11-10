@@ -10,7 +10,7 @@ aliases:
   - /dev/rhombus-desktop
 ---
 
-[Rhombus Desktop](/tutorial/wallets/rhombus-desktop) is Rhombus's flagship client/wallet for interacting with RHOM network, including [Rhombus Open Marketplace](/learn/marketplace/overview).
+[Rhombus Desktop](/tutorial/wallets/rhombus-desktop) is Rhombus's flagship client/wallet for interacting with RHOM network.
 
 {{< hint info >}}
 **For latest development set up info**\
@@ -94,16 +94,6 @@ Restart the app with `-reindex` flag:
 ```
 yarn run start:electron:dev -testnet --devtools -reindex
 ```
-
-#### Marketplace fails to load
-
-Delete marketplace `database` folder and restart app:
-
-| OS      | path                                                       |
-|---------|------------------------------------------------------------|
-| Linux   | `~/.rhombus-market/testnet/03/`                            |
-| Windows | `%APPDATA%/Rhombus Market/testnet/03/`                     |
-| macOS   | `~/Library/Application Support/rhombus-market/testnet/03/` |
 
 ### Other issues
 

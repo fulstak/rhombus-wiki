@@ -8,9 +8,6 @@ tags:
 
 This series of guides will walk you through the first steps into Rhombus ecosystem. Buckle up!
 
-{{< youtube PRxmGh24ILU >}}
-
-
 ## Learn about Rhombus
 
 This Wiki is a great informational and supportive resource for all things Rhombus. Understanding the whole project might be a bit overwhelming, so we propose studing it piece by piece. Many topics are covered here, but **at the bare minimum, you should read all the articles marked with ★ symbol** as those are the most important ones:
@@ -41,12 +38,7 @@ Some must-read articles about RHOM currency include:
 
 When you're familiar with what RHOM can do, you're ready to buy your first RHOM.
 
-Visit our official website for up-to-date [overview of available Exchanges](https://rhombus.io/part-exchanges). If you don't own any Bitcoin, don't worry – some exchanges offer buying RHOM with a credit card.
-
-
-## Rhombus Open Marketplace
-
-Get to know Rhombus's flagship Dapp, [The Open Marketplace](/learn/marketplace/overview/)!
+Visit our official website for up-to-date [overview of available Exchanges](https://rhombus.io/rhom-exchanges).
 
 
 ## Join our awesome community!
@@ -56,12 +48,11 @@ Get to know Rhombus's flagship Dapp, [The Open Marketplace](/learn/marketplace/o
 Don't miss out on all the fun and join us:
 
 - **[Rhombus on Discord](https://discord.me/rhombus)** – our main activity hub with categorized chat rooms
-- **[Rhombus on Riot](https://riot.im/app/#/room/#rhombus:matrix.org)** – where most of our developers are hiding :)
 - **[Rhombus Forums](https://rhombus.community)** – no need to introduce, right?
 
 To keep with all latest news and important updates (like hardforks), be sure to follow at least one of our news channels:
 
-- **[Rhombus News](https://rhombus.news)** – official news/blog on Medium
+- **[Rhombus News](https://rhombus.io/news)** – official news/blog on Medium
 - **[Twitter @RhombusProject](https://twitter.com/rhombusproject)**
 - **[Reddit r/Rhombus](https://www.reddit.com/r/Rhombus/)**
 

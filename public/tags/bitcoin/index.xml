@@ -16,14 +16,5 @@ Advantages Being built on the latest Bitcoin codebase not only allows the Rhombu
 Recent Bitcoin developments implemented in Rhombus include but are not limited to:</description>
     </item>
     
-    <item>
-      <title>Currency agnosticism</title>
-      <link>https://rhombus.io/wiki/learn/marketplace/currency-agnosticism/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/learn/marketplace/currency-agnosticism/</guid>
-      <description>What&amp;rsquo;s currency agnosticism? Atomic Swaps Third-Party Integrations     What&amp;rsquo;s currency agnosticism? That means buyers aren&amp;rsquo;t limited to using the RHOM coin as a form of payment. They are able to use many currencies, including Bitcoin, among others. This provides a use-case for many different coins and gives them a fee-less and untraceable way to spend their cryptocurrencies without having to either go through a third-party or sell their coins for fiat on exchanges.</description>
-    </item>
-    
   </channel>
 </rss>

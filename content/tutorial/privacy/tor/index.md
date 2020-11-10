@@ -1,6 +1,6 @@
 ---
 title: Rhombus with Tor
-subtitle: Anonymize your IP address with Tor when using Rhombus Desktop and/or Open Marketplace
+subtitle: Anonymize your IP address with Tor when using Rhombus Desktop
 slug: 
 weight: 1
 tags:

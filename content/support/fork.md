@@ -35,4 +35,4 @@ Open up the debug console in Rhombus Desktop or Rhombus Core and execute the fol
 
 ### 5. Make sure you're fully synced
 
-Take a look at the [block explorer](https://explorer.rhombus.io/) and verify that your client is syncing to the latest height indicated there. `getblockchaininfo` will return the height to which you're synced. You might have to repeat step 4 again. 
+Take a look at the [block explorer](https://rhombus.io/explorer) and verify that your client is syncing to the latest height indicated there. `getblockchaininfo` will return the height to which you're synced. You might have to repeat step 4 again. 

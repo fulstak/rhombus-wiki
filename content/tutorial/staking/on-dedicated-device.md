@@ -11,13 +11,13 @@ tags:
 A Staking Node is a full blockchain node which has been configured to stake on behalf of your wallet (aka it has been delegated staking power over your wallet). The Staking Node is a computer running Rhombus that is always on and always connected to the internet. A Raspberry Pi 3 or comparable device (DSD) makes a perfect staking node as it consumes very little energy, is compact and easy to tailor for dedicated tasks.
 
 {{< hint info >}}
-Before you'll dive into this guide, **familiarize yourself with [Dedicated Staking Devices](/learn/staking/dedicated-devices/) and [Partyman utility](/learn/staking/partyman/)**.
+Before you'll dive into this guide, **familiarize yourself with [Dedicated Staking Devices](/learn/staking/dedicated-devices/) and [Rhomtools utility](/learn/staking/rhomtools/)**.
 {{< /hint >}}
 
 
 ## Requirements
 
-Even though you could set up `rhombusd` for staking on your DSD manually, we'll focus on using Partyman staking utility, thanks to all the automation and ease of use it offers.
+Even though you could set up `rhombusd` for staking on your DSD manually, we'll focus on using Rhomtools staking utility, thanks to all the automation and ease of use it offers.
 
 - **Rhombus wallet** – your primary wallet with funds on it ([Rhombus Desktop](/tutorial/wallets/rhombus-desktop/), [Rhombus Core](/tutorial/wallets/rhombus-core/) or [Rhombus Copay](/tutorial/wallets/rhombus-copay/))
 - **hardware for staking** – Raspberry Pi +3, Rock64 or other ("DSD")
@@ -30,7 +30,7 @@ Even though you could set up `rhombusd` for staking on your DSD manually, we'll 
 ## Installation
 
 {{< hint info >}}
-**Visit [Partyman's Github repo](https://github.com/dasource/partyman)** for more information if needed.
+**Visit [Rhomtools's Github repo](https://github.com/dasource/partyman)** for more information if needed.
 {{< /hint >}}
 
 1. SSH to your device (or connect your monitor)
@@ -40,20 +40,20 @@ Even though you could set up `rhombusd` for staking on your DSD manually, we'll 
 sudo apt update && sudo apt upgrade
 ```
 
-### Install Partyman
+### Install Rhomtools
 
-Download Partyman and install its dependencies:
+Download Rhomtools and install its dependencies:
 
 ```bash
 sudo apt-get install python git unzip pv jq dnsutils
-cd ~ && git clone https://github.com/dasource/partyman
+cd ~ && git clone https://github.com/l0rdicon/rhomtools
 ```
 
-Install Partyman:
+Install Rhomtools:
 
 ```bash
-cd partyman/
-./partyman install
+cd rhomtools/
+./rhomtools install
 ```
 
 This will download, unzip and install the latest release Rhombus Core daemon (`rhombusd`).
@@ -61,20 +61,20 @@ This will download, unzip and install the latest release Rhombus Core daemon (`r
 Start `rhombusd` daemon:
 
 ```bash
-./partyman restart now
+./rhomtools restart now
 ```
 
 Check `rhombusd` status and verify everything is running correctly (you might need to wait a minute or two, before `rhombusd` finishes starting up):
 
 ```bash
-./partyman status
+./rhomtools status
 ```
 
 You should see a summary similar to this:
 
 {{< image src="partyman-status.png" alt="Output of './partyman status' command" >}}
 
-Great! Your node is now managed by Partyman and you have the latest `rhombusd` daemon running!
+Great! Your node is now managed by Rhomtools and you have the latest `rhombusd` daemon running!
 
 
 ### Create a staking wallet
@@ -82,7 +82,7 @@ Great! Your node is now managed by Partyman and you have the latest `rhombusd` d
 Generate a new wallet on the device by running:
 
 ```bash
-./partyman stakingnode init
+./rhomtools stakingnode init
 ```
 
 Follow instructions on screen to complete wallet setup.
@@ -95,12 +95,12 @@ This is the only key to your wallet in the unfortunate event that your device wo
 
 ### Generate staking public key
 
-Next, we’ll create the public key which we will use within the Rhombus Desktop/Core to activate Cold Staking. We'll use Partyman utility for this as well.
+Next, we’ll create the public key which we will use within the Rhombus Desktop/Core to activate Cold Staking. We'll use Rhomtools utility for this as well.
 
 To generate a new staking public key:
 
 ```bash
-./partyman stakingnode new
+./rhomtools stakingnode new
 ```
 
 Follow the directions to complete staking node public key creation. Public key label is just for you, so you know which key is connected to which wallet (in case you want to use multiple ones, e.g. staking on your desktop Rhombus Desktop _and_ your mobile Rhombus Copay).
@@ -108,7 +108,7 @@ Follow the directions to complete staking node public key creation. Public key l
 You should see a Rhombus public key similar to this:
 
 ```
-PRHOMKVAobLsHTQpZ5LzFHcZw8LD4sEEVuUdmcuAqCjDaaNJgypRmUUpFKMxbmn1hZ5V2J9SaG1QusCrngC9iiBAA8LvxVRx9aLBPjGeY4PtrxzW
+promKVAobLsHTQpZ5LzFHcZw8LD4sEEVuUdmcuAqCjDaaNJgypRmUUpFKMxbmn1hZ5V2J9SaG1QusCrngC9iiBAA8LvxVRx9aLBPjGeY4PtrxzW
 ```
 
 And there's your staking public key! Make note of it somewhere, you'll need it later (friendly reminder that `CTRL+C` in Terminal doesn't copy text, so use your mouse's right-click instead).
@@ -117,7 +117,7 @@ And there's your staking public key! Make note of it somewhere, you'll need it l
 
 So far, we've achieved to:
 
-- setup Partyman utility for managing your node via Partyman
+- setup Rhomtools utility for managing your node via Rhomtools
 - downloaded and autoconfigured latest Rhombus Core daemon on your device
 - created a new Rhombus wallet on the device, dedicated to staking
 - generated public key for staking (so that we can connect our main wallet to this DSD)
@@ -143,24 +143,24 @@ To update your node:
 
 1. SSH to your device (or connect your monitor)
 2. Make sure your system is up-to-date: `sudo apt update && sudo apt upgrade`
-3. To update partyman: `~/partyman/partyman update` and follow on-screen instructions
-4. Wait a couple minutes for `rhombusd` to restart and check status of your node with `~/partyman/partyman status` - look for `rhombusd staking currently? : YES`
+3. To update partyman: `~/rhomtools/rhomtools update` and follow on-screen instructions
+4. Wait a couple minutes for `rhombusd` to restart and check status of your node with `~/rhomtools/rhomtools status` - look for `rhombusd staking currently? : YES`
 
 #### Updating to pre-release versions
 
 In case you want to update your `rhombusd` to pre-release version (ie. betas, not yet stable releases), you can do so by:
 
 ```bash
-cd ~/partyman/
+cd ~/rhomtools/
 git pull
-./partyman update -prer
+./rhomtools update -prer
 ```
 
-### Updating partyman
+### Updating Rhomtools
 
-In case partyman complains about updates available, you can install them simply by going to partyman's directory and getting the latest code from GitHub:
+In case partyman complains about updates available, you can install them simply by going to rhomtools directory and getting the latest code from GitHub:
 
 ```bash
-cd ~/partyman/
+cd ~/rhomtools/
 git pull
 ```

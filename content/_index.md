@@ -40,6 +40,5 @@ You can also browse [list of used tags](/tags) instead if that's what you prefer
 Found inaccurate info or missing content? [Learn how to contribute!](/contribute)
 
 {{< button href="https://rhombus.io" class="primary" >}}Official site{{< /button >}}
-{{< button href="https://rhombus.news" >}}Latest news{{< /button >}}
-{{< button href="https://ccs.rhombus.io" >}}Crowdfunding{{< /button >}}
+{{< button href="https://rhombus.io/news" >}}Latest news{{< /button >}}
 {{< button href="https://twitter.com/RhombusProject" >}}Twitter{{< /button >}}
