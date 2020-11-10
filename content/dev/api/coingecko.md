@@ -24,11 +24,11 @@ This is a non-exhaustive list of API example usage. Visit [official API docs](ht
 
 Simple price info for USD & EUR (comma-separated):
 
-https://api.coingecko.com/api/v3/simple/price?ids=particl&vs_currencies=usd,eur
+https://api.coingecko.com/api/v3/simple/price?ids=rhombus&vs_currencies=usd,eur
 
 ```json
 {
-  "particl": {
+  "rhombus": {
     "usd": 2.58,
     "eur": 2.3
   }
@@ -39,7 +39,7 @@ https://api.coingecko.com/api/v3/simple/price?ids=particl&vs_currencies=usd,eur
 
 Get current data (name, price, market, … including exchange tickers) for a coin:
 
-https://api.coingecko.com/api/v3/coins/particl?localization=false
+https://api.coingecko.com/api/v3/coins/rhombus?localization=false
 
 (Click the link for preview, it contains a "wall of text" amount of content :)
 
@@ -47,11 +47,11 @@ https://api.coingecko.com/api/v3/coins/particl?localization=false
 
 Get historical data (name, price, market, stats) at a given date for a coin:
 
-https://api.coingecko.com/api/v3/coins/particl/history?date=05-08-2019
+https://api.coingecko.com/api/v3/coins/rhombus/history?date=05-08-2019
 
 ```json
 {
-  "id": "particl",
+  "id": "rhombus",
   "symbol": "part",
   (...)
   "market_data": {
@@ -107,13 +107,13 @@ https://api.coingecko.com/api/v3/coins/particl/history?date=05-08-2019
 
 Get status updates for a given coin:
 
-https://api.coingecko.com/api/v3/coins/particl/status_updates?per_page=3
+https://api.coingecko.com/api/v3/coins/rhombus/status_updates?per_page=3
 
 ```json
 {
   "status_updates": [
     {
-      "description": "New Particl Open Marketplace Testnet Builds Available\r\n---\r\n\r\nParticl has initiated today its last testing round before its Open Marketplace Dapp moves up onto mainnet on the 12th of August by publishing new testnet builds. This version of the marketplace includes private-by-default TXs powered by RingCT and all the bug fixes made since Particl's last testing round.\r\n\r\nClick the link below to test it out!\r\n\r\n👉 https://particl.news/new-open-marketplace-testnet-build-now-available-e35173736a4",
+      "description": "New Rhombus Open Marketplace Testnet Builds Available\r\n---\r\n\r\nRhombus has initiated today its last testing round before its Open Marketplace Dapp moves up onto mainnet on the 12th of August by publishing new testnet builds. This version of the marketplace includes private-by-default TXs powered by RingCT and all the bug fixes made since Rhombus's last testing round.\r\n\r\nClick the link below to test it out!\r\n\r\n👉 https://rhombus.news/new-open-marketplace-testnet-build-now-available-e35173736a4",
       "category": "software_release",
       "created_at": "2019-08-01T18:19:34.764Z",
       "user": "Cryptoguard",
@@ -121,13 +121,13 @@ https://api.coingecko.com/api/v3/coins/particl/status_updates?per_page=3
       "pin": true,
       "project": {
         "type": "Coin",
-        "id": "particl",
-        "name": "Particl",
+        "id": "rhombus",
+        "name": "Rhombus",
         "symbol": "part",
         "image": {
-          "thumb": "https://assets.coingecko.com/coins/images/839/thumb/Particl.png?1558053958",
-          "small": "https://assets.coingecko.com/coins/images/839/small/Particl.png?1558053958",
-          "large": "https://assets.coingecko.com/coins/images/839/large/Particl.png?1558053958"
+          "thumb": "https://assets.coingecko.com/coins/images/839/thumb/Rhombus.png?1558053958",
+          "small": "https://assets.coingecko.com/coins/images/839/small/Rhombus.png?1558053958",
+          "large": "https://assets.coingecko.com/coins/images/839/large/Rhombus.png?1558053958"
         }
       }
     },

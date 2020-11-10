@@ -1,15 +1,15 @@
 ---
-title: Particl Core
-subtitle: Tips and notes for getting you up and running for Particl Core development in minutes 
+title: Rhombus Core
+subtitle: Tips and notes for getting you up and running for Rhombus Core development in minutes 
 slug:
 weight: 2
 tags:
   - dev
-  - Particl Core
+  - Rhombus Core
 aliases:
-  - /dev/particl-core
+  - /dev/rhombus-core
 ---
 
-[Particl Core](/tutorial/wallets/particl-core) is a Qt-based wallet with advanced features focused on stability.
+[Rhombus Core](/tutorial/wallets/rhombus-core) is a Qt-based wallet with advanced features focused on stability.
 
 {{< toc-tree >}}

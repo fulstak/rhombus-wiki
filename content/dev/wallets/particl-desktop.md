@@ -1,31 +1,31 @@
 ---
-title: Particl Desktop
-subtitle: Tips and notes for getting you up and running for Particl Desktop development in minutes 
+title: Rhombus Desktop
+subtitle: Tips and notes for getting you up and running for Rhombus Desktop development in minutes 
 slug:
 weight: 1
 tags:
   - dev
-  - Particl Desktop
+  - Rhombus Desktop
 aliases:
-  - /dev/particl-desktop
+  - /dev/rhombus-desktop
 ---
 
-[Particl Desktop](/tutorial/wallets/particl-desktop) is Particl's flagship client/wallet for interacting with PART network, including [Particl Open Marketplace](/learn/marketplace/overview).
+[Rhombus Desktop](/tutorial/wallets/rhombus-desktop) is Rhombus's flagship client/wallet for interacting with RHOM network, including [Rhombus Open Marketplace](/learn/marketplace/overview).
 
 {{< hint info >}}
 **For latest development set up info**\
-check [official repo of Particl Desktop](https://github.com/particl/particl-desktop) (on `dev` branch)
+check [official repo of Rhombus Desktop](https://github.com/rhombus/rhombus-desktop) (on `dev` branch)
 {{< /hint >}}
 
 ## Contribute
 
-[![Snyk](https://snyk.io/test/github/particl/particl-desktop/badge.svg)](https://snyk.io/test/github/particl/particl-desktop)
-[![Build Status](https://travis-ci.org/particl/particl-desktop.svg?branch=master)](https://travis-ci.org/particl/particl-desktop)
-[![Coverage Status](https://coveralls.io/repos/github/particl/particl-desktop/badge.svg?branch=master)](https://coveralls.io/github/particl/particl-desktop?branch=master)
-[![Code Climate](https://codeclimate.com/github/particl/particl-desktop/badges/gpa.svg)](https://codeclimate.com/github/particl/particl-desktop)
-[![Greenkeeper badge](https://badges.greenkeeper.io/particl/particl-desktop.svg)](https://greenkeeper.io/)
+[![Snyk](https://snyk.io/test/github/rhombus/rhombus-desktop/badge.svg)](https://snyk.io/test/github/rhombus/rhombus-desktop)
+[![Build Status](https://travis-ci.org/rhombus/rhombus-desktop.svg?branch=master)](https://travis-ci.org/rhombus/rhombus-desktop)
+[![Coverage Status](https://coveralls.io/repos/github/rhombus/rhombus-desktop/badge.svg?branch=master)](https://coveralls.io/github/rhombus/rhombus-desktop?branch=master)
+[![Code Climate](https://codeclimate.com/github/rhombus/rhombus-desktop/badges/gpa.svg)](https://codeclimate.com/github/rhombus/rhombus-desktop)
+[![Greenkeeper badge](https://badges.greenkeeper.io/rhombus/rhombus-desktop.svg)](https://greenkeeper.io/)
 
-Join us in [#particl-dev:matrix.org](https://app.element.io/#/room/#particl-dev:matrix.org) on [Element](https://element.io) (formerly Riot) for more info and/or assistance.
+Join us in [#rhombus-dev:matrix.org](https://app.element.io/#/room/#rhombus-dev:matrix.org) on [Element](https://element.io) (formerly Riot) for more info and/or assistance.
 
 Keep in mind that the development currently happens on a private fork of this repo. 
 
@@ -40,8 +40,8 @@ Keep in mind that the development currently happens on a private fork of this re
 Clone the repo & fetch dependencies:
 
 ```bash
-git clone https://github.com/particl/particl-desktop
-cd particl-desktop
+git clone https://github.com/rhombus/rhombus-desktop
+cd rhombus-desktop
 yarn install
 ```
 
@@ -52,17 +52,17 @@ yarn install
 In project's folder:
 
 1. Run `ng serve` to start the dev server and keep it running
-1. In another terminal window, run `yarn run start:electron:dev -testnet --devtools` to start Particl Desktop on testnet (daemon will be updated and launched automatically)
+1. In another terminal window, run `yarn run start:electron:dev -testnet --devtools` to start Rhombus Desktop on testnet (daemon will be updated and launched automatically)
    * `-testnet` – for running on testnet (omit for running the client on mainnet)
    * `-reindex` – reindexes the blockchain (in case you're stuck)
    * `--devtools` – automatically opens Developer Tools on client launch
 
-### Interact with particl-core daemon
+### Interact with rhombus-core daemon
 
 You can directly interact with the daemon ran by the Electron version:
 
 ```
-./particl-cli -testnet getblockchaininfo
+./rhombus-cli -testnet getblockchaininfo
 ```
 
 ## Packaging
@@ -101,10 +101,10 @@ Delete marketplace `database` folder and restart app:
 
 | OS      | path                                                       |
 |---------|------------------------------------------------------------|
-| Linux   | `~/.particl-market/testnet/03/`                            |
-| Windows | `%APPDATA%/Particl Market/testnet/03/`                     |
-| macOS   | `~/Library/Application Support/particl-market/testnet/03/` |
+| Linux   | `~/.rhombus-market/testnet/03/`                            |
+| Windows | `%APPDATA%/Rhombus Market/testnet/03/`                     |
+| macOS   | `~/Library/Application Support/rhombus-market/testnet/03/` |
 
 ### Other issues
 
-See our [Particl Wiki](/support) for most common problems or join [#particlhelp:matrix.org](https://app.element.io/#/room/#particlhelp:matrix.org) on [Element](https://element.io) for community help.
+See our [Rhombus Wiki](/support) for most common problems or join [#rhombushelp:matrix.org](https://app.element.io/#/room/#rhombushelp:matrix.org) on [Element](https://element.io) for community help.

@@ -6,7 +6,7 @@ weight: 2
 ---
 
 {{< hint info >}}
-**New to Particl?**\
+**New to Rhombus?**\
 Read our **[Getting started](/tutorial/getting-started/)** guide first!
 {{< /hint >}}
 

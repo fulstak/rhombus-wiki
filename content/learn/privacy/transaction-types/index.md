@@ -1,6 +1,6 @@
 ---
 title: Transaction types
-subtitle: The Particl coin can be sent as three different privacy states, each with their own degree of privacy and cost
+subtitle: The Rhombus coin can be sent as three different privacy states, each with their own degree of privacy and cost
 slug:
 weight: -10
 tags:
@@ -14,7 +14,7 @@ aliases:
 
 As the highest privacy state requires the most transaction fee, it may not always be the best type of transaction depending on the situation, especially when privacy is not predominantly required by the user.
 
-{{< image class="side-thumb" src="particl-transaction-types.jpg" alt="Particl's multiple privacy states" >}}
+{{< image class="side-thumb" src="rhombus-transaction-types.jpg" alt="Rhombus's multiple privacy states" >}}
 
 |                          | Public      | Blind       | Anon        |
 |--------------------------|:-----------:|:-----------:|:-----------:|
@@ -32,7 +32,7 @@ As the highest privacy state requires the most transaction fee, it may not alway
 | Purchasing items                                | –           | –     | {{< ico yes >}} |
 | Funding [MAD Escrow](/learn/market/mad-escrow/) | –           | –     | {{< ico yes >}} |
 
-**Why has PART different privacy states?**
+**Why has RHOM different privacy states?**
  
   * Freedom of choice
   * To keep the process of coin minting transparent and have a fully auditable supply. If a bug or exploit were to occur at the staking level, it would be instantly detected whereas with a 100% private chain, it could go unnoticed for an extended period of time
@@ -43,24 +43,24 @@ As the highest privacy state requires the most transaction fee, it may not alway
 
 {{< hint info >}}
 **Did you know?**\
-Particl is the first coin in history to deploy both CT (Blind) and RingCT (Anon) technology on a Bitcoin codebase as well as on top of Segwit.
+Rhombus is the first coin in history to deploy both CT (Blind) and RingCT (Anon) technology on a Bitcoin codebase as well as on top of Segwit.
 {{< /hint >}}
 
 {{< columns >}}
 
 ### Public
 
-<img src="part-public.jpg" alt="Public PART">
+<img src="part-public.jpg" alt="Public RHOM">
 
 **This type of transaction is pseudo-anonymous, just like Bitcoin.**
 
-Public transactions are publicly auditable on any [Particl block explorer](https://explorer.particl.io) and offer the least amount of privacy. They are the cheapest transactions to execute and is the default privacy setting.
+Public transactions are publicly auditable on any [Rhombus block explorer](https://explorer.rhombus.io) and offer the least amount of privacy. They are the cheapest transactions to execute and is the default privacy setting.
 
 <--->
 
 ### Blind (CT)
 
-<img src="part-blind.jpg" alt="Blind PART">
+<img src="part-blind.jpg" alt="Blind RHOM">
 
 This type of transaction uses the **[Confidential Transactions (CT)](https://elementsproject.org/elements/confidential-transactions/)** privacy protocol developed by Bitcoin Core developer Gregory Maxwell to keep the transferring amounts visible only to the transaction participants (and those they designate), while still guaranteeing the transaction’s cryptographic integrity.
 
@@ -70,7 +70,7 @@ This type of transaction uses the **[Confidential Transactions (CT)](https://ele
 
 ### Anon (RingCT)
 
-<img src="part-anon.jpg" alt="Anon PART">
+<img src="part-anon.jpg" alt="Anon RHOM">
 
 This type of transaction uses the **RingCT** privacy protocol developed by Shen Noether to hide both transferring amounts and participants’ blockchain identity by combining [Cryptonote’s ring signatures](https://cryptonote.org/inside) and Maxwell’s CT protocols. It is the one of the highest level of trustless privacy protocol the crypto industry has to offer and was made famous by Monero.
 

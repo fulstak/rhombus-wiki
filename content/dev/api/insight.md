@@ -1,6 +1,6 @@
 ---
-title: Particl Insight
-subtitle: Insight API as a part of Particl Block Explorer
+title: Rhombus Insight
+subtitle: Insight API as a part of Rhombus Block Explorer
 slug:
 weight: 2
 tags:
@@ -11,24 +11,24 @@ aliases:
 
 {{< hint info >}}
 **This API also supports testnet data**,\
-just replace the url with https://explorer-testnet.particl.io
+just replace the url with https://explorer-testnet.rhombus.io
 {{< /hint >}}
 
-{{< button href="https://github.com/particl/particl-insight-api/blob/master/README.md#api-http-endpoints" >}}API Docs{{< /button >}}
-{{< button href="https://explorer.particl.io" >}}Block Explorer{{< /button >}}
+{{< button href="https://github.com/rhombus/rhombus-insight-api/blob/master/README.md#api-http-endpoints" >}}API Docs{{< /button >}}
+{{< button href="https://explorer.rhombus.io" >}}Block Explorer{{< /button >}}
 
 {{< toc >}}
 
 
 ## Example API calls
 
-This is a non-exhaustive list of API example usage. [See official API docs](https://github.com/particl/particl-insight-api/blob/master/README.md#api-http-endpoints) for complete list.
+This is a non-exhaustive list of API example usage. [See official API docs](https://github.com/rhombus/rhombus-insight-api/blob/master/README.md#api-http-endpoints) for complete list.
 
 ### Blockchain status
 
 Get current blockchain data (block height, supply, difficulty(...)):
 
-https://explorer.particl.io/particl-insight-api/status
+https://explorer.rhombus.io/rhombus-insight-api/status
 
 ```json
 {
@@ -50,7 +50,7 @@ https://explorer.particl.io/particl-insight-api/status
 
 Gets latest blocks info (height, block size, hash, time, number of transactions(...)):
 
-https://explorer.particl.io/particl-insight-api/blocks
+https://explorer.rhombus.io/rhombus-insight-api/blocks
 
 ```json
 {
@@ -77,7 +77,7 @@ https://explorer.particl.io/particl-insight-api/blocks
 
 Get info for `blockId` (block `abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770` in this example):
 
-https://explorer.particl.io/particl-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770
+https://explorer.rhombus.io/rhombus-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770
 
 ```json
 {
@@ -108,7 +108,7 @@ https://explorer.particl.io/particl-insight-api/block/abf0c4e5463eacc37fd92c2551
 
 Get info for `txId` (`52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28` in this example):
 
-https://explorer.particl.io/particl-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28
+https://explorer.rhombus.io/rhombus-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28
 
 ```json
 {

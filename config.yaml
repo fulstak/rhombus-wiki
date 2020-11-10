@@ -1,6 +1,6 @@
 ---
-baseURL: https://particl.wiki/
-title: Particl Project Wiki
+baseURL: https://rhombus.io/wiki
+title: Rhombus Project Wiki
 #theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
@@ -29,12 +29,12 @@ params:
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
-  geekdocLogo: particl-wiki-symbol.svg
+  geekdocLogo: rhombus-wiki-symbol.svg
 
   # (Optional, default false) Render menu from data file im 'data/menu/main.yaml'.
   #geekdocMenuBundle: true
 
-  geekdocRepo: https://github.com/AllienWorks/particl-wiki
+  geekdocRepo: https://github.com/l0rdicon/rhombus-wiki
   geekdocEditPath: edit/master/content
 
   geekdocDateFormat: "Jan 2, 2006"

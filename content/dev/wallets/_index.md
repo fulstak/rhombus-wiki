@@ -1,6 +1,6 @@
 ---
 title: Wallets
-subtitle: Notes related to development of Particl wallets
+subtitle: Notes related to development of Rhombus wallets
 geekdocFlatSection: true
 weight: 1
 ---

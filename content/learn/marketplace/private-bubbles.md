@@ -8,7 +8,7 @@ tags:
   - privacy
 ---
 
-**They are not accessible from the public interface of the Open Marketplace.** The only way to access them is by entering their unique Market ID in the Particl Desktop client.
+**They are not accessible from the public interface of the Open Marketplace.** The only way to access them is by entering their unique Market ID in the Rhombus Desktop client.
 
 The Market ID is only known to the person that initially generated the private market and to the people he shared it with. While private markets aren't part of the first mainnet version of the Open Marketplace, they will be implemented during the Beta phase of development. They each will have their own group chat where users can communicate with each other. They are, in a sense, sub-communities.
 

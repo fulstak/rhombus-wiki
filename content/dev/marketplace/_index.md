@@ -1,6 +1,6 @@
 ---
 title: Marketplace
-subtitle: Notes related to development of Particl Marketplace
+subtitle: Notes related to development of Rhombus Marketplace
 geekdocFlatSection: true
 weight: 2
 ---

@@ -15,9 +15,9 @@ SMSG is a decentralized P2P message mixnet where all nodes store a copy of every
 
 > It is the default and most private DSN available for use on the platform.
 
-The reference implementation is developed in C++ and incorporated into the Particl daemon. It operates parallel to Particl's network and is hosted on the same nodes running the blockchain.
+The reference implementation is developed in C++ and incorporated into the Rhombus daemon. It operates parallel to Rhombus's network and is hosted on the same nodes running the blockchain.
 
-{{< image src="particl-smsg-topology.png" alt="SMSG network topology" >}}
+{{< image src="rhombus-smsg-topology.png" alt="SMSG network topology" >}}
 
 All nodes continuously attempt to decrypt every incoming message, but can only succeed if the node is able to recalculate the HMAC hash accompanying the message. If the hash check fails, then it can not be decrypted by the node, which means the message was either fraudulent, tampered with or meant for another node.
 

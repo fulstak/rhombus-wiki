@@ -1,14 +1,14 @@
 ---
-title: Compile & Sign Particl Core builds
-subtitle: How to compile own Particl Core builds via Gitian and sign them with PGP
+title: Compile & Sign Rhombus Core builds
+subtitle: How to compile own Rhombus Core builds via Gitian and sign them with PGP
 slug:
 weight: 1
 tags:
   - dev
-  - Particl Core
+  - Rhombus Core
 ---
 
-This guide will walk you through compiling your own Particl Core builds via Gitian and optionally signing the builds with your PGP key and uploading the signatures to [particl/gitian.sigs](https://github.com/particl/gitian.sigs) repository.
+This guide will walk you through compiling your own Rhombus Core builds via Gitian and optionally signing the builds with your PGP key and uploading the signatures to [rhombus/gitian.sigs](https://github.com/rhombus/gitian.sigs) repository.
 
 {{< hint warning >}}
 **The more people would compile their builds and sign them, the better.**\
@@ -23,7 +23,7 @@ If you can spare the time and processing power, please do!
 - **Be patient** - the builds can take up to few hours (about 3-4 hrs on systems we tested on) - luckily you can still use your PC for other things in the meantime
 - **For PGP signing of Gitian builds**
   - make sure the PGP key you're using is not protected by a passphrase - if it is, signing will fail
-  - you'll need to submit a PR to [particl-core/contrib/gitian-keys](https://github.com/particl/particl-core/edit/master/contrib/gitian-keys/keys.txt) with your PGP key, so that others can verify your signatures
+  - you'll need to submit a PR to [rhombus-core/contrib/gitian-keys](https://github.com/rhombus/rhombus-core/edit/master/contrib/gitian-keys/keys.txt) with your PGP key, so that others can verify your signatures
 
 ## Preparation
 
@@ -45,13 +45,13 @@ Install dependencies:
 $ sudo apt-get install git curl wget
 ```
 
-Grab the latest Particl Core code and gitian-builder from Github:
+Grab the latest Rhombus Core code and gitian-builder from Github:
 
 ```bash
 $ mkdir ~/gitian
 $ cd ~/gitian
-$ git clone https://github.com/particl/particl-core.git
-$ cp particl-core/contrib/gitian-build.py .
+$ git clone https://github.com/rhombus/rhombus-core.git
+$ cp rhombus-core/contrib/gitian-build.py .
 $ git clone https://github.com/devrandom/gitian-builder.git
 ```
 
@@ -92,7 +92,7 @@ ssb   rsa4096 XXXX-XX-XX [E] [expires: XXXX-XX-XX]
 ```
 {{< /hint >}}
 
-Prepare the build process (replace `KEYNAME` by the key's name and `VERSION` by latest Particl Core version):
+Prepare the build process (replace `KEYNAME` by the key's name and `VERSION` by latest Rhombus Core version):
 
 ```bash
 $ ./gitian-build.py --setup KEYNAME VERSION
@@ -144,6 +144,6 @@ Linux builds will be first, followed by Windows and then macOS. Linux takes the 
 
 ### Post-compilation
 
-After couple hours, when the compilations is done, you can find a new folder `~/gitian/particl-binaries/<VERSION>` with all the builds in it.
+After couple hours, when the compilations is done, you can find a new folder `~/gitian/rhombus-binaries/<VERSION>` with all the builds in it.
 
-If the **PGP signing** was successfull, you should see signatures of the builds signed by your PGP key in `~/gitian/gitian.sigs/<VERSION>-<ARCH>/<KEYNAME>/`. Commit the changes (= addition of your signatures) and submit a PR to [particl/gitian.sigs](https://github.com/particl/gitian.sigs).
+If the **PGP signing** was successfull, you should see signatures of the builds signed by your PGP key in `~/gitian/gitian.sigs/<VERSION>-<ARCH>/<KEYNAME>/`. Commit the changes (= addition of your signatures) and submit a PR to [rhombus/gitian.sigs](https://github.com/rhombus/gitian.sigs).

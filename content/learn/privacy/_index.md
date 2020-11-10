@@ -1,6 +1,6 @@
 ---
 title: Privacy
-subtitle: How and why is Particl focused on privacy
+subtitle: How and why is Rhombus focused on privacy
 geekdocFlatSection: true
 weight: 2
 ---

@@ -29,7 +29,7 @@ Storing your Recovery Phrase is about finding the right balance between security
 ### Consider using
 
 - **[hardware wallets](/learn/wallets/hardware)** are great at keeping you much safer against digital attacks (malware-infected computers etc.)
-- **multisignature wallets** when/if possible – then getting access to one of the wallets isn't enough, attacker would need to obtain multiple wallets at once to move your funds (note: [Particl Copay](/tutorial/wallets/particl-copay) wallet supports multisig)
+- **multisignature wallets** when/if possible – then getting access to one of the wallets isn't enough, attacker would need to obtain multiple wallets at once to move your funds (note: [Rhombus Copay](/tutorial/wallets/rhombus-copay) wallet supports multisig)
 
 ### ❌ DON'Ts
 

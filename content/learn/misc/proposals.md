@@ -1,6 +1,6 @@
 ---
 title: Proposals
-subtitle: Community initiatives to advance the Particl ecosystem
+subtitle: Community initiatives to advance the Rhombus ecosystem
 weight: 1
 tags:
   - governance

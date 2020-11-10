@@ -4,15 +4,15 @@ more:
     ref: "/contribute"
     external: false
     icon: "heart"
-  - name: Particl News
-    ref: "https://particl.news"
+  - name: Rhombus News
+    ref: "https://rhombus.news"
     external: true
     icon: "notification"
   - name: Downloads
-    ref: "https://particl.io/downloads"
+    ref: "https://rhombus.io/downloads"
     external: true
     icon: "download"
-  - name: "Particl GitHub"
-    ref: "https://github.com/particl"
+  - name: "Rhombus GitHub"
+    ref: "https://github.com/rhombus"
     external: true
     icon: "github"

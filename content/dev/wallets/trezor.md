@@ -22,12 +22,12 @@ aliases:
 ## Build instructions
 
 1. Plug in the Trezor.
-2. Clone [Particl's Trezor firmware](https://github.com/particl/trezor-firmware) repository:
+2. Clone [Rhombus's Trezor firmware](https://github.com/rhombus/trezor-firmware) repository:
 
 We also need to fetch the corresponding submodules.
 
 ```bash
-git clone https://github.com/particl/trezor-firmware.git
+git clone https://github.com/rhombus/trezor-firmware.git
 cd trezor-firmware
 git submodule update --init --recursive
 ```

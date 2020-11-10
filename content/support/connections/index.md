@@ -9,18 +9,18 @@ tags:
 
 ## Clear banned peers
 
-{{< image src="particl-desktop-open-console.png" class="side-thumb" alt="Opening Console in Particl Desktop" >}}
+{{< image src="rhombus-desktop-open-console.png" class="side-thumb" alt="Opening Console in Rhombus Desktop" >}}
 
 Open Console:
 
-- **Particl Desktop**: click on the terminal/console icon in bottom left corner
-- **Particl Core**: _Help → Debug window → Console tab_
+- **Rhombus Desktop**: click on the terminal/console icon in bottom left corner
+- **Rhombus Core**: _Help → Debug window → Console tab_
 
 Enter `clearbanned`, press <kbd>Enter</kbd> and restart wallet.
 
 ## Find peers from scratch
 
-Delete your `peers.dat` file in [Particl directory](/tutorial/security/backup-restore-wallet/#where-is-walletdat). This will force the app to find new connections to peers.
+Delete your `peers.dat` file in [Rhombus directory](/tutorial/security/backup-restore-wallet/#where-is-walletdat). This will force the app to find new connections to peers.
 
 ## Time offset error
 

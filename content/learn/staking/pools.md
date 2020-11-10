@@ -27,10 +27,10 @@ It is **highly recommended** to be careful about which cold staking pool you cho
 
 In order to be as secure as possible, Proof-of-Stake blockchains need to both have as many coins being staked as possible and as many staking nodes online as possible. The reason behind this is actually similar to [Proof of Work's 51% attack](https://www.investopedia.com/terms/1/51-attack.asp) where an attacker could get full control over the blockchain if he held more than 50% of all the hashing power (mining power) on the network.
 
-On Particl, this attack vector is still possible, although a bit different. **For such an exploit to be successful, an attacker, like a malicious pool operator, would need to be in possession of more than 50% of all staking coins.** This is the reason you should always be careful not to delegate your staking power to a pool that already holds a considerably high amount of staking weight.
+On Rhombus, this attack vector is still possible, although a bit different. **For such an exploit to be successful, an attacker, like a malicious pool operator, would need to be in possession of more than 50% of all staking coins.** This is the reason you should always be careful not to delegate your staking power to a pool that already holds a considerably high amount of staking weight.
 
 {{< hint alert >}}
-**The Particl team is not responsible for the management, user support, and debugging of any pool.**\
+**The Rhombus team is not responsible for the management, user support, and debugging of any pool.**\
 While we will offer support for the cold staking pool code itself, we won’t be offering support for any of its implementation made by third-parties; this responsibility should lie within the pool operator himself.
 {{< /hint >}}
 
@@ -38,8 +38,8 @@ While we will offer support for the cold staking pool code itself, we won’t be
 
 | Pool name             | Link                          | Pool fees |
 | --------------------- | ----------------------------- | --------- |
-| **Particl.Page Pool** | https://pool.particl.page     | 2.5 %     |
-| **Crymel's Pool**     | https://particl.crymel.icu    | 2.5 %     |
+| **Rhombus.Page Pool** | https://pool.rhombus.page     | 2.5 %     |
+| **Crymel's Pool**     | https://rhombus.crymel.icu    | 2.5 %     |
 | **CoinRollin**        | https://coinroll.in           | 1 %       |
 | **Arcadia's Pool**    | https://stake.arcadia.agency/ | 3 %       |
 | **Coldstakingpool**   | https://coldstakingpool.com/  | 2.5%      |
@@ -51,5 +51,5 @@ _Last update: 2020/10/01_
 ### Running your own Pool
 
 {{< hint info >}}
-**If you're confident enough to run your own Pool**, visit [official Particl Coldstake Pool repo](https://github.com/particl/coldstakepool) and follow instructions in its [doc folder](https://github.com/particl/coldstakepool/tree/master/doc).
+**If you're confident enough to run your own Pool**, visit [official Rhombus Coldstake Pool repo](https://github.com/rhombus/coldstakepool) and follow instructions in its [doc folder](https://github.com/rhombus/coldstakepool/tree/master/doc).
 {{< /hint >}}

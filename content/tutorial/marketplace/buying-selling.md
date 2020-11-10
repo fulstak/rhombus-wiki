@@ -1,23 +1,23 @@
 ---
 title: How to Buy/Sell on Open Marketplace
-subtitle: Quick walkthrough of Buy-Sell flow on Particl Open Marketplace
+subtitle: Quick walkthrough of Buy-Sell flow on Rhombus Open Marketplace
 slug: 
 weight: 2
 tags:
   - market
-  - Particl Desktop
+  - Rhombus Desktop
 aliases:
   - /tutorial/market/buying-selling
 ---
 
-If you've already installed the Particl Open Marketplace and have it enabled on your [Particl Desktop](/tutorial/wallets/particl-desktop) client, then you're all set and ready to start buying and selling stuff for crypto without giving away your data.
+If you've already installed the Rhombus Open Marketplace and have it enabled on your [Rhombus Desktop](/tutorial/wallets/rhombus-desktop) client, then you're all set and ready to start buying and selling stuff for crypto without giving away your data.
 
 {{< toc >}}
 
 ## Complete Buy flow
 
 {{< hint info >}}
-**If you haven't installed or enabled the Particl Open Marketplace** yet, then follow our [Getting started with Particl Open Marketplace](/tutorial/marketplace/intro) guide!
+**If you haven't installed or enabled the Rhombus Open Marketplace** yet, then follow our [Getting started with Rhombus Open Marketplace](/tutorial/marketplace/intro) guide!
 {{< /hint >}}
 
 The following steps will show you how to use the Open Marketplace by going, in detail, through a complete purchase using the Open Marketplace.
@@ -31,12 +31,12 @@ SMSG messages are shared in a peer-to-peer way between all the nodes running the
 
 <lead>The {{< label info >}}Seller{{< /label >}} lists an item for sale</lead>
 
-1. To list an item, first go to the **Sell** page of Particl Desktop
+1. To list an item, first go to the **Sell** page of Rhombus Desktop
 1. On the **Sell** page, you will see a list of all previously listed items. To add a new one, click on `+ Add new listing`
 1. Fill the Listing's details and add pictures. Note that the first picture you add is going to be used as the thumbnail for your Listing
 1. Click on `Save & Publish` and then type your encryption password to temporarily unlock your wallet. An unlocked wallet is required to publish Listings
 1. Choose the duration of the Listing and click on `Confirm & Publish` – e.g. if you choose 1 week, then your Listing is going to stay up on the Open Marketplace for 7 days
-1. Wait for at least one confirmation and your Listing will appear in the **Listings** page of the Particl Open Marketplace
+1. Wait for at least one confirmation and your Listing will appear in the **Listings** page of the Rhombus Open Marketplace
 
 {{< hint info >}}
 **[Listing fees](/learn/marketplace/fees) are calculated based on the duration and size of your Listing**.\
@@ -53,7 +53,7 @@ During this step, the Buyer is going to place a bid (an order) and ["soft lock" 
 1. Go to the **Listings** page
 1. Browse the Marketplace, and click on the item you want to purchase
 1. On the Listing's pop-up page, verify the total amount required to [fund the escrow](/learn/marketplace/mad-escrow) and then add the item to your cart by clicking on `Add to cart`
-1. To checkout, click on the cart icon at the top right section of the Particl Desktop client _or_ by going to the **Buy** page
+1. To checkout, click on the cart icon at the top right section of the Rhombus Desktop client _or_ by going to the **Buy** page
 1. Verify the content of your cart, and click on `Continue to shipping`
 1. Fill your shipping information and, optionally, save your shipping profile for future purchases (this profile stays only on your computer)
 1. Verify all the information is correct on the next page, and then click on `Place order` to place your bid

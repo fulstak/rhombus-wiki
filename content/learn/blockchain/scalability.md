@@ -1,6 +1,6 @@
 ---
 title: Scalability
-subtitle: Particl's approach to scalability
+subtitle: Rhombus's approach to scalability
 slug: blockchain-scalability
 weight: -10
 tags:
@@ -14,13 +14,13 @@ tags:
 
 ## Native Segregated Witness (Segwit)
 
-The Particl platform is the first blockchain in the industry to ever be deployed with a **native implementation of Segwit**.
+The Rhombus platform is the first blockchain in the industry to ever be deployed with a **native implementation of Segwit**.
 
 This has the added benefit of making all transactions (including private ones) go through Segwit by default, resulting in **better scalability and cheaper transaction fees**.
 
-Unlike forked Segwit implementations, 100% of Particl addresses are compatible with Segregated Witness.
+Unlike forked Segwit implementations, 100% of Rhombus addresses are compatible with Segregated Witness.
 
-Segwit grants additional features to the Particl platform such as transaction malleability vulnerability protection and block capacity increase, but its most notorious feature is that it renders Particl’s blockchain compatible with the Lightning Network.
+Segwit grants additional features to the Rhombus platform such as transaction malleability vulnerability protection and block capacity increase, but its most notorious feature is that it renders Rhombus’s blockchain compatible with the Lightning Network.
 
 
 ## Bulletproofs
@@ -39,7 +39,7 @@ Read the full [Bulletproofs whitepaper](https://eprint.iacr.org/2017/1066.pdf) c
 ## Lightning Network
 
 {{< hint warning >}}
-Lightning network for Particl is **not yet implemented**
+Lightning network for Rhombus is **not yet implemented**
 {{< /hint >}}
 
 The [Lightning Network](http://lightning.network/) is a decentralized payment channel protocol first proposed by Joseph Poon and Tadge Dryja in their [Lightning Network whitepaper](https://lightning.network/lightning-network-paper.pdf) and powered using smart-contract functionality in the blockchain to enable instant, near-zero fee payments across a network of participants.

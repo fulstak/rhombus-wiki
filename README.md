@@ -1,6 +1,6 @@
-# Particl.wiki
+# Rhombus.wiki
 
-Hugo-based knowledge base for @particl Project
+Hugo-based knowledge base for @rhombus Project
 
 
 ## Development

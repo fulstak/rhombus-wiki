@@ -1,6 +1,6 @@
 ---
-title: "FAQ: PART coin"
-subtitle: PART is the cryptocurrency designed to be the heart of the Particl ecosystem and acts as the fuel that makes it run
+title: "FAQ: RHOM coin"
+subtitle: RHOM is the cryptocurrency designed to be the heart of the Rhombus ecosystem and acts as the fuel that makes it run
 slug:
 weight: 1
 tags:
@@ -9,35 +9,35 @@ tags:
 
 {{< toc >}}
 
-## What is PART?
+## What is RHOM?
 
 It’s a technically advanced [privacy coin](/learn/privacy/transaction-types), a voting ticket, a [moderation token](/learn/marketplace/governance), a [source of passive income](/learn/staking/intro), and much more. It is multi-purpose.
 
-## Can I store PART on a hardware wallet?
+## Can I store RHOM on a hardware wallet?
 
-Yes, PART is officially supported by [Ledger wallet](/learn/wallets/hardware) with [cold staking capabilities](/learn/staking/intro#cold-staking) enabled. You can [set up your hardware Particl wallet](/tutorial/wallets/ledger) and start safely earning staking rewards.
+Yes, RHOM is officially supported by [Ledger wallet](/learn/wallets/hardware) with [cold staking capabilities](/learn/staking/intro#cold-staking) enabled. You can [set up your hardware Rhombus wallet](/tutorial/wallets/ledger) and start safely earning staking rewards.
 
-Particl is also currently working on a [Trezor](/tutorial/wallets/trezor) integration.
+Rhombus is also currently working on a [Trezor](/tutorial/wallets/trezor) integration.
 
-## Where can I buy PART coins?
+## Where can I buy RHOM coins?
 
-[You can buy PART coins on these exchanges](https://particl.io/part-exchanges) 
+[You can buy RHOM coins on these exchanges](https://rhombus.io/part-exchanges) 
 
-### Will PART be added to other exchanges? 
+### Will RHOM be added to other exchanges? 
 
-The Particl team is in constant discussion with many exchanges, however, the decision to list PART or not is entirely up to the exchanges themselves.
+The Rhombus team is in constant discussion with many exchanges, however, the decision to list RHOM or not is entirely up to the exchanges themselves.
 
-## What is PART's codebase?
+## What is RHOM's codebase?
 
-PART is built on the [Bitcoin Core codebase](/learn/blockchain/bitcoin-codebase) and is **always kept up-to-date with Bitcoin's latest version** within days. Updating the codebase to the most recent version allows the platform to benefit from the latest security, performance and stability development made on the Bitcoin Core codebase as well as stay compatible and easy to integrate with the ever-evolving Bitcoin ecosystem.
+RHOM is built on the [Bitcoin Core codebase](/learn/blockchain/bitcoin-codebase) and is **always kept up-to-date with Bitcoin's latest version** within days. Updating the codebase to the most recent version allows the platform to benefit from the latest security, performance and stability development made on the Bitcoin Core codebase as well as stay compatible and easy to integrate with the ever-evolving Bitcoin ecosystem.
 
-## What are the transactions fees for PART? 
+## What are the transactions fees for RHOM? 
 
-The default fee for public transactions is 0.002 PART per kb but you can adjust the limit to your needs (higher fee = better confirmation times).
+The default fee for public transactions is 0.002 RHOM per kb but you can adjust the limit to your needs (higher fee = better confirmation times).
 
-[Privacy transactions](/learn/privacy/transaction-types) (RingCT + Bulletproofs) default to around 0.005 PART per transaction, although that fee varies depending on the number of ring signatures (degree of privacy) used by the user when making a transaction.
+[Privacy transactions](/learn/privacy/transaction-types) (RingCT + Bulletproofs) default to around 0.005 RHOM per transaction, although that fee varies depending on the number of ring signatures (degree of privacy) used by the user when making a transaction.
 
-## What are PART's transactions sizes?
+## What are RHOM's transactions sizes?
 
 |   | Size without Segwit & Bulletproofs  | With Segwit | With Bulletproofs |
 |---|-------------------------------------|-------------|-------------------|
@@ -46,9 +46,9 @@ The default fee for public transactions is 0.002 PART per kb but you can adjust 
 | RingCT (4 ring members)       | 5,723 B | 3,009 B     | ~1,949 B          |
 
 
-## What is PART's inflation rate? 
+## What is RHOM's inflation rate? 
 
-Current annual inflation of PART coins is 2 %. You can see historical rates below:
+Current annual inflation of RHOM coins is 2 %. You can see historical rates below:
 
 | Period | Staking rewards / inflation rate |
 |--------|----------------------------------|
@@ -57,7 +57,7 @@ Current annual inflation of PART coins is 2 %. You can see historical rates belo
 | July 2019 – July 2020               | 3 % |
 | July 2020 onwards                   | 2 % |
 
-## Why has PART different privacy states?
+## Why has RHOM different privacy states?
 
 {{< hint info >}}
 **Learn more** about [Transaction types](/learn/privacy/transaction-types)
@@ -77,20 +77,20 @@ While there is currently no whitepaper available as it relates to our own integr
 
 ## Is Segwit enabled?
 
-**Particl is natively integrated with Segwit**, meaning it has been activated since Block 1 and is enabled by default on all transactions. It is not possible to make non-Segwit transactions on Particl. 
+**Rhombus is natively integrated with Segwit**, meaning it has been activated since Block 1 and is enabled by default on all transactions. It is not possible to make non-Segwit transactions on Rhombus. 
 
 ## What are atomic swaps? 
 
-[Atomic swaps](https://github.com/particl/atomicswap) are decentralized and trustless trade between two users of different cryptocurrencies. It makes trading cryptocurrencies without any third-party (i.e. trading exchange) and have blockchains directly interact between each other (i.e. cross-chain smart-contracts) possible. 
+[Atomic swaps](https://github.com/rhombus/atomicswap) are decentralized and trustless trade between two users of different cryptocurrencies. It makes trading cryptocurrencies without any third-party (i.e. trading exchange) and have blockchains directly interact between each other (i.e. cross-chain smart-contracts) possible. 
 
-## What is Particl's transaction-per-second (TPS) capabilities? 
+## What is Rhombus's transaction-per-second (TPS) capabilities? 
 
 Calculating this metric is pretty hard as greatly depends on the ratio of public, blinded and anonymous transactions. Several other factors can impact the results such as smart-contracts and multisig address transactions.
 
-In the end, a more accurate metric would be to calculate each transaction size. Regardless, it is still possible to calculate a very approximative estimate of Particl's TPS by assuming all transactions are either public or private, and by disregarding smart-contracts and multi-signatures. In reality, this metric is pretty innacurate, but interesting nonetheless if only to observe the purely coin-related theoretical performance of the blockchain: 
+In the end, a more accurate metric would be to calculate each transaction size. Regardless, it is still possible to calculate a very approximative estimate of Rhombus's TPS by assuming all transactions are either public or private, and by disregarding smart-contracts and multi-signatures. In reality, this metric is pretty innacurate, but interesting nonetheless if only to observe the purely coin-related theoretical performance of the blockchain: 
 
 
-|                                | Bitcoin        | Particl               |
+|                                | Bitcoin        | Rhombus               |
 |--------------------------------|----------------|-----------------------|
 | Block Size                     | 1 MB           | 2 MB                  |
 | Block Time                     | 10 min         | 2 min                 |

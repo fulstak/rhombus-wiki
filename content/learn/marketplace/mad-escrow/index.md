@@ -1,6 +1,6 @@
 ---
 title: MAD Escrow
-subtitle: About Particl Marketplace's 2-party escrow mechanism for resolving disputes
+subtitle: About Rhombus Marketplace's 2-party escrow mechanism for resolving disputes
 slug: 
 weight: 2
 tags:
@@ -17,24 +17,24 @@ Marketplaces usually have mechanisms in place to resolve disputes between buyers
 One common solution marketplaces and payment processors use is a mutually-trusted third party (in other words, an escrow agent). On decentralized marketplaces, not only does this represents scalability and privacy issues but it also does not offer any protection against collusion between the escrow agent and one of the party.
 
 {{< hint success >}}
-**Particl's Open Marketplace solves this problem without the need for a third party.**\
+**Rhombus's Open Marketplace solves this problem without the need for a third party.**\
 It uses what is called MAD escrow smart-contracts. This type of escrow does not cost any fee, is infinitely scalable and private by design.
 {{< /hint >}}
 
 ## Game Theory
 
-{{< image class="side-thumb" src="particl-mad-escrow.jpeg" alt="Particl's MAD Escrow logo" >}}
+{{< image class="side-thumb" src="rhombus-mad-escrow.jpeg" alt="Rhombus's MAD Escrow logo" >}}
 
 [Mutually Assured Destruction](https://en.wikipedia.org/wiki/Mutual_assured_destruction) (MAD) is a [doctrine of military strategy](https://blogs.cornell.edu/info2040/2016/09/09/mutually-assured-destruction-game-theory-and-the-cold-war/) and national security policy in which a full-scale use of nuclear weapons by two or more opposing sides would cause the complete annihilation of both the attacker and the defender, thus making their use not an option.
 
 It is based on the [theory of deterrence](https://en.wikipedia.org/wiki/Deterrence_theory), which holds that the threat of using strong weapons against the enemy prevents the enemy's use of those same weapons. The strategy is a form of Nash equilibrium in which, once armed, neither side has any incentive to initiate a conflict or to disarm.
 
-**Particl’s MAD escrow mechanism replaces the nuclear annihilation deterrence factor of the [MAD game theory](https://en.wikipedia.org/wiki/Game_theory) for a mutual financial loss should one party acts dishonestly.**
+**Rhombus’s MAD escrow mechanism replaces the nuclear annihilation deterrence factor of the [MAD game theory](https://en.wikipedia.org/wiki/Game_theory) for a mutual financial loss should one party acts dishonestly.**
 
 
 ## How does it work?
 
-Particl uses the [BIP 65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) `opcode`, which allows a transaction output to be made unspendable until some point in the future, to enable MAD escrow contracts. It locks funds in a secure multi-signature address until all the parties sign off on the transaction.
+Rhombus uses the [BIP 65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) `opcode`, which allows a transaction output to be made unspendable until some point in the future, to enable MAD escrow contracts. It locks funds in a secure multi-signature address until all the parties sign off on the transaction.
 
 The seller starts by depositing an amount they want the buyer to match. The deposit can be between 0–100 % of the purchased item’s price.
 
@@ -47,7 +47,7 @@ When both parties are satisfied with the outcome of the transaction, they have t
 
 ## Private by design
 
-> Particl’s MAD escrow system renders the marketplace fully fungible. That's because all transactions are untraceable by default.
+> Rhombus’s MAD escrow system renders the marketplace fully fungible. That's because all transactions are untraceable by default.
 
 In fact, not only is all marketplace content encrypted, but all currency transactions are made untraceable through the use of the [RingCT](/learn/transaction-types/) privacy protocol. This technique enhances privacy much more than if CT MAD escrow was optional because it dramatically increases the number of private transactions on the network.
 
@@ -60,4 +60,4 @@ By not requiring any third-party, the Open Marketplace's escrow system preserves
 
 > This form of decentralized escrow is infinitely scalable. It doesn't need any other party other than the ones transacting to function.
 
-This means there is no friction whatsoever, and that as many escrow transactions can be opened as required by the users. No staff is required, no data can be mined, and no delay can be caused by outside parties. The Particl network can support an infinite number of escrow deals at the same time.
+This means there is no friction whatsoever, and that as many escrow transactions can be opened as required by the users. No staff is required, no data can be mined, and no delay can be caused by outside parties. The Rhombus network can support an infinite number of escrow deals at the same time.

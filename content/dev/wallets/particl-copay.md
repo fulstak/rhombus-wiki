@@ -1,14 +1,14 @@
 ---
-title: Particl Copay
-subtitle: Tips and notes for getting you up and running for Particl Copay development in minutes 
+title: Rhombus Copay
+subtitle: Tips and notes for getting you up and running for Rhombus Copay development in minutes 
 slug:
 weight: 3
 tags:
   - dev
-  - Particl Copay
+  - Rhombus Copay
   - TODO
 aliases:
-  - /dev/particl-copay
+  - /dev/rhombus-copay
 ---
 
 {{< todo >}}

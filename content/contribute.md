@@ -35,7 +35,7 @@ Let's get through these one by one:
 
 **Registering on GitHub**
 
-Head over to [GitHub](https://github.com) and sign up if you haven't already. GitHub is one of the most popular open source hubs, so your new account will come in handy in the future. Even our new [Particl Community Crowdfunding](https://ccs.particl.io) relies on GitHub!
+Head over to [GitHub](https://github.com) and sign up if you haven't already. GitHub is one of the most popular open source hubs, so your new account will come in handy in the future. Even our new [Rhombus Community Crowdfunding](https://ccs.rhombus.io) relies on GitHub!
 
 **Markdown syntax**
 
@@ -85,7 +85,7 @@ This section covers editing Wiki directly from Github's built-in text editor.
 
 ```
 ---
-title: Staking PART on your smartwatch
+title: Staking RHOM on your smartwatch
 subtitle: Stake your coins with every step taken
 slug:
 weight: 5
@@ -106,7 +106,7 @@ Let's go through the frontmatter here:
 - `subtitle:` summary of the article (shown below the heading, in Article lists and Related pages)
 - `slug:` (optional, not needed in 90% of cases) used to overwrite the page's URL (URL is normally derived from file name)
 - `weight:` defines position of the page in article lists and menus -- higher number = lower position
-- `tags:` tags used to mark topics of the page (e.g. "staking", "Particl Desktop" etc.) -- see [list of available tags](/tags)
+- `tags:` tags used to mark topics of the page (e.g. "staking", "Rhombus Desktop" etc.) -- see [list of available tags](/tags)
 
 If you're not sure about any of these and how to fill them up, see some other existing pages -- feel free to copy-paste.
 
@@ -138,10 +138,10 @@ Very useful for long, structured articles. Usually added right on the top of you
 
 Useful for highlighting external links (downloads, official site/documentation etc.)
 
-{{< button href="https://particl.io" >}}Official Particl website{{< /button >}}
+{{< button href="https://rhombus.io" >}}Official Rhombus website{{< /button >}}
 
 ```
-{{</* button href="https://particl.io" */>}}Official Particl website{{</* /button */>}}
+{{</* button href="https://rhombus.io" */>}}Official Rhombus website{{</* /button */>}}
 ```
 
 
@@ -164,8 +164,8 @@ example/
 ```
 {{</* image src="<path to image>" [class="side-thumb"] [alt="desc"] [caption="caption"] */>}}
 
-{{</* image src="image.png" class="side-thumb" alt="Send dialog in Particl Desktop" */>}}
-{{</* image src="image2.png" alt="Infographic describing Particl Market orders" caption="Particl Marketplace orders" */>}}
+{{</* image src="image.png" class="side-thumb" alt="Send dialog in Rhombus Desktop" */>}}
+{{</* image src="image2.png" alt="Infographic describing Rhombus Market orders" caption="Rhombus Marketplace orders" */>}}
 ```
 
 - `class="side-thumb"` transforms the image into thumbnail pinned to the side (without it, image takes full width of the page)
@@ -178,7 +178,7 @@ example/
 ```
 {{</* video webm="<path to webm source>" mp4="<path to mp4 source>" [alt="desc"] [caption="caption"] */>}}
 
-{{</* video webm="video.webm" mp4="video.mp4" alt="How to install Particl Desktop" */>}}
+{{</* video webm="video.webm" mp4="video.mp4" alt="How to install Rhombus Desktop" */>}}
 ```
 
 - define sources to local video file via `webm=""` and `mp4=""` attributes
@@ -206,7 +206,7 @@ Look for the video ID in URL (the part after `?v=`), e.g.: this video's ID `http
 
 ### Icons
 
-For inserting icons from [`/static/media/icons/`](https://github.com/AllienWorks/particl-wiki/tree/master/static/media/icons) folder (second word equals to file name of the icon) e.g.:
+For inserting icons from [`/static/media/icons/`](https://github.com/AllienWorks/rhombus-wiki/tree/master/static/media/icons) folder (second word equals to file name of the icon) e.g.:
 
 {{< ico yes >}}
 {{< ico no >}}
@@ -290,7 +290,7 @@ Second tab
 
 {{< /tabs >}}
 
-- if multiple tab groups are present on the same page, you need to differentiate them via different `uniqueid`'s - it's best to always name the `uniqueid` semantically, e.g. "installing-particl-desktop":
+- if multiple tab groups are present on the same page, you need to differentiate them via different `uniqueid`'s - it's best to always name the `uniqueid` semantically, e.g. "installing-rhombus-desktop":
 
 ```
 {{</* tabs "uniqueid" */>}}

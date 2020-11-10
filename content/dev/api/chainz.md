@@ -15,7 +15,7 @@ Please do not abuse them.
 {{< /hint >}}
 
 {{< button href="https://chainz.cryptoid.info/api.dws" >}}API Docs{{< /button >}}
-{{< button href="https://chainz.cryptoid.info/part/" >}}Chainz Particl Block Explorer{{< /button >}}
+{{< button href="https://chainz.cryptoid.info/part/" >}}Chainz Rhombus Block Explorer{{< /button >}}
 
 {{< toc >}}
 
@@ -91,7 +91,7 @@ https://chainz.cryptoid.info/part/api.dws?q=nodes
   },
 ```
 
-### PART in circulation
+### RHOM in circulation
 
 https://chainz.cryptoid.info/part/api.dws?q=circulating
 

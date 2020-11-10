@@ -22,7 +22,7 @@ Keep in mind that this backup approach only saves data created up to that point.
 ## Manual back-up
 
 {{< hint info >}}
-With [Particl Core](/tutorial/wallets/particl-core/), you can easily backup your `wallet.dat` file via _File_ → _Backup wallet..._
+With [Rhombus Core](/tutorial/wallets/rhombus-core/), you can easily backup your `wallet.dat` file via _File_ → _Backup wallet..._
 {{< /hint >}}
 
   1. close your wallet (if running)
@@ -38,9 +38,9 @@ Look in these folders (depending on your OS):
 
 | OS                       | Path to directory                       |
 |--------------------------|-----------------------------------------|
-| {{< ico win >}} Windows  | `%AppData%\Particl`                     |
-| {{< ico apple >}} macOS  | `~/Library/Application Support/Particl` |
-| {{< ico linux >}} Linux  | `~/.particl`                            |
+| {{< ico win >}} Windows  | `%AppData%\Rhombus`                     |
+| {{< ico apple >}} macOS  | `~/Library/Application Support/Rhombus` |
+| {{< ico linux >}} Linux  | `~/.rhombus`                            |
 
 You should look for either a file called `wallet.dat` or a folder called `wallet` (or something else, if you chose a custom wallet name when creating it), in which you should find the `wallet.dat` file.
 

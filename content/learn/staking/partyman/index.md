@@ -24,7 +24,7 @@ Partyman GitHub repo/download
 
 ## Use cases
 
-**Partyman is ideal for running your own staking node 24/7 on a [DSD](/learn/staking/dedicated-devices/).** These devices have a very low power consumption and still offer enough computing power and storage to run a Particl full node.
+**Partyman is ideal for running your own staking node 24/7 on a [DSD](/learn/staking/dedicated-devices/).** These devices have a very low power consumption and still offer enough computing power and storage to run a Rhombus full node.
 
 {{< hint info >}}
 See out comprehensive and unified **[Guide for setting up Cold staking](tutorial:staking:cold-staking)** and detailed **[Guide for setting up your own node with Partyman](tutorial:staking:on-dedicated-device)**!

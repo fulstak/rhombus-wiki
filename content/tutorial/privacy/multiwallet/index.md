@@ -15,23 +15,23 @@ You might want to create and use multiple wallets for different usage. The goal 
 
 ## Multiwallet setup
 
-### Particl Desktop
+### Rhombus Desktop
 
-{{< image class="side-thumb" src="multiwallet-particl-desktop.png" alt="Wallet switcher in Particl Desktop 3.0" >}}
+{{< image class="side-thumb" src="multiwallet-rhombus-desktop.png" alt="Wallet switcher in Rhombus Desktop 3.0" >}}
 
-Multiwallet functionality for [Particl Desktop](/tutorial/wallets/particl-desktop/) is baked into the wallet itself (and very user-friendly).
+Multiwallet functionality for [Rhombus Desktop](/tutorial/wallets/rhombus-desktop/) is baked into the wallet itself (and very user-friendly).
 
 All you need to do is to click _New wallet_ in the wallet switcher in the left sidebar to add (or restore) a new wallet. After your new wallet is set up, you can easily switch between wallet in the same wallet switcher, without the need to restart the wallet.
 
 
-### Particl Core
+### Rhombus Core
 
-Same as on Bitcoin core wallet, launching multiple wallets on [Particl Core](/tutorial/wallets/particl-core/) is as easy as adding few `-wallet=` parameters - depending on your setup and location of your wallet files.
+Same as on Bitcoin core wallet, launching multiple wallets on [Rhombus Core](/tutorial/wallets/rhombus-core/) is as easy as adding few `-wallet=` parameters - depending on your setup and location of your wallet files.
 
 For example, if your wallets are in these locations:
 
 ```
-.particl/
+.rhombus/
     primary-wallet.dat
     market/
         wallet.dat
@@ -42,33 +42,33 @@ For example, if your wallets are in these locations:
 You would use these parameters:
 
 ```
-$ particl-qt -wallet=primary-wallet.dat -wallet=market -wallet=savings
+$ rhombus-qt -wallet=primary-wallet.dat -wallet=market -wallet=savings
 ```
 
-{{< image class="side-thumb" src="multiwallet-particl-qt.png" alt="Wallet switcher in Particl Core" >}}
+{{< image class="side-thumb" src="multiwallet-rhombus-qt.png" alt="Wallet switcher in Rhombus Core" >}}
 
-Notice that for the `primary-wallet.dat` in the root folder, we added `.dat` to the parameter, which tells Particl Core that it's directly a wallet file, not its folder (as in case of `market/wallet.dat` and `savings/wallet.dat`).
+Notice that for the `primary-wallet.dat` in the root folder, we added `.dat` to the parameter, which tells Rhombus Core that it's directly a wallet file, not its folder (as in case of `market/wallet.dat` and `savings/wallet.dat`).
 
-This will open one Particl Core client with all 3 wallets loaded. You can then easily switch between them by choosing active wallet from the new dropdown (see screenshot).
+This will open one Rhombus Core client with all 3 wallets loaded. You can then easily switch between them by choosing active wallet from the new dropdown (see screenshot).
 
 
 ## Autostart multiwallet
 
-### Particl Desktop
+### Rhombus Desktop
 
 {{< hint info >}}
-**Particl Desktop launches with all available wallets loaded by default.**\
+**Rhombus Desktop launches with all available wallets loaded by default.**\
 Therefore no extra configuration or setup is needed.
 {{< /hint >}}
 
-### Particl Core
+### Rhombus Core
 
 #### Linux
 
 Create a new custom application launcher in `~/.local/share/applications`:
 
 ```
-$ nano ~/.local/share/applications/"Particl Core".desktop
+$ nano ~/.local/share/applications/"Rhombus Core".desktop
 ```
 
 Then paste and edit these lines (mainly `Exec=`) to match your setup:
@@ -78,16 +78,16 @@ Then paste and edit these lines (mainly `Exec=`) to match your setup:
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Particl Core
-GenericName=Particl Core
-Comment=PART Wallet
-Exec=/home/xxxxxx/particl/bin/particl-qt -wallet=xxxxxx.dat -wallet=xxxxxx
+Name=Rhombus Core
+GenericName=Rhombus Core
+Comment=RHOM Wallet
+Exec=/home/xxxxxx/rhombus/bin/rhombus-qt -wallet=xxxxxx.dat -wallet=xxxxxx
 Terminal=false
-Icon=particl
+Icon=rhombus
 Keywords=Finance
 Type=Application
 Categories=Others
-Name[en_US]=Particl Core
+Name[en_US]=Rhombus Core
 ```
 
 Save the changes via `CTRL-X` and then `Y`, confirm with `Enter`.

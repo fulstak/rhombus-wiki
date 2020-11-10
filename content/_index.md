@@ -1,24 +1,24 @@
 ---
-title: Particl Wiki
-subtitle: Knowledge base for all the tutorials, howtos and in-depth explanations for Particl Project, the privacy-focused cryptocurrency & platform
+title: Rhombus Wiki
+subtitle: Knowledge base for all the tutorials, howtos and in-depth explanations for Rhombus Project, the privacy-focused cryptocurrency & platform
 ---
 
 {{< hint info >}}
-**New to Particl?**\
+**New to Rhombus?**\
 Check out our **[Getting started](/tutorial/getting-started/)** guide!
 {{< /hint >}}
 
 
 ## Wiki sections
 
-Particl Wiki is split into four thematic sections – informative **Learn** articles, **Tutorials** with guides and howto's, **Help & Support** when things break and you need assistance and finally **Dev docs** with technical documentation for developers.
+Rhombus Wiki is split into four thematic sections – informative **Learn** articles, **Tutorials** with guides and howto's, **Help & Support** when things break and you need assistance and finally **Dev docs** with technical documentation for developers.
 
 You can also browse [list of used tags](/tags) instead if that's what you prefer.
 
 
 {{< columns >}}
 
-{{< huge-button relref="/learn/" icon="learn" title="Learn" desc="Discover Particl and its features" class="learn --full-width" >}}
+{{< huge-button relref="/learn/" icon="learn" title="Learn" desc="Discover Rhombus and its features" class="learn --full-width" >}}
 
 <--->
 
@@ -39,7 +39,7 @@ You can also browse [list of used tags](/tags) instead if that's what you prefer
 
 Found inaccurate info or missing content? [Learn how to contribute!](/contribute)
 
-{{< button href="https://particl.io" class="primary" >}}Official site{{< /button >}}
-{{< button href="https://particl.news" >}}Latest news{{< /button >}}
-{{< button href="https://ccs.particl.io" >}}Crowdfunding{{< /button >}}
-{{< button href="https://twitter.com/ParticlProject" >}}Twitter{{< /button >}}
+{{< button href="https://rhombus.io" class="primary" >}}Official site{{< /button >}}
+{{< button href="https://rhombus.news" >}}Latest news{{< /button >}}
+{{< button href="https://ccs.rhombus.io" >}}Crowdfunding{{< /button >}}
+{{< button href="https://twitter.com/RhombusProject" >}}Twitter{{< /button >}}

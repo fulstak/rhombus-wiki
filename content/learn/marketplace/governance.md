@@ -1,6 +1,6 @@
 ---
 title: Community governance
-subtitle: As a fully decentralized solution, Particl's Open Marketplace doesn't rely on hired moderators to keep its content clean
+subtitle: As a fully decentralized solution, Rhombus's Open Marketplace doesn't rely on hired moderators to keep its content clean
 slug: governance
 weight: 4
 tags:
@@ -17,7 +17,7 @@ Since it is fully anonymous, it is not unlikely that undesirable items and servi
 
 Having a third-party as moderator introduces a whole lot of issues such as legal liability, centralization of power and decision making, lack of scalability, and friction.
 
-> Particl’s way to deal with this problem is to allow its own community of users to be the moderators.
+> Rhombus’s way to deal with this problem is to allow its own community of users to be the moderators.
 
 **In fact, all listings can be flagged by any user.** Votes are tallied based on coin weight where one coin equals one vote. The more coins a user holds, the more influence he has over the outcome of a flagging vote.
 

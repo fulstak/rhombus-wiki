@@ -1,6 +1,6 @@
 ---
 title: Open Market Protocol (OMP)
-subtitle: Particl's Open Marketplace is based on the Open Market Protocol developed by Particl developer Kewde
+subtitle: Rhombus's Open Marketplace is based on the Open Market Protocol developed by Rhombus developer Kewde
 slug: open-market-protocol
 weight: 10
 tags:
@@ -10,7 +10,7 @@ tags:
 
 {{< toc >}}
 
-It is a standardized and open format containing most of the economic interactions of an online marketplace. The [OMP is available as an open-source protocol](https://github.com/particl/omp-lib) on Particl's Github page and is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
+It is a standardized and open format containing most of the economic interactions of an online marketplace. The [OMP is available as an open-source protocol](https://github.com/rhombus/omp-lib) on Rhombus's Github page and is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
 
 {{< hint info >}}
 Read **[Open Market Protocol documentation](https://kewde.gitbooks.io/protocol/content/)** for in-depth info.

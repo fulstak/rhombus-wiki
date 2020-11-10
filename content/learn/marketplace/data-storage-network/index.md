@@ -1,6 +1,6 @@
 ---
 title: Data Storage Network (DSN)
-subtitle: Data Storage Networks are used on Particl to store any data (i.e. marketplace-related data such as images) off-chain 
+subtitle: Data Storage Networks are used on Rhombus to store any data (i.e. marketplace-related data such as images) off-chain 
 slug: 
 weight: 7
 tags:
@@ -21,11 +21,11 @@ It is not required to know how a specific DSN works internally as long as it can
 
 ## Implementation
 
-The default (and for the moment, the only) DSN used on Particl is SMSG. It is a P2P BitMessage-like message mixnet that runs parallel to Particl's blockchain. It is hosted on the same nodes that run the Particl blockchain.
+The default (and for the moment, the only) DSN used on Rhombus is SMSG. It is a P2P BitMessage-like message mixnet that runs parallel to Rhombus's blockchain. It is hosted on the same nodes that run the Rhombus blockchain.
 
-{{< image src="particl-smsg-dsn.png" alt="How SMSG works" >}}
+{{< image src="rhombus-smsg-dsn.png" alt="How SMSG works" >}}
 
-A small hash of the hosted content is created and stored on the Particl blockchain when it is used to store data on a DSN. To verify the integrity of data when the client retrieves it back from the DSN, its hash is recomputed and compared with the one stored on the Particl blockchain. The data is considered trusted if the hashes match, and rejected by the platform if they don’t.
+A small hash of the hosted content is created and stored on the Rhombus blockchain when it is used to store data on a DSN. To verify the integrity of data when the client retrieves it back from the DSN, its hash is recomputed and compared with the one stored on the Rhombus blockchain. The data is considered trusted if the hashes match, and rejected by the platform if they don’t.
 
 {{< hint info >}}
 Read more about **[Data Storage Network on OMP](https://kewde.gitbooks.io/protocol/content/data-storage-network/overview.html)**

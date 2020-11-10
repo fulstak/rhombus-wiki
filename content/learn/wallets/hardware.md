@@ -20,22 +20,22 @@ They have major advantages over standard software wallets: private keys are stor
 
 ### Ledger wallet
 
-Particl is currently supported by **[Ledger Wallet](https://www.ledger.com/)** and has been integrated in such a way that it supports cold staking. That means PART coins can be stored offline on a Ledger wallet and still cold stake from any staking node. Both the facts that no password is stored in memory and that there is no required exchange of private key between the hardware wallet and the device/computer it is connected to make PPoS the most secure Proof-of-Stake protocol in the blockchain industry.
+Rhombus is currently supported by **[Ledger Wallet](https://www.ledger.com/)** and has been integrated in such a way that it supports cold staking. That means RHOM coins can be stored offline on a Ledger wallet and still cold stake from any staking node. Both the facts that no password is stored in memory and that there is no required exchange of private key between the hardware wallet and the device/computer it is connected to make PPoS the most secure Proof-of-Stake protocol in the blockchain industry.
 
 {{< hint info >}}
 **Follow our guides**\
-on how to [use Particl with Ledger Wallet](/tutorial/ledger/)
+on how to [use Rhombus with Ledger Wallet](/tutorial/ledger/)
 {{< /hint >}}
 
 <--->
 
 ### Trezor
 
-The Particl development team has also started working on a **[Trezor](https://trezor.io/)** integration.
+The Rhombus development team has also started working on a **[Trezor](https://trezor.io/)** integration.
 
 {{< hint info >}}
 **Follow our guides**\
-on how to [use Particl with Trezor Wallet](/tutorial/trezor/)
+on how to [use Rhombus with Trezor Wallet](/tutorial/trezor/)
 {{< /hint >}}
 
 {{< /columns >}}
