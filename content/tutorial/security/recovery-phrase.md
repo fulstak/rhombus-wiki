@@ -23,13 +23,13 @@ Storing your Recovery Phrase is about finding the right balance between security
 
 - make sure your seed is **protected against most/all elements** (fire, water, theft etc.) – nice way of achieveing this is via [metal seed storages](https://medium.com/@lopp/metal-bitcoin-seed-storage-stress-test-part-ii-d309e04aefeb) that are widely available on the market
 - **have redundant backups** (at least two) **on different locations** – however keep in mind that with each new location and redundant backup, you also increase attack vector as attacker has a higher chance of finding at least one of them
-- when possible, use **[Recovery Passphrase](/tutorial/security/good-passwords)** as well – they act as "another word" in your Recovery Phrase – so if your backup gets stolen, attacker won't get to your coins in case they don't know the Recovery Passphrase as well
+- when possible, use **[Recovery Passphrase](/wiki/tutorial/security/good-passwords)** as well – they act as "another word" in your Recovery Phrase – so if your backup gets stolen, attacker won't get to your coins in case they don't know the Recovery Passphrase as well
 - when using Recovery Passphrases, don't keep their backups together with Recovery Phrases (that would completely defeat its purpose)
 
 ### Consider using
 
-- **[hardware wallets](/learn/wallets/hardware)** are great at keeping you much safer against digital attacks (malware-infected computers etc.)
-- **multisignature wallets** when/if possible – then getting access to one of the wallets isn't enough, attacker would need to obtain multiple wallets at once to move your funds (note: [Rhombus Copay](/tutorial/wallets/rhombus-copay) wallet supports multisig)
+- **[hardware wallets](/wiki/learn/wallets/hardware)** are great at keeping you much safer against digital attacks (malware-infected computers etc.)
+- **multisignature wallets** when/if possible – then getting access to one of the wallets isn't enough, attacker would need to obtain multiple wallets at once to move your funds (note: [Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay) wallet supports multisig)
 
 ### ❌ DON'Ts
 

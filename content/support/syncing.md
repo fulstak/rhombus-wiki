@@ -12,7 +12,7 @@ Rhombus wallets are a network-based software. **Make sure that no firewall or an
 
 ## Update to latest version
 
-Make sure you're running on [latest version](https://rhombus.io/downloads).
+Make sure you're running on [latest version](https://rhom.com/downloads).
 
 If not, update your wallet.
 
@@ -39,7 +39,6 @@ Relaunch the client with `-reindex` flag:
 {{< tab "Linux" >}}
 ### Linux
 
-- **Rhombus Desktop**: launch wallet via `./rhombus-desktop -reindex` in app directory
 - **Rhombus Core**: launch wallet via `./rhombus-qt -reindex` in app directory
 {{< /tab >}}
 

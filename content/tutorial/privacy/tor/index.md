@@ -88,5 +88,5 @@ The Tor Browser method is quite easy, but if you don’t want to run the Tor Bro
 You can also run Tor as a hidden service and connect your Rhombus Desktop to it. By running Tor as a hidden service, you allow other Tor users to use your node as an entry or exit point. This helps the Tor network being more decentralized, thus increasing its anonymity.
 
 {{< hint info >}}
-Please refer to **dedicated guide on [running Tor as Hidden Service](/tutorial/privacy/tor-hidden-service/)**
+Please refer to **dedicated guide on [running Tor as Hidden Service](/wiki/tutorial/privacy/tor-hidden-service/)**
 {{< /hint >}}

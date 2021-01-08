@@ -10,7 +10,7 @@ aliases:
   - /dev/rhombus-desktop
 ---
 
-[Rhombus Desktop](/tutorial/wallets/rhombus-desktop) is Rhombus's flagship client/wallet for interacting with RHOM network.
+[Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop) is Rhombus's flagship client/wallet for interacting with RHOM network.
 
 {{< hint info >}}
 **For latest development set up info**\
@@ -97,4 +97,4 @@ yarn run start:electron:dev -testnet --devtools -reindex
 
 ### Other issues
 
-See our [Rhombus Wiki](/support) for most common problems or join [#rhombushelp:matrix.org](https://app.element.io/#/room/#rhombushelp:matrix.org) on [Element](https://element.io) for community help.
+See our [Rhombus Wiki](/wiki/support) for most common problems or join [#rhombushelp:matrix.org](https://app.element.io/#/room/#rhombushelp:matrix.org) on [Element](https://element.io) for community help.

@@ -10,7 +10,7 @@ tags:
 
 {{< toc >}}
 
-You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won't mix up. This approach will also help you gain a bit [more privacy](/tutorial/privacy/tips/) (never linking all of your available funds).
+You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won't mix up. This approach will also help you gain a bit [more privacy](/wiki/tutorial/privacy/tips/) (never linking all of your available funds).
 
 
 ## Multiwallet setup
@@ -19,14 +19,14 @@ You might want to create and use multiple wallets for different usage. The goal 
 
 {{< image class="side-thumb" src="multiwallet-rhombus-desktop.png" alt="Wallet switcher in Rhombus Desktop 3.0" >}}
 
-Multiwallet functionality for [Rhombus Desktop](/tutorial/wallets/rhombus-desktop/) is baked into the wallet itself (and very user-friendly).
+Multiwallet functionality for [Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/) is baked into the wallet itself (and very user-friendly).
 
 All you need to do is to click _New wallet_ in the wallet switcher in the left sidebar to add (or restore) a new wallet. After your new wallet is set up, you can easily switch between wallet in the same wallet switcher, without the need to restart the wallet.
 
 
 ### Rhombus Core
 
-Same as on Bitcoin core wallet, launching multiple wallets on [Rhombus Core](/tutorial/wallets/rhombus-core/) is as easy as adding few `-wallet=` parameters - depending on your setup and location of your wallet files.
+Same as on Bitcoin core wallet, launching multiple wallets on [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) is as easy as adding few `-wallet=` parameters - depending on your setup and location of your wallet files.
 
 For example, if your wallets are in these locations:
 

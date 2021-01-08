@@ -14,7 +14,7 @@ You can use one or all of them, it's up to you.
 ## Overview
 
 {{< hint info >}}
-[Rhombus Desktop](/tutorial/wallets/rhombus-desktop/) is a recommended wallet for most users as it offers the best of Rhombus's features
+[Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/) is a recommended wallet for most users as it offers the best of Rhombus's features
 {{< /hint >}}
 
 
@@ -24,18 +24,11 @@ You can use one or all of them, it's up to you.
 
 Main, desktop wallets for Windows, macOS and Linux
 
-- **[Rhombus Desktop](/tutorial/wallets/rhombus-desktop/)** – Main, feature-rich wallet for Rhombus with all bells and whistles
-- **[Rhombus Core](/tutorial/wallets/rhombus-core/)** – Qt-based wallet focused on stability and advanced features
-- **[Rhombus Copay](/tutorial/wallets/rhombus-copay/)** – Mobile & desktop wallet with multi-sig for increased security
+- **[Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/)** – Main, feature-rich wallet for Rhombus with all bells and whistles
+- **[Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)** – Qt-based wallet focused on stability and advanced features
+- **[Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/)** – Mobile & desktop wallet with multi-sig for increased security
 
 <--->
-
-### Hardware
-
-Compatible [hardware wallets](/learn/wallets/hardware/) for usage with [Rhombus Core](/tutorial/wallets/rhombus-core/)
-
-- **[Ledger](/tutorial/wallets/ledger/)** – Ledger wallets (Nano S/X)
-- **[Trezor](/tutorial/wallets/trezor/)** – Trezor wallets (One/T)
 
 {{< /columns >}}
 
@@ -46,7 +39,7 @@ Compatible [hardware wallets](/learn/wallets/hardware/) for usage with [Rhombus 
 
 Mobile wallets for Android and iOS
 
-- **[Rhombus Copay](/tutorial/wallets/rhombus-copay/)** – Mobile & desktop wallet with multi-sig for increased security
+- **[Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/)** – Mobile & desktop wallet with multi-sig for increased security
 
 <--->
 
@@ -54,8 +47,8 @@ Mobile wallets for Android and iOS
 
 Advanced cli wallets for servers and dedicated staking devices (DSD)
 
-- **[Partyman](/learn/staking/partyman/)** – Utility for easier management of your staking nodes
-- **[Rhombus-cli](/tutorial/wallets/rhombus-cli/)** – Command-line interface wallet recommended for advanced users
+- **[Partyman](/wiki/learn/staking/partyman/)** – Utility for easier management of your staking nodes
+- **[Rhombus-cli](/wiki/tutorial/wallets/rhombus-cli/)** – Command-line interface wallet recommended for advanced users
 
 {{< /columns >}}
 
@@ -65,18 +58,18 @@ Advanced cli wallets for servers and dedicated staking devices (DSD)
 
 Overview of Rhombus wallets with supported features:
 
-| Feature | [Desktop](/tutorial/wallets/rhombus-desktop/) | [Core](/tutorial/wallets/rhombus-core/) | [cli](/tutorial/wallets/rhombus-cli/) | [Copay](/tutorial/wallets/rhombus-copay/) | [Ledger](/tutorial/ledger/) |
+| Feature | [Desktop](/wiki/tutorial/wallets/rhombus-desktop/) | [Core](/wiki/tutorial/wallets/rhombus-core/) | [cli](/wiki/tutorial/wallets/rhombus-cli/) | [Copay](/wiki/tutorial/wallets/rhombus-copay/) | [Ledger](/wiki/tutorial/ledger/) |
 | ------- | :--------------:|:----------:|:-----------:|:-------------:|:------:|
 | Opensource & Free to use | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
-| Send/receive [Public coins](/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
-| Send/receive [Blind & Anon (Private) tokens](/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
-| **[Staking](/learn/staking/)** (standalone) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
-| **[Cold staking](/learn/staking/#cold-staking)** (via Pool or DSD) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
+| Send/receive [Public coins](/wiki/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
+| Send/receive [Blind & Anon (Private) tokens](/wiki/learn/transaction-types/) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
+| **[Staking](/wiki/learn/staking/)** (standalone) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
+| **[Cold staking](/wiki/learn/staking/#cold-staking)** (via Pool or DSD) | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
 | Signing/verifying of messages | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} |
 | Advanced wallet management | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} |
 | Coin control | {{< ico no >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico no >}} |
 | **Multisignature** | {{< ico no >}} | {{< ico no >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
 | HD Wallet | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} | {{< ico yes >}} |
-| **[Multiple Wallets](/tutorial/multiwallet/)** | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} | {{< ico yes >}} |
+| **[Multiple Wallets](/wiki/tutorial/multiwallet/)** | {{< ico yes >}} | {{< ico yes >}} | {{< ico no >}} | {{< ico yes >}} | {{< ico yes >}} |
 | Support for fiat currencies | {{< ico no >}} | {{< ico no >}} | {{< ico no >}} | {{< ico yes >}} | {{< ico no >}} |
 | Available for | {{< ico win >}} {{< ico apple >}} {{< ico linux >}} | {{< ico win >}} {{< ico apple >}} {{< ico linux >}} | {{< ico win >}} {{< ico apple >}} {{< ico linux >}} | {{< ico android >}} {{< ico apple >}} {{< ico win >}} {{< ico linux >}} | — |

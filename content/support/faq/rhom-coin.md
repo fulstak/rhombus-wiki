@@ -11,17 +11,12 @@ tags:
 
 ## What is RHOM?
 
-It’s a technically advanced [privacy coin](/learn/privacy/transaction-types), a voting ticket, a [moderation token](/learn/marketplace/governance), a [source of passive income](/learn/staking/intro), and much more. It is multi-purpose.
+It’s a technically advanced [privacy coin](/wiki/learn/privacy/transaction-types), a [source of passive income](/learn/staking/intro), and much more. It is multi-purpose.
 
-## Can I store RHOM on a hardware wallet?
-
-Yes, RHOM is officially supported by [Ledger wallet](/learn/wallets/hardware) with [cold staking capabilities](/learn/staking/intro#cold-staking) enabled. You can [set up your hardware Rhombus wallet](/tutorial/wallets/ledger) and start safely earning staking rewards.
-
-Rhombus is also currently working on a [Trezor](/tutorial/wallets/trezor) integration.
 
 ## Where can I buy RHOM coins?
 
-[You can buy RHOM coins on these exchanges](https://rhombus.io/part-exchanges) 
+[You can buy RHOM coins on these exchanges](https://rhom.com/rhom-exchanges) 
 
 ### Will RHOM be added to other exchanges? 
 
@@ -29,13 +24,13 @@ The Rhombus team is in constant discussion with many exchanges, however, the dec
 
 ## What is RHOM's codebase?
 
-RHOM is built on the [Bitcoin Core codebase](/learn/blockchain/bitcoin-codebase) and is **always kept up-to-date with Bitcoin's latest version** within days. Updating the codebase to the most recent version allows the platform to benefit from the latest security, performance and stability development made on the Bitcoin Core codebase as well as stay compatible and easy to integrate with the ever-evolving Bitcoin ecosystem.
+RHOM is built on the [Bitcoin Core codebase](/wiki/learn/blockchain/bitcoin-codebase) and is **always kept up-to-date with Bitcoin's latest version** within days. Updating the codebase to the most recent version allows the platform to benefit from the latest security, performance and stability development made on the Bitcoin Core codebase as well as stay compatible and easy to integrate with the ever-evolving Bitcoin ecosystem.
 
 ## What are the transactions fees for RHOM? 
 
 The default fee for public transactions is 0.002 RHOM per kb but you can adjust the limit to your needs (higher fee = better confirmation times).
 
-[Privacy transactions](/learn/privacy/transaction-types) (RingCT + Bulletproofs) default to around 0.005 RHOM per transaction, although that fee varies depending on the number of ring signatures (degree of privacy) used by the user when making a transaction.
+[Privacy transactions](/wiki/learn/privacy/transaction-types) (RingCT + Bulletproofs) default to around 0.005 RHOM per transaction, although that fee varies depending on the number of ring signatures (degree of privacy) used by the user when making a transaction.
 
 ## What are RHOM's transactions sizes?
 
@@ -48,19 +43,12 @@ The default fee for public transactions is 0.002 RHOM per kb but you can adjust 
 
 ## What is RHOM's inflation rate? 
 
-Current annual inflation of RHOM coins is 2 %. You can see historical rates below:
-
-| Period | Staking rewards / inflation rate |
-|--------|----------------------------------|
-| July 2017 – July 2018               | 5 % |
-| July 2018 – July 2019               | 4 % |
-| July 2019 – July 2020               | 3 % |
-| July 2020 onwards                   | 2 % |
+Annual inflation of RHOM coins is 0.5 %.
 
 ## Why has RHOM different privacy states?
 
 {{< hint info >}}
-**Learn more** about [Transaction types](/learn/privacy/transaction-types)
+**Learn more** about [Transaction types](/wiki/learn/privacy/transaction-types)
 {{< /hint >}}
  
   * Freedom of choice.
@@ -81,7 +69,7 @@ While there is currently no whitepaper available as it relates to our own integr
 
 ## What are atomic swaps? 
 
-[Atomic swaps](https://github.com/rhombus/atomicswap) are decentralized and trustless trade between two users of different cryptocurrencies. It makes trading cryptocurrencies without any third-party (i.e. trading exchange) and have blockchains directly interact between each other (i.e. cross-chain smart-contracts) possible. 
+[Atomic swaps](https://github.com/rhombus-project/atomicswap) are decentralized and trustless trade between two users of different cryptocurrencies. It makes trading cryptocurrencies without any third-party (i.e. trading exchange) and have blockchains directly interact between each other (i.e. cross-chain smart-contracts) possible. 
 
 ## What is Rhombus's transaction-per-second (TPS) capabilities? 
 
@@ -93,8 +81,8 @@ In the end, a more accurate metric would be to calculate each transaction size. 
 |                                | Bitcoin        | Rhombus               |
 |--------------------------------|----------------|-----------------------|
 | Block Size                     | 1 MB           | 2 MB                  |
-| Block Time                     | 10 min         | 2 min                 |
-| TPS (100% public transactions) | ~7 (no Segwit) | ~85 (Default Segwit)  |   
-| TPS (100% RingCT transactions) | -              | ~8.80 (Default Segwit + Bulletproofs) |                         
+| Block Time                     | 10 min         | 2.5 min                 |
+| TPS (100% public transactions) | ~7 (no Segwit) | ~17 (Default Segwit)  |   
+| TPS (100% RingCT transactions) | -              | ~1.76 (Default Segwit + Bulletproofs) |                         
 
 (The RingCT is calculated with 4 ring members)

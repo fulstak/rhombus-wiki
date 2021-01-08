@@ -17,9 +17,9 @@ This Wiki is a great informational and supportive resource for all things Rhombu
 
 ## Choose your wallet
 
-If you're new to Rhombus or cryptocurrencies in general, we recommend downloading our flagship wallet – **[Rhombus Desktop](/tutorial/rhombus-desktop/)**. It is our most actively developed wallet offering all the main features Rhombus offers.
+If you're new to Rhombus or cryptocurrencies in general, we recommend downloading our flagship wallet – **[Rhombus Desktop](/wiki/tutorial/rhombus-desktop/)**. It is our most actively developed wallet offering all the main features Rhombus offers.
 
-Alternatively, feel free to [compare all available wallets](/learn/wallets/#comparison) and choose whichever fits you the best.
+Alternatively, feel free to [compare all available wallets](/wiki/learn/wallets/#comparison) and choose whichever fits you the best.
 
 
 ## Discover RHOM
@@ -30,15 +30,15 @@ In short: it's based on always up-to-date Bitcoin code, meaning it's constantly 
 
 Some must-read articles about RHOM currency include:
 
-- **[Transaction types](/learn/privacy/transaction-types/)** – quick intro to Rhombus's different privacy coins (Public vs Private transactions)
-- **[Staking](/learn/staking/intro/)** – securing Rhombus network and earning interest on your owned coins in the process (easy, hassle-free and without a need for expensive "mining" equipment)
+- **[Transaction types](/wiki/learn/privacy/transaction-types/)** – quick intro to Rhombus's different privacy coins (Public vs Private transactions)
+- **[Staking](/wiki/learn/staking/intro/)** – securing Rhombus network and earning interest on your owned coins in the process (easy, hassle-free and without a need for expensive "mining" equipment)
 
 
 ## Buy RHOM
 
 When you're familiar with what RHOM can do, you're ready to buy your first RHOM.
 
-Visit our official website for up-to-date [overview of available Exchanges](https://rhombus.io/rhom-exchanges).
+Visit our official website for up-to-date [overview of available Exchanges](https://rhom.com/rhom-exchanges).
 
 
 ## Join our awesome community!
@@ -47,13 +47,12 @@ Visit our official website for up-to-date [overview of available Exchanges](http
 
 Don't miss out on all the fun and join us:
 
-- **[Rhombus on Discord](https://discord.me/rhombus)** – our main activity hub with categorized chat rooms
-- **[Rhombus Forums](https://rhombus.community)** – no need to introduce, right?
+- **[Rhombus on Discord](https://discord.gg/qgA2kakZBq)** – our main activity hub with categorized chat rooms
 
 To keep with all latest news and important updates (like hardforks), be sure to follow at least one of our news channels:
 
-- **[Rhombus News](https://rhombus.io/news)** – official news/blog on Medium
-- **[Twitter @RhombusProject](https://twitter.com/rhombusproject)**
+- **[Rhombus News](https://rhom.com/news)** – official news/blog on Medium
+- **[Twitter @RhombusProject](https://twitter.com/RhombusCoin)**
 - **[Reddit r/Rhombus](https://www.reddit.com/r/Rhombus/)**
 
-For all available social media, check [rhombus.io](https://rhombus.io/).
+For all available social media, check [rhom.io](https://rhom.com/).

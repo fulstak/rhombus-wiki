@@ -7,7 +7,7 @@ weight: 2
 
 {{< hint info >}}
 **New to Rhombus?**\
-Read our **[Getting started](/tutorial/getting-started/)** guide first!
+Read our **[Getting started](/wiki/tutorial/getting-started/)** guide first!
 {{< /hint >}}
 
 {{< toc-tree >}}

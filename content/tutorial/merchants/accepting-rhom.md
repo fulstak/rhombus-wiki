@@ -17,12 +17,12 @@ Accepting Rhombus (and many other cryptocurrencies) gives you â€“ as a Seller â€
 
 ## Online stores
 
-Accepting RHOM payments in your online stores is possible with use of Rhombus [BTCPayServer](/tutorial/merchants/rhom-payment-processor/). Hosting it on your server and connecting your wallet will allow receiving payments directly to your wallet (even a cold storage via [hardware wallets](/learn/wallets/hardware)) and detailed tracking of paid orders etc.
+Accepting RHOM payments in your online stores is possible with use of Rhombus [BTCPayServer](/wiki/tutorial/merchants/rhom-payment-processor/). Hosting it on your server and connecting your wallet will allow receiving payments directly to your wallet (even a cold storage via [hardware wallets](/wiki/learn/wallets/hardware)) and detailed tracking of paid orders etc.
 
 
 ## Physical stores
 
-Easiest way to accept RHOM in your physical store is via **[Rhombus Copay](/tutorial/wallets/rhombus-copay/) mobile/desktop wallet**.
+Easiest way to accept RHOM in your physical store is via **[Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/) mobile/desktop wallet**.
 
 Main advantages of using Rhombus Copay:
 

@@ -10,7 +10,7 @@ aliases:
   - /tutorial/backup-restore-wallet
 ---
 
-Your funds are backed up by [Recovery Phrase](/tutorial/security/recovery-phrase) (~ mnemonic seed) during wallet creation and that is enough to keep your coins safe. However if you want to backup all the additional data like addresses saved in Address Book and more, you'll need to backup your `wallet.dat` file.
+Your funds are backed up by [Recovery Phrase](/wiki/tutorial/security/recovery-phrase) (~ mnemonic seed) during wallet creation and that is enough to keep your coins safe. However if you want to backup all the additional data like addresses saved in Address Book and more, you'll need to backup your `wallet.dat` file.
 
 {{< hint warning >}}
 **Always backup your `wallet.dat` to a secure place** (USB, external drive etc.) – if anyone would get access to it and knew your wallet password, they could steal your coins! That is the main reason to encrypt your wallet right after you created one.
@@ -22,7 +22,7 @@ Keep in mind that this backup approach only saves data created up to that point.
 ## Manual back-up
 
 {{< hint info >}}
-With [Rhombus Core](/tutorial/wallets/rhombus-core/), you can easily backup your `wallet.dat` file via _File_ → _Backup wallet..._
+With [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/), you can easily backup your `wallet.dat` file via _File_ → _Backup wallet..._
 {{< /hint >}}
 
   1. close your wallet (if running)

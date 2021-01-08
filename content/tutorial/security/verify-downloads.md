@@ -65,7 +65,7 @@ sha256sum hash result: 5545cb7f2364ab773f3228ea1f0283fd389cc2ea43a886eb27d114f96
 
 ### Compare checksums
 
-When you found out the hash of your downloaded file, visit release page of your downloaded [Rhombus wallet](/learn/wallets/overview) on Github:
+When you found out the hash of your downloaded file, visit release page of your downloaded [Rhombus wallet](/wiki/learn/wallets/overview) on Github:
 
 - link to [Rhombus Desktop release page](https://github.com/rhombus/rhombus-desktop/releases)
 - link to [Rhombus Core release page](https://github.com/rhombus/rhombus-core/releases)
@@ -76,5 +76,5 @@ Find the version you've downloaded and **compare the checksum on your PC with th
 
 {{< hint alert >}}
 **If the checksums aren't matching, you have a bad/malicious download and you shouldn't install the wallet!**\
-If this happens, make absolutely sure, you're checking the right versions and correct variant for your OS. If you're in doubt, it's always better to [seek assistance in the community](/support/overview).
+If this happens, make absolutely sure, you're checking the right versions and correct variant for your OS. If you're in doubt, it's always better to [seek assistance in the community](/wiki/support/overview).
 {{< /hint >}}

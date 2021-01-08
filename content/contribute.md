@@ -106,7 +106,7 @@ Let's go through the frontmatter here:
 - `subtitle:` summary of the article (shown below the heading, in Article lists and Related pages)
 - `slug:` (optional, not needed in 90% of cases) used to overwrite the page's URL (URL is normally derived from file name)
 - `weight:` defines position of the page in article lists and menus -- higher number = lower position
-- `tags:` tags used to mark topics of the page (e.g. "staking", "Rhombus Desktop" etc.) -- see [list of available tags](/tags)
+- `tags:` tags used to mark topics of the page (e.g. "staking", "Rhombus Desktop" etc.) -- see [list of available tags](/wiki/tags)
 
 If you're not sure about any of these and how to fill them up, see some other existing pages -- feel free to copy-paste.
 
@@ -137,11 +137,8 @@ Very useful for long, structured articles. Usually added right on the top of you
 ### Buttons
 
 Useful for highlighting external links (downloads, official site/documentation etc.)
-
-{{< button href="https://rhombus.io" >}}Official Rhombus website{{< /button >}}
-
 ```
-{{</* button href="https://rhombus.io" */>}}Official Rhombus website{{</* /button */>}}
+{{</* button href="https://rhom.com" */>}}Official Rhombus website{{</* /button */>}}
 ```
 
 
@@ -188,18 +185,14 @@ example/
 
 Self-explanatory shortcode for including videos from either YouTube or Vimeo.
 
-Look for the video ID in URL (the part after `?v=`), e.g.: this video's ID `https://www.youtube.com/watch?v=PRxmGh24ILU` would be `PRxmGh24ILU`.
+Look for the video ID in URL (the part after `?v=`), e.g.: this video's ID `https://www.youtube.com/watch?v=ZIugzFygviw` would be `PRxmGh24ILU`.
 
 {{< columns >}}
-{{< youtube PRxmGh24ILU >}}
+{{< youtube ZIugzFygviw >}}
 ```
-{{</* youtube PRxmGh24ILU */>}}
+{{</* youtube ZIugzFygviw */>}}
 ```
-<--->
-{{< vimeo 330290302 >}}
-```
-{{</* vimeo 330290302 */>}}
-```
+
 {{< /columns >}}
 
 

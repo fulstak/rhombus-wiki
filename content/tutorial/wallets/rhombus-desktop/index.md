@@ -20,18 +20,18 @@ aliases:
 
 ## About Rhombus Desktop
 
-While it does not currently contain all advanced features (like [Rhombus Core](/tutorial/rhombus-core/)), Rhombus Desktop is a recommended wallet for majority of users.
+While it does not currently contain all advanced features (like [Rhombus Core](/wiki/tutorial/rhombus-core/)), Rhombus Desktop is a recommended wallet for majority of users.
 
 This wallet is intended to be the centerpiece and default wallet of the Rhombus platform and is heavily under development. More features are added with every new release.
 
 
-{{< button href="https://rhombus.io/downloads" class="primary" >}}Download Rhombus Desktop{{< /button >}}
+{{< button href="https://rhom.io/downloads" class="primary" >}}Download Rhombus Desktop{{< /button >}}
 {{< button href="https://github.com/rhombus/rhombus-desktop/issues" >}}Report bugs{{< /button >}}
 
 
 ## Features
 
-[Browse & compare Rhombus Desktop's features](/learn/wallets/overview/#comparison) with other available wallets.
+[Browse & compare Rhombus Desktop's features](/wiki/learn/wallets/overview/#comparison) with other available wallets.
 
 
 ## Installation
@@ -41,8 +41,8 @@ This wallet is intended to be the centerpiece and default wallet of the Rhombus 
 Hackers and bad actors are constantly trying to distribute malware-infected versions of popular cryptocurrency wallets, so they could steal your coins! Always download from official sources only!
 {{< /hint >}}
 
-1. [**Download** the latest version](https://rhombus.io/downloads) of Rhombus Desktop
-2. {{< label info >}}Recommended{{< /label >}} [**Verify** the downloaded wallet](/tutorial/security/verify-downloads/) to make sure you have the proper download and not a fake/malware-infected wallet
+1. [**Download** the latest version](https://rhom.com/downloads) of Rhombus Desktop
+2. {{< label info >}}Recommended{{< /label >}} [**Verify** the downloaded wallet](/wiki/tutorial/security/verify-downloads/) to make sure you have the proper download and not a fake/malware-infected wallet
 3. **Extract** the content of the ZIP file to any location on your computer
 4. **Launch** Rhombus Desktop:
 
@@ -80,11 +80,11 @@ You will need it each time you want to unlock your wallet and will also be requi
 3. Carefully save the Recovery Phrase somewhere safe and click on `Continue`
 
 {{< hint info >}}
-**This 24-word seed allows you to [restore your wallet](/tutorial/security/backup-restore-wallet/)** without requiring the `wallet.dat` file nor your encryption password. [Keep this Recovery Phrase safe](/tutorial/security/recovery-passphrase/)!
+**This 24-word seed allows you to [restore your wallet](/wiki/tutorial/security/backup-restore-wallet/)** without requiring the `wallet.dat` file nor your encryption password. [Keep this Recovery Phrase safe](/wiki/tutorial/security/recovery-passphrase/)!
 {{< /hint >}}
 
 4. To ensure you've properly saved your Recovery Phrase, enter the missing words in the empty fields
-5. (Optional) Pick a [Recovery Password](/tutorial/security/good-password) and click on `Continue`
+5. (Optional) Pick a [Recovery Password](/wiki/tutorial/security/good-password) and click on `Continue`
 
 {{< hint warning >}}
 **This password encrypts your Recovery Phrase**.\
@@ -100,12 +100,12 @@ If you opt to add a password and lose it, your seed becomes unusable. This passw
 7. Click on `Finish setup` to have access to your newly created wallet.
 8. Let the blockchain sync completely. You can track the progress by looking at the progress bar at the bottom left corner of the client.
 
-Now when your new wallet is successfully created, it's time to [backup your wallet](/tutorial/security/backup-restore-wallet/) in case something terrible would happen e.g. with your PC. Never underestimate proper backups!
+Now when your new wallet is successfully created, it's time to [backup your wallet](/wiki/tutorial/security/backup-restore-wallet/) in case something terrible would happen e.g. with your PC. Never underestimate proper backups!
 
 
 ## Staking
 
 Secure the Rhombus network and earn staking rewards:
 
-- [★ How to stake](/tutorial/staking/intro/)
-- [★ Cold staking setup](/tutorial/staking/cold-staking/)
+- [★ How to stake](/wiki/tutorial/staking/intro/)
+- [★ Cold staking setup](/wiki/tutorial/staking/cold-staking/)

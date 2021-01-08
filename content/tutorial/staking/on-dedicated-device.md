@@ -11,7 +11,7 @@ tags:
 A Staking Node is a full blockchain node which has been configured to stake on behalf of your wallet (aka it has been delegated staking power over your wallet). The Staking Node is a computer running Rhombus that is always on and always connected to the internet. A Raspberry Pi 3 or comparable device (DSD) makes a perfect staking node as it consumes very little energy, is compact and easy to tailor for dedicated tasks.
 
 {{< hint info >}}
-Before you'll dive into this guide, **familiarize yourself with [Dedicated Staking Devices](/learn/staking/dedicated-devices/) and [Rhomtools utility](/learn/staking/rhomtools/)**.
+Before you'll dive into this guide, **familiarize yourself with [Dedicated Staking Devices](/wiki/learn/staking/dedicated-devices/) and [Rhomtools utility](/wiki/learn/staking/rhomtools/)**.
 {{< /hint >}}
 
 
@@ -19,7 +19,7 @@ Before you'll dive into this guide, **familiarize yourself with [Dedicated Staki
 
 Even though you could set up `rhombusd` for staking on your DSD manually, we'll focus on using Rhomtools staking utility, thanks to all the automation and ease of use it offers.
 
-- **Rhombus wallet** – your primary wallet with funds on it ([Rhombus Desktop](/tutorial/wallets/rhombus-desktop/), [Rhombus Core](/tutorial/wallets/rhombus-core/) or [Rhombus Copay](/tutorial/wallets/rhombus-copay/))
+- **Rhombus wallet** – your primary wallet with funds on it ([Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/), [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) or [Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/))
 - **hardware for staking** – Raspberry Pi +3, Rock64 or other ("DSD")
   - older versions of RPi should work as well, but keep in mind that CPU performance does matter when staking, so you might not get ideal results
   - at least **32 GB of storage** (SD card)
@@ -30,7 +30,7 @@ Even though you could set up `rhombusd` for staking on your DSD manually, we'll 
 ## Installation
 
 {{< hint info >}}
-**Visit [Rhomtools's Github repo](https://github.com/dasource/partyman)** for more information if needed.
+**Visit [Rhomtools's Github repo](https://github.com/rhombus-dev-team/rhomtools)** for more information if needed.
 {{< /hint >}}
 
 1. SSH to your device (or connect your monitor)
@@ -88,7 +88,7 @@ Generate a new wallet on the device by running:
 Follow instructions on screen to complete wallet setup.
 
 {{< hint alert >}}
-**Make sure you safely note node's [Recovery Phrase in a safe place](/tutorial/security/recovery-phrase/)!**\
+**Make sure you safely note node's [Recovery Phrase in a safe place](/wiki/tutorial/security/recovery-phrase/)!**\
 This is the only key to your wallet in the unfortunate event that your device would got broken/stolen etc. Lose the key = lose the wallet!
 {{< /hint >}}
 
@@ -127,7 +127,7 @@ That concludes all the "tedious work" via Terminal on your Staking Node! Let's n
 ### Connect your wallet
 
 {{< hint info >}}
-To connect your wallet, **follow our unified [Cold staking setup](/tutorial/staking/cold-staking#connect-your-wallet) guide.**
+To connect your wallet, **follow our unified [Cold staking setup](/wiki/tutorial/staking/cold-staking#connect-your-wallet) guide.**
 {{< /hint >}}
 
 

@@ -17,14 +17,14 @@ aliases:
 
 Rhombus-cli offers all the essential features, but doesn't include all the advanced bells and whistles of Rhombus graphical clients.
 
-Controlled via command line interface, **Rhombus-cli is usually used on remote machines and computers without monitors**, e.g. servers and less powerful devices like Raspberry Pi (which make great [dedicated staking devices](/learn/staking/dedicated-devices/)!).
+Controlled via command line interface, **Rhombus-cli is usually used on remote machines and computers without monitors**, e.g. servers and less powerful devices like Raspberry Pi (which make great [dedicated staking devices](/wiki/learn/staking/dedicated-devices/)!).
 
 
-{{< button href="https://rhombus.io/downloads" class="primary" >}}Download Rhombus-cli{{< /button >}}
-{{< button href="https://github.com/rhombus/rhombus-core/issues" >}}Report bugs{{< /button >}}
+{{< button href="https://rhom.com/downloads" class="primary" >}}Download Rhombus-cli{{< /button >}}
+{{< button href="https://github.com/rhombus-project/rhombus-core/issues" >}}Report bugs{{< /button >}}
 
 {{< hint info >}}
-Also check out **[Rhomtools staking utility](/learn/staking/rhomtools/) which is a great tool to manage your staking node with ease** – it's beginner-friendly and automates many of the tedious tasks related to maintenance of your node!
+Also check out **[Rhomtools staking utility](/wiki/learn/staking/rhomtools/) which is a great tool to manage your staking node with ease** – it's beginner-friendly and automates many of the tedious tasks related to maintenance of your node!
 {{< /hint >}}
 
 
@@ -37,15 +37,15 @@ Also check out **[Rhomtools staking utility](/learn/staking/rhomtools/) which is
 
 ### Installation
 
-  1. **Download** [latest release](https://rhombus.io/downloads) latest release
+  1. **Download** [latest release](https://rhom.com/downloads) latest release
   2. {{< label primary >}}Recommended{{< /label >}} Verify the downloaded archive (to make sure you haven't downloaded bad client, e.g. infected with malware)
   3. Launch the client – see [Usage](#usage) below
-  4. **Backup your wallet** – see [Backup & Restore wallet](/tutorial/security/backup-restore-wallet/) guide
+  4. **Backup your wallet** – see [Backup & Restore wallet](/wiki/tutorial/security/backup-restore-wallet/) guide
 
 
 ### Backup & Restore
 
-Read our dedicated guide on [how to properly and securely back-up (and restore)](/tutorial/security/backup-restore-wallet/) your Rhombus wallet.
+Read our dedicated guide on [how to properly and securely back-up (and restore)](/wiki/tutorial/security/backup-restore-wallet/) your Rhombus wallet.
 
 
 ## Usage

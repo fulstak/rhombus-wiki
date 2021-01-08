@@ -26,7 +26,7 @@ Mainly, Rhombus Copay is the most accessible **mobile Rhombus wallet** and allow
 
 ## Features
 
-[Browse & compare Rhombus Copay's features](/learn/wallets/overview/#comparison) with other available wallets.
+[Browse & compare Rhombus Copay's features](/wiki/learn/wallets/overview/#comparison) with other available wallets.
 
 
 ## Guides

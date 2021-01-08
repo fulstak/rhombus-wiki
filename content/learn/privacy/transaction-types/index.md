@@ -1,6 +1,6 @@
 ---
 title: Transaction types
-subtitle: The Rhombus coin can be sent as three different privacy states, each with their own degree of privacy and cost
+subtitle: The Rhombus coin can be sent in one of three privacy states, each with their own degree of privacy and cost
 slug:
 weight: -10
 tags:
@@ -47,7 +47,7 @@ Rhombus is one of the first coin in history to deploy both CT (Blind) and RingCT
 
 **This type of transaction is pseudo-anonymous, just like Bitcoin.**
 
-Public transactions are publicly auditable on any [Rhombus block explorer](https://explorer.rhombus.io) and offer the least amount of privacy. They are the cheapest transactions to execute and is the default privacy setting.
+Public transactions are publicly auditable on any [Rhombus block explorer](https://explorer.rhom.com) and offer the least amount of privacy. They are the cheapest transactions to execute and is the default privacy setting.
 
 <--->
 

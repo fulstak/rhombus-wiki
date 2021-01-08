@@ -5,7 +5,7 @@ subtitle: Knowledge base for all the tutorials, howtos and in-depth explanations
 
 {{< hint info >}}
 **New to Rhombus?**\
-Check out our **[Getting started](/tutorial/getting-started/)** guide!
+Check out our **[Getting started](/wiki/tutorial/getting-started/)** guide!
 {{< /hint >}}
 
 
@@ -13,7 +13,7 @@ Check out our **[Getting started](/tutorial/getting-started/)** guide!
 
 Rhombus Wiki is split into four thematic sections – informative **Learn** articles, **Tutorials** with guides and howto's, **Help & Support** when things break and you need assistance and finally **Dev docs** with technical documentation for developers.
 
-You can also browse [list of used tags](/tags) instead if that's what you prefer.
+You can also browse [list of used tags](/wiki/tags) instead if that's what you prefer.
 
 
 {{< columns >}}
@@ -37,8 +37,8 @@ You can also browse [list of used tags](/tags) instead if that's what you prefer
 
 ## Contribute
 
-Found inaccurate info or missing content? [Learn how to contribute!](/contribute)
+Found inaccurate info or missing content? [Learn how to contribute!](/wiki/contribute)
 
-{{< button href="https://rhombus.io" class="primary" >}}Official site{{< /button >}}
-{{< button href="https://rhombus.io/news" >}}Latest news{{< /button >}}
+{{< button href="https://rhom.com" class="primary" >}}Official site{{< /button >}}
+{{< button href="https://rhom.com/news" >}}Latest news{{< /button >}}
 {{< button href="https://twitter.com/RhombusProject" >}}Twitter{{< /button >}}

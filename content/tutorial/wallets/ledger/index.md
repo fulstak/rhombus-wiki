@@ -20,7 +20,7 @@ aliases:
 
 Hardware wallets have major advantages over standard software wallets: **private keys are stored in a secure chip, and cannot be transferred out of the device**. That means your funds are safe even when connected to an infected or malicious computer or a phishing/scam web page.
 
-For these reasons, we highly recommend users to protect their funds by setting up a Ledger or other [compatible hardware wallet](/learn/wallets/hardware/).
+For these reasons, we highly recommend users to protect their funds by setting up a Ledger or other [compatible hardware wallet](/wiki/learn/wallets/hardware/).
 
 
 ## Requirements
@@ -29,7 +29,7 @@ Before starting the setup process, make sure you have:
 
 - **Ledger Nano S/X** hardware wallet – initialized and [updated to latest firmware](https://support.ledgerwallet.com/hc/en-us/articles/360002731113-Update-Ledger-Nano-S-firmware)
 - **Ledger Live** app [ready to use](https://support.ledger.com/hc/en-us/articles/360006395233)
-- **[Rhombus Core](/tutorial/wallets/rhombus-core/) wallet** installed and fully synced to the Rhombus network
+- **[Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) wallet** installed and fully synced to the Rhombus network
 
 {{< hint warning >}}
 **Linux users:** Make sure you have added the `udev` rules to allow device access – see [Fix connection issues](https://support.ledgerwallet.com/hc/en-us/articles/115005165269-Fix-connection-issues) (under Linux tab) for more info. If you already have a working Ledger wallet, you can skip this.
@@ -54,7 +54,7 @@ Note that if you're forced to uninstall Rhombus app from your Ledger (due to lac
 
 {{< hint alert >}}
 **If you already have a Rhombus wallet on this computer**,\
-make sure to [back up the wallet.dat file](/tutorial/security/backup-restore-wallet/) by renaming or moving it elsewhere!
+make sure to [back up the wallet.dat file](/wiki/tutorial/security/backup-restore-wallet/) by renaming or moving it elsewhere!
 {{< /hint >}}
 
 {{< columns >}}
@@ -63,7 +63,7 @@ make sure to [back up the wallet.dat file](/tutorial/security/backup-restore-wal
 {{< image src="rhombus-ledger-install-02.png" >}}
 {{< /columns >}}
 
-  1. launch [Rhombus Core](/tutorial/wallets/rhombus-core/) on your computer
+  1. launch [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) on your computer
   2. go to _Window → HD Wallet_ (if it's the first time you're setting up a wallet on this computer or if you don't have any `wallet.dat` file in your Rhombus config folder, then Rhombus Core will automatically bring you to this dialog)
   3. click on the **Hardware Device** tab
   4. connect your Ledger Nano S to your computer via USB
@@ -95,5 +95,5 @@ Your Rhombus Core client is now ready to be used in conjunction with your Ledger
 ### Cold staking on Ledger
 
 {{< hint info >}}
-**Refer to dedicated [how to cold stake on Ledger](/tutorial/staking/ledger) guide** for information about securely [cold staking](/learn/staking/intro/#cold-staking) on Ledger wallet.
+**Refer to dedicated [how to cold stake on Ledger](/wiki/tutorial/staking/ledger) guide** for information about securely [cold staking](/wiki/learn/staking/intro/#cold-staking) on Ledger wallet.
 {{< /hint >}}

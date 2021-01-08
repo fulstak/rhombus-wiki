@@ -65,7 +65,7 @@ It is recommended to always run the Rhombus build releases through Tor.
 
 ## Modify rhombus.conf
 
-In the [.rhombus directory](/tutorial/security/backup-restore-wallet/) there will be a `rhombus.conf` file. The wallet can run without that but you can include a lot of startup and operating instructions with it.
+In the [.rhombus directory](/wiki/tutorial/security/backup-restore-wallet/) there will be a `rhombus.conf` file. The wallet can run without that but you can include a lot of startup and operating instructions with it.
 
     $ nano ~/.rhombus/rhombus.conf
 

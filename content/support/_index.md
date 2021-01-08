@@ -8,7 +8,7 @@ aliases:
 ---
 
 {{< hint info >}}
-**If you can't find your problem here**, get in touch with the community in the support rooms on [Discord](https://discord.me/rhombus), [Telegram](https://t.me/rhombushelp) or [Element](https://app.element.io/#/room/#rhombushelp:matrix.org).
+**If you can't find your problem here**, get in touch with the community in the support rooms on [Discord](https://discord.gg/qgA2kakZBq), [Telegram](https://t.me/rhomcom)
 {{< /hint >}}
 
 {{< toc-tree >}}

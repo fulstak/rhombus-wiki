@@ -1,7 +1,7 @@
 ---
 title: About Rhombus's PoS
 slug: intro
-subtitle: The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (PPoS), as its consensus mechanism
+subtitle: The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (RPoS), as its consensus mechanism
 weight: 3
 tags:
   - staking
@@ -16,23 +16,16 @@ aliases:
 
 Proof-of-Stake (PoS) is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. In PoS-based cryptocurrencies, the creator of the next block is chosen via various combinations of random selection of wealth and age. In contrast, the algorithm of Proof-of-Work (PoW) based cryptocurrencies such as bitcoin rewards participants who solve complicated cryptographical puzzles in order to validate transactions and create new blocks (i.e. mining).
 
-PPoS is built and improved upon the popular PoS3 protocol on top of which were added several security and utility features.
+RPoS is built and improved upon the popular PoS3 protocol on top of which were added several security and utility features.
 
 {{< hint info >}}
 **How to stake on Rhombus?**\
-Follow our guides at [Tutorial: How to Stake](/tutorial/staking/)
+Follow our guides at [Tutorial: How to Stake](/wiki/tutorial/staking/)
 {{< /hint >}}
 
 ## Passive Income
 
-PPoS can serve as a great passive income tool. It rewards stakers a minmum rate of 5% per year for securing the network, then drops 1% every year until it plateaus at 2%:
-
-| Period | Staking rewards / inflation rate |
-| ------ | -------------------------------- |
-| July 2017 – July 2018 | 5 % |
-| July 2018 – July 2019 | 4 % |
-| July 2019 – July 2020 | 3 % |
-| July 2020 onwards     | 2 % |
+RPoS can serve as a great passive income tool. Annual inflation of RHOM coin is approximately 0.5 %
 
 {{< hint info >}}
 **This staking reward rate is true if 100% of the total supply is put up for staking**, but gets higher as less coins are being staked. For example, if 50% of the total network is being put up for staking, the staking reward rate for the first year would be of 10%.
@@ -49,17 +42,17 @@ Cold staking nodes are intended to be used in combination with cold, hardware an
 
 {{< hint info >}}
 **How to cold stake on Rhombus?**\
-Follow our guide at [Tutorial: Cold Staking setup](/tutorial/staking/cold-staking/)
+Follow our guide at [Tutorial: Cold Staking setup](/wiki/tutorial/staking/cold-staking/)
 {{< /hint >}}
 
 ### Cold Hardware Staking
 
-It is currently possible to cold stake funds stored offline on a hardware wallet by setting up a Rhombus wallet on a [Ledger hardware wallet](/tutorial/staking/ledger/).
+It is currently possible to cold stake funds stored offline on a hardware wallet by setting up a Rhombus wallet on a [Ledger hardware wallet](/wiki/tutorial/staking/ledger/).
 
-While cold staking does not store any password in memory and delegates staking powers to empty staking nodes, a cold wallet is still vulnerable when it's interacted with (i.e. when a transaction is executed) from an infected or untrusted computer. [Hardware wallets](/learn/hardware-wallets/) fix this issue by not requiring any exchange of private key between the hardware wallet and the device/computer it is connected to, thus making hardware wallets safe even when they are interacted with from an infected computer.
+While cold staking does not store any password in memory and delegates staking powers to empty staking nodes, a cold wallet is still vulnerable when it's interacted with (i.e. when a transaction is executed) from an infected or untrusted computer. [Hardware wallets](/wiki/learn/hardware-wallets/) fix this issue by not requiring any exchange of private key between the hardware wallet and the device/computer it is connected to, thus making hardware wallets safe even when they are interacted with from an infected computer.
 
 {{< hint success >}}
-Combining **cold staking and hardware security effectively makes PPoS the most secure Proof-of-Stake protocol in the industry** and fixes several issues generally associated with the Proof-of-Stake consensus protocol in general.
+Combining **cold staking and hardware security effectively makes RPoS the most secure Proof-of-Stake protocol in the industry** and fixes several issues generally associated with the Proof-of-Stake consensus protocol in general.
 {{< /hint >}}
 
 ### Quantum-resistance & Privacy

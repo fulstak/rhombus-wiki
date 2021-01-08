@@ -5,11 +5,11 @@ more:
     external: false
     icon: "heart"
   - name: Rhombus News
-    ref: "https://rhombus.io"
+    ref: "https://rhom.com"
     external: true
     icon: "notification"
   - name: Downloads
-    ref: "https://rhombus.io/downloads"
+    ref: "https://rhom.com/downloads"
     external: true
     icon: "download"
   - name: "Rhombus GitHub"

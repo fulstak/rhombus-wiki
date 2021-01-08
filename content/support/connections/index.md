@@ -20,7 +20,7 @@ Enter `clearbanned`, press <kbd>Enter</kbd> and restart wallet.
 
 ## Find peers from scratch
 
-Delete your `peers.dat` file in [Rhombus directory](/tutorial/security/backup-restore-wallet/#where-is-walletdat). This will force the app to find new connections to peers.
+Delete your `peers.dat` file in [Rhombus directory](/wiki/tutorial/security/backup-restore-wallet/#where-is-walletdat). This will force the app to find new connections to peers.
 
 ## Time offset error
 
