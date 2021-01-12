@@ -15,11 +15,8 @@ While it doesn't offer all of available features (compared to other Rhombus wall
 
 Mainly, Rhombus Copay is the most accessible **mobile Rhombus wallet** and allows **user-friendly multisignature wallets** for increased security of your funds, or even sharing the wallet across multiple people.
 
-
-{{< button href="https://play.google.com/store/apps/details?id=io.rhombus.copay" class="primary" >}}Google Play{{< /button >}}
-{{< button href="https://itunes.apple.com/app/rhombus-copay/id1449589645" class="primary" >}}App Store{{< /button >}}
-{{< button href="https://github.com/rhombus/copay/releases" >}}Download for desktop{{< /button >}}
-{{< button href="https://github.com/rhombus/copay/issues" >}}Report bugs{{< /button >}}
+{{< button href="https://github.com/rhombus-project/copay/releases" >}}Download for desktop{{< /button >}}
+{{< button href="https://github.com/rhombus-project/copay/issues" >}}Report bugs{{< /button >}}
 
 {{< image src="rhombus-copay.png" alt="Preview of Rhombus Copay app on mobile" >}}
 

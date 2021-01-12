@@ -11,7 +11,7 @@ aliases:
 
 > The world's cryptocurrency data authority has a professional API made for you.
 
-In contrast to [Coingecko API](/dev/api/coingecko), Coinmarketcap API offers limited free API access and paid premium one.
+In contrast to [Coingecko API](/wiki/dev/api/coingecko), Coinmarketcap API offers limited free API access and paid premium one.
 
 {{< button href="https://coinmarketcap.com/api/documentation/v1/" >}}API Docs{{< /button >}}
 {{< button href="https://coinmarketcap.com/api/" >}}Homepage{{< /button >}}

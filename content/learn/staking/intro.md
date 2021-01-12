@@ -49,7 +49,7 @@ Follow our guide at [Tutorial: Cold Staking setup](/wiki/tutorial/staking/cold-s
 
 It is currently possible to cold stake funds stored offline on a hardware wallet by setting up a Rhombus wallet on a [Ledger hardware wallet](/wiki/tutorial/staking/ledger/).
 
-While cold staking does not store any password in memory and delegates staking powers to empty staking nodes, a cold wallet is still vulnerable when it's interacted with (i.e. when a transaction is executed) from an infected or untrusted computer. [Hardware wallets](/wiki/learn/hardware-wallets/) fix this issue by not requiring any exchange of private key between the hardware wallet and the device/computer it is connected to, thus making hardware wallets safe even when they are interacted with from an infected computer.
+While cold staking does not store any password in memory and delegates staking powers to empty staking nodes, a cold wallet is still vulnerable when it's interacted with (i.e. when a transaction is executed) from an infected or untrusted computer. Hardware wallets fix this issue by not requiring any exchange of private key between the hardware wallet and the device/computer it is connected to, thus making hardware wallets safe even when they are interacted with from an infected computer.
 
 {{< hint success >}}
 Combining **cold staking and hardware security effectively makes RPoS the most secure Proof-of-Stake protocol in the industry** and fixes several issues generally associated with the Proof-of-Stake consensus protocol in general.

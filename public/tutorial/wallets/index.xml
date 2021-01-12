@@ -2,67 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wallets on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tutorial/wallets/</link>
+    <link>https://rhom.com/wiki/tutorial/wallets/</link>
     <description>Recent content in Wallets on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tutorial/wallets/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rhombus Desktop</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/rhombus-desktop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/wallets/rhombus-desktop/</guid>
-      <description>About Rhombus Desktop Features Installation  Creating a new wallet   Staking     Recommended for beginners and majority of users   Preview of Rhombus Desktop 3.0  About Rhombus Desktop While it does not currently contain all advanced features (like Rhombus Core), Rhombus Desktop is a recommended wallet for majority of users.
-This wallet is intended to be the centerpiece and default wallet of the Rhombus platform and is heavily under development.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tutorial/wallets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rhombus Core</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/rhombus-core/</link>
+      <link>https://rhom.com/wiki/tutorial/wallets/rhombus-core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/wallets/rhombus-core/</guid>
-      <description>Preview of Rhombus Core  Rhombus Core is more lightweight than Rhombus Desktop, offers some advanced features like Coin Control and compatibility with hardware wallets.
-However it acts like a wallet only, so you won&amp;rsquo;t have access to Rhombus Open Marketplace.
+      <guid>https://rhom.com/wiki/tutorial/wallets/rhombus-core/</guid>
+      <description>Preview of Rhombus Core  Rhombus Core is more lightweight and offers some advanced features like Coin Control
  Download Rhombus Core   Report bugs   Features Browse &amp;amp; compare Rhombus Core&amp;rsquo;s features with other available wallets.
 Getting started Installation Please note that even though some of these steps are optional/recommended, it is highly advised to follow all of them as it secures your funds from being lost.</description>
     </item>
     
     <item>
       <title>Ledger Wallet</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/ledger/</link>
+      <link>https://rhom.com/wiki/tutorial/wallets/ledger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/wallets/ledger/</guid>
+      <guid>https://rhom.com/wiki/tutorial/wallets/ledger/</guid>
       <description>Ledger Nano S     About Ledger Wallet Requirements Installation  Ledger Rhombus app Rhombus Core configuration   Usage  Sending RHOM using Ledger Cold staking on Ledger       About Ledger Wallet Ledger Nano (S/X) is a hardware wallet which stores user&amp;rsquo;s private keys in a secure hardware device.
 Hardware wallets have major advantages over standard software wallets: private keys are stored in a secure chip, and cannot be transferred out of the device.</description>
     </item>
     
     <item>
-      <title>Trezor Wallet</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/trezor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/wallets/trezor/</guid>
-      <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
-    </item>
-    
-    <item>
       <title>Rhombus Copay</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/rhombus-copay/</link>
+      <link>https://rhom.com/wiki/tutorial/wallets/rhombus-copay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/wallets/rhombus-copay/</guid>
+      <guid>https://rhom.com/wiki/tutorial/wallets/rhombus-copay/</guid>
       <description>About Rhombus Copay While it doesn&amp;rsquo;t offer all of available features (compared to other Rhombus wallets) it offers some unique ones.
 Mainly, Rhombus Copay is the most accessible mobile Rhombus wallet and allows user-friendly multisignature wallets for increased security of your funds, or even sharing the wallet across multiple people.
- Google Play   App Store   Download for desktop   Report bugs    Preview of Rhombus Copay app on mobile  Features Browse &amp;amp; compare Rhombus Copay&amp;rsquo;s features with other available wallets.</description>
+ Download for desktop   Report bugs    Preview of Rhombus Copay app on mobile  Features Browse &amp;amp; compare Rhombus Copay&amp;rsquo;s features with other available wallets.</description>
     </item>
     
     <item>
       <title>Rhombus CLI</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/rhombus-cli/</link>
+      <link>https://rhom.com/wiki/tutorial/wallets/rhombus-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/wallets/rhombus-cli/</guid>
+      <guid>https://rhom.com/wiki/tutorial/wallets/rhombus-cli/</guid>
       <description>About Rhombus CLI Features Getting started  Installation Backup &amp;amp; Restore   Usage  Basic commands Informative Actions  Confidential Transactions (Blind)   Wallet unlocking  With enhanced privacy Standard unlocking          Preview of Rhombus CLI  About Rhombus CLI Rhombus-cli offers all the essential features, but doesn&amp;rsquo;t include all the advanced bells and whistles of Rhombus graphical clients.</description>
     </item>
     

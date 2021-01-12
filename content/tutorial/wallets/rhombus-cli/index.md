@@ -30,7 +30,7 @@ Also check out **[Rhomtools staking utility](/wiki/learn/staking/rhomtools/) whi
 
 ## Features
 
-[Browse & compare Rhombus-cli's features](learn:wallets:#comparison) with other available wallets.
+[Browse & compare Rhombus-cli's features](/wiki/learn/wallets#comparison) with other available wallets.
 
 
 ## Getting started
@@ -69,7 +69,7 @@ Beware as every command starts with `./rhombus-cli <command>` (and NOT `./rhombu
 
 {{< hint info >}}
 If you see `Error: couldn't connect to server: unknown (code -1)`, you probably haven't started `./rhombusd`.\
-You cannot run `./rhombusd` in parallel with [Rhombus Core](tutorial:rhombus-core:) wallet.
+You cannot run `./rhombusd` in parallel with [Rhombus Core](/wiki/tutorial/wallets/rhombus-core) wallet.
 {{< /hint >}}
 
 ### Informative

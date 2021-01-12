@@ -8,7 +8,7 @@ tags:
   - Ledger wallet
 ---
 
-This tutorial assumes Rhombus has been [properly installed on your Ledger Nano S/X](/tutorial/wallets/ledger) hardware device and that your [Rhombus Core](/tutorial/wallets/rhombus-core/) wallet is set up for Rhombus on Ledger. 
+This tutorial assumes Rhombus has been [properly installed on your Ledger Nano S/X](/wiki/tutorial/wallets/ledger) hardware device and that your [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) wallet is set up for Rhombus on Ledger. 
 
 
 ## Requirements
@@ -16,11 +16,11 @@ This tutorial assumes Rhombus has been [properly installed on your Ledger Nano S
 Before starting the setup process, make sure you have:
 
 * **Cold staking public key** – you can get it by either:
-  - self-hosting a [cold staking node](/tutorial/staking/on-dedicated-device/) (on Raspberri Pi/Rock64 etc.)
-  - or by joining one of the [available staking pools](/learn/staking/pools#available-staking-pools)
-* A [Ledger hardware wallet with Rhombus installed on it](/tutorial/wallets/ledger)
+  - self-hosting a [cold staking node](/wiki/tutorial/staking/on-dedicated-device/) (on Raspberri Pi/Rock64 etc.)
+  - or by joining one of the [available staking pools](/wiki/learn/staking/pools#available-staking-pools)
+* A [Ledger hardware wallet with Rhombus installed on it](/wiki/tutorial/wallets/ledger)
 * **Ledger Live** app [ready to use](https://support.ledgerwallet.com/hc/en-us/articles/360006395233)
-* **[Rhombus Core](/tutorial/wallets/rhombus-core/)** wallet installed and fully synced
+* **[Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)** wallet installed and fully synced
 
 
 ## Staking setup
@@ -32,17 +32,17 @@ Before starting the setup process, make sure you have:
 {{< tab "Staking Pool" >}}
 #### Via staking pool
 
-Choose one of the [available staking pools](/learn/staking/pools#available-staking-pools) and note somewhere its **staking public key** (they are usually right there on the top of the page).
+Choose one of the [available staking pools](/wiki/learn/staking/pools#available-staking-pools) and note somewhere its **staking public key** (they are usually right there on the top of the page).
 {{< /tab >}}
 
 {{< tab "Dedicated Staking Device" >}}
 #### Via self-hosted staking node
 
-1. [Set a staking node up](/tutorial/staking/on-dedicated-device/) (if you haven't already done so)
-2. In your staking node's terminal screen, **create a new public key** by entering the following in partyman's folder: 
+1. [Set a staking node up](/wiki/tutorial/staking/on-dedicated-device/) (if you haven't already done so)
+2. In your staking node's terminal screen, **create a new public key** by entering the following in rhomtools's folder: 
 
 ```bash
-./partyman stakingnode new
+./rhomtools stakingnode new
 ```
 
 3. Note the public key somewhere, you will need it for later
@@ -100,7 +100,7 @@ In Rhombus Core, go to Staking setup again (_Window_ → _Staking Setup_) – yo
 
 #### Via your staking node
 
-If you're self-hosting your staking node, SSH into your device again and in partyman's folder run:
+If you're self-hosting your staking node, SSH into your device again and in rhomtools's folder run:
 
 ```
 ./rhomtools status

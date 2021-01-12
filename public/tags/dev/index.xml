@@ -2,68 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dev on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tags/dev/</link>
+    <link>https://rhom.com/wiki/tags/dev/</link>
     <description>Recent content in dev on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compile &amp; Sign Rhombus Core builds</title>
-      <link>https://rhombus.io/wiki/dev/wallets/rhombus-core/compile-sign-builds/</link>
+      <link>https://rhom.com/wiki/dev/wallets/rhombus-core/compile-sign-builds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/rhombus-core/compile-sign-builds/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/rhombus-core/compile-sign-builds/</guid>
       <description>This guide will walk you through compiling your own Rhombus Core builds via Gitian and optionally signing the builds with your PGP key and uploading the signatures to rhombus/gitian.sigs repository.
 The more people would compile their builds and sign them, the better.
 If you can spare the time and processing power, please do!     Notes Preparation Compile  Check progress Post-compilation       Notes  This guide is focused on Ubuntu-based distros - on other distributions, you might to install more dependencies etc.</description>
     </item>
     
     <item>
-      <title>Rhombus Desktop</title>
-      <link>https://rhombus.io/wiki/dev/wallets/rhombus-desktop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/dev/wallets/rhombus-desktop/</guid>
-      <description>Rhombus Desktop is Rhombus&amp;rsquo;s flagship client/wallet for interacting with RHOM network, including Rhombus Open Marketplace.
-For latest development set up info
-check official repo of Rhombus Desktop (on dev branch)  Contribute     
-Join us in #rhombus-dev:matrix.org on Element (formerly Riot) for more info and/or assistance.
-Keep in mind that the development currently happens on a private fork of this repo.
-Requirements  Node.js® v10 git yarn  Installation Clone the repo &amp;amp; fetch dependencies:</description>
-    </item>
-    
-    <item>
       <title>Rhombus Core</title>
-      <link>https://rhombus.io/wiki/dev/wallets/rhombus-core/</link>
+      <link>https://rhom.com/wiki/dev/wallets/rhombus-core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/rhombus-core/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/rhombus-core/</guid>
       <description>Rhombus Core is a Qt-based wallet with advanced features focused on stability.
    Compile &amp;amp; Sign Rhombus Core builds  How to compile own Rhombus Core builds via Gitian and sign them with PGP     </description>
     </item>
     
     <item>
       <title>Rhombus Copay</title>
-      <link>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</link>
+      <link>https://rhom.com/wiki/dev/wallets/rhombus-copay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/rhombus-copay/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
-      <title>Trezor wallet</title>
-      <link>https://rhombus.io/wiki/dev/wallets/trezor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/dev/wallets/trezor/</guid>
-      <description>Requirements Build instructions  Update bootloader Trezor One firmware Trezor T firmware Emulator support Initializing the device through trezorctl   Troubleshooting  Can&amp;rsquo;t find the device? What if I bricked my device somehow?       Requirements  Python 3.6+ (verify this by doing python3 --version) Docker (Trezor python package) Protocol Buffers (protoc)  Build instructions  Plug in the Trezor. Clone Rhombus&amp;rsquo;s Trezor firmware repository:  We also need to fetch the corresponding submodules.</description>
-    </item>
-    
-    <item>
       <title>Ledger wallet</title>
-      <link>https://rhombus.io/wiki/dev/wallets/ledger/</link>
+      <link>https://rhom.com/wiki/dev/wallets/ledger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/ledger/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/ledger/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     

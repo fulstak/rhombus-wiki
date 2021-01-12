@@ -17,7 +17,7 @@ Being built on the latest Bitcoin codebase not only allows the Rhombus platform 
 
 Recent Bitcoin developments implemented in Rhombus include but are not limited to:
 
-- [Segwit](/wiki/learn/blockchain-scalability/)
+- [Segwit](/wiki/learn/blockchain/blockchain-scalability/)
 - HD wallets
 - multi-sig addresses
 - block pruning

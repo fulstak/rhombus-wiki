@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DSD on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tags/DSD/</link>
+    <link>https://rhom.com/wiki/tags/DSD/</link>
     <description>Recent content in DSD on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tags/DSD/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tags/DSD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cold staking setup</title>
-      <link>https://rhombus.io/wiki/tutorial/staking/cold-staking/</link>
+      <link>https://rhom.com/wiki/tutorial/staking/cold-staking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/staking/cold-staking/</guid>
+      <guid>https://rhom.com/wiki/tutorial/staking/cold-staking/</guid>
       <description>Before we dive into this guide, you might want to familiarize yourself with theory of cold staking, so that you know what we&amp;rsquo;re doing and why.
 Rhombus&amp;rsquo;s cold staking setup is quite flexible, meaning there are many options how to stake – each approach has its pros and cons. This guide will outline all the possible variants, so that you can choose your own balance between convenience, privacy and security.</description>
     </item>
     
     <item>
       <title>Dedicated Staking Devices</title>
-      <link>https://rhombus.io/wiki/learn/staking/dedicated-devices/</link>
+      <link>https://rhom.com/wiki/learn/staking/dedicated-devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/staking/dedicated-devices/</guid>
+      <guid>https://rhom.com/wiki/learn/staking/dedicated-devices/</guid>
       <description>   This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
-      <title>Partyman staking utility</title>
-      <link>https://rhombus.io/wiki/learn/staking/partyman/</link>
+      <title>Rhomtools staking utility</title>
+      <link>https://rhom.com/wiki/learn/staking/rhomtools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/staking/partyman/</guid>
-      <description>About Partyman Use cases  Advantages   Features     About Partyman  Partyman displaying staking status  Partyman automates all kinds of heavy lifting related to running your own (staking) node. It&amp;rsquo;s very lightweight and runs on many platforms, including ARM (for DSD like Raspberry Pi, Rock64 and others).
+      <guid>https://rhom.com/wiki/learn/staking/rhomtools/</guid>
+      <description>About Rhomtools Use cases  Advantages   Features     About Rhomtools  Rhomtools displaying staking status  Rhomtools automates all kinds of heavy lifting related to running your own (staking) node. It&amp;rsquo;s very lightweight and runs on many platforms, including ARM (for DSD like Raspberry Pi, Rock64 and others).
 As CLI, it doesn&amp;rsquo;t offer any graphical interface, but it&amp;rsquo;s still very usable and user-friendly.</description>
     </item>
     
     <item>
-      <title>Staking on DSD with Partyman</title>
-      <link>https://rhombus.io/wiki/tutorial/staking/on-dedicated-device/</link>
+      <title>Staking on DSD with Rhomtools</title>
+      <link>https://rhom.com/wiki/tutorial/staking/on-dedicated-device/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/staking/on-dedicated-device/</guid>
+      <guid>https://rhom.com/wiki/tutorial/staking/on-dedicated-device/</guid>
       <description>A Staking Node is a full blockchain node which has been configured to stake on behalf of your wallet (aka it has been delegated staking power over your wallet). The Staking Node is a computer running Rhombus that is always on and always connected to the internet. A Raspberry Pi 3 or comparable device (DSD) makes a perfect staking node as it consumes very little energy, is compact and easy to tailor for dedicated tasks.</description>
     </item>
     

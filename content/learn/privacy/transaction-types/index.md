@@ -18,7 +18,7 @@ As the highest privacy state requires the most transaction fee, it may not alway
 
 |                          | Public      | Blind       | Anon        |
 |--------------------------|:-----------:|:-----------:|:-----------:|
-| [Staking](learn:staking) | {{< ico yes >}} | {{< ico no >}}  | {{< ico no >}}  |
+| [Staking](/wiki/learn/staking) | {{< ico yes >}} | {{< ico no >}}  | {{< ico no >}}  |
 | Privacy                  | ∗           | ∗∗         | ∗∗∗        |
 | Hidden TX amount         | {{< ico no >}}  | {{< ico yes >}} | {{< ico yes >}} |
 | Anon TX participants     | {{< ico no >}}  | {{< ico no >}}  | {{< ico yes >}} |

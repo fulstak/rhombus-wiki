@@ -28,7 +28,7 @@ Each checksum is a hash of the download file that verifies that nothing has been
 {{< tab "Web-based (Windows etc.)" >}}
 There are a number of hash generators online, this tutorial will highlight Hash Online Convert:
 
-1. Download preferred [Rhombus release from GitHub](https://github.com/rhombus/rhombus-core/releases/latest) e.g. Windows client
+1. Download preferred [Rhombus release from GitHub](https://github.com/rhombus-project/rhombus-core/releases/latest) e.g. Windows client
 2. Visit [Hash Online Convert](http://hash.online-convert.com/sha256-generator)
 3. Find **Or upload and generate a SHA-256 checksum of a file:** section
 4. Select **Choose File** button
@@ -49,13 +49,13 @@ Most Linux distributions come with the `sha256sum` by default (beginner hint –
 
 ```
 $ cd Downloads ~/Downloads
-$ wget https://github.com/rhombus/rhombus-core/releases/download/v0.14.2.1/rhombus-0.14.2.1-x86_64-linux-gnu.tar.gz
+$ wget https://github.com/rhombus-project/rhombus-core/releases/download/v0.20.99.1/rhombus-0.20.99.1-x86_64-linux-gnu.tar.gz
 ```
 
 2. Run `sha256sum` on downloaded file:
 
 ```
-~/Downloads$ sha256sum rhombus-0.14.2.1-x86_64-linux-gnu.tar.gz
+~/Downloads$ sha256sum rhombus-0.20.99.1-x86_64-linux-gnu.tar.gz
 sha256sum hash result: 5545cb7f2364ab773f3228ea1f0283fd389cc2ea43a886eb27d114f96ac54762
 ```
 {{< /tab >}}
@@ -66,9 +66,7 @@ sha256sum hash result: 5545cb7f2364ab773f3228ea1f0283fd389cc2ea43a886eb27d114f96
 ### Compare checksums
 
 When you found out the hash of your downloaded file, visit release page of your downloaded [Rhombus wallet](/wiki/learn/wallets/overview) on Github:
-
-- link to [Rhombus Desktop release page](https://github.com/rhombus/rhombus-desktop/releases)
-- link to [Rhombus Core release page](https://github.com/rhombus/rhombus-core/releases)
+- link to [Rhombus Core release page](https://github.com/rhombus-project/rhombus-core/releases)
 
 Find the version you've downloaded and **compare the checksum on your PC with the one published on GitHub**.
 
@@ -76,5 +74,5 @@ Find the version you've downloaded and **compare the checksum on your PC with th
 
 {{< hint alert >}}
 **If the checksums aren't matching, you have a bad/malicious download and you shouldn't install the wallet!**\
-If this happens, make absolutely sure, you're checking the right versions and correct variant for your OS. If you're in doubt, it's always better to [seek assistance in the community](/wiki/support/overview).
+If this happens, make absolutely sure, you're checking the right versions and correct variant for your OS.
 {{< /hint >}}

@@ -3,6 +3,7 @@
 .env*
 dist/
 tmp/
+public/
 node_modules/
 lhci_reports/
 exampleSite/themes/

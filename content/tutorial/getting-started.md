@@ -17,7 +17,7 @@ This Wiki is a great informational and supportive resource for all things Rhombu
 
 ## Choose your wallet
 
-If you're new to Rhombus or cryptocurrencies in general, we recommend downloading our flagship wallet – **[Rhombus Desktop](/wiki/tutorial/rhombus-desktop/)**. It is our most actively developed wallet offering all the main features Rhombus offers.
+If you're new to Rhombus or cryptocurrencies in general, we recommend downloading our flagship wallet – **[Rhombus Core](/wiki/tutorial/rhombus-core/)**. It is our most actively developed wallet offering all the main features Rhombus offers.
 
 Alternatively, feel free to [compare all available wallets](/wiki/learn/wallets/#comparison) and choose whichever fits you the best.
 

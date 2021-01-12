@@ -18,7 +18,7 @@ Rhombus's cold staking setup is quite flexible, meaning there are many options h
 ## Where will you stake?
 
 {{< hint info >}}
-We won't mention "classic" [standalone staking](/wiki/tutorial/staking/intro/), which happens automatically in your unlocked wallet and therefore isn't a case of cold staking.
+We won't mention "classic" [standalone staking](/wiki/tutorial/staking/overview/), which happens automatically in your unlocked wallet and therefore isn't a case of cold staking.
 {{< /hint >}}
 
 First, you need to decide where (or how) will you stake.
@@ -80,21 +80,10 @@ The staking device part is now successfully configured – now onto connecting o
 
 Rhombus has a nice selection of various wallets for different needs. Comparing all their features is out of the scope of this guide, but feel free to check [Rhombus wallets: overview](/wiki/learn/wallets/overview) for more information. We'll focus here on the staking aspects only.
 
-- **[Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/)** – our flagship wallet, with easy cold staking configuration
-- **[Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)** – time-tested wallet with advanced features ([Coin Control](/wiki/tutorial/privacy/coin-control/)) and compatibility with [hardware wallets](/wiki/learn/wallets/hardware)
+- **[Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)** – time-tested wallet with advanced features ([Coin Control](/wiki/tutorial/privacy/coin-control/))
 - **[Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/)** – mainly for mobile, multiplatform wallet with user-friendly [multi-sig](/wiki/tutorial/security/multisig/) feature
-- **[Hardware wallets](/wiki/learn/wallets/hardware)** (Trezor & Ledger wallets) – secure hardware devices for storing cryptocurrency private keys, offline and away from hackers
 
 {{< tabs "connect-wallet" >}}
-
-{{< tab "Rhombus Desktop" >}}
-### Rhombus Desktop
-
-1. Open Rhombus Desktop
-2. On **Overview** page, locate the Cold Staking widget (in right sidebar) and click on the `+` button in it
-3. Paste the **staking public key**/**pool address** (that you saved before)
-4. Click `Enable cold staking` button to confirm
-{{< /tab >}}
 
 {{< tab "Rhombus Core / Ledger" >}}
 ### Rhombus Core

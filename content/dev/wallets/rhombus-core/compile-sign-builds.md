@@ -8,7 +8,7 @@ tags:
   - Rhombus Core
 ---
 
-This guide will walk you through compiling your own Rhombus Core builds via Gitian and optionally signing the builds with your PGP key and uploading the signatures to [rhombus/gitian.sigs](https://github.com/rhombus/gitian.sigs) repository.
+This guide will walk you through compiling your own Rhombus Core builds via Gitian and optionally signing the builds with your PGP key and uploading the signatures to [rhombus/gitian.sigs](https://github.com/rhombus-project/gitian.sigs) repository.
 
 {{< hint warning >}}
 **The more people would compile their builds and sign them, the better.**\
@@ -23,7 +23,7 @@ If you can spare the time and processing power, please do!
 - **Be patient** - the builds can take up to few hours (about 3-4 hrs on systems we tested on) - luckily you can still use your PC for other things in the meantime
 - **For PGP signing of Gitian builds**
   - make sure the PGP key you're using is not protected by a passphrase - if it is, signing will fail
-  - you'll need to submit a PR to [rhombus-core/contrib/gitian-keys](https://github.com/rhombus/rhombus-core/edit/master/contrib/gitian-keys/keys.txt) with your PGP key, so that others can verify your signatures
+  - you'll need to submit a PR to [rhombus-core/contrib/gitian-keys](https://github.com/rhombus-project/rhombus-core/edit/master/contrib/gitian-keys/keys.txt) with your PGP key, so that others can verify your signatures
 
 ## Preparation
 
@@ -50,7 +50,7 @@ Grab the latest Rhombus Core code and gitian-builder from Github:
 ```bash
 $ mkdir ~/gitian
 $ cd ~/gitian
-$ git clone https://github.com/rhombus/rhombus-core.git
+$ git clone https://github.com/rhombus-project/rhombus-core.git
 $ cp rhombus-core/contrib/gitian-build.py .
 $ git clone https://github.com/devrandom/gitian-builder.git
 ```
@@ -67,7 +67,7 @@ Get the macOS SDK for the ability to compile macOS builds as well:
 ```bash
 $ mkdir gitian-builder/inputs
 $ cd gitian-builder/inputs
-$ wget https://bitcoincore.org/depends-sources/sdks/MacOSX10.11.sdk.tar.gz
+$ wget https://bitcoincore.org/depends-sources/sdks/MacOSX10.14.sdk.tar.gz
 $ cd ~/gitian
 ```
 
@@ -146,4 +146,4 @@ Linux builds will be first, followed by Windows and then macOS. Linux takes the 
 
 After couple hours, when the compilations is done, you can find a new folder `~/gitian/rhombus-binaries/<VERSION>` with all the builds in it.
 
-If the **PGP signing** was successfull, you should see signatures of the builds signed by your PGP key in `~/gitian/gitian.sigs/<VERSION>-<ARCH>/<KEYNAME>/`. Commit the changes (= addition of your signatures) and submit a PR to [rhombus/gitian.sigs](https://github.com/rhombus/gitian.sigs).
+If the **PGP signing** was successfull, you should see signatures of the builds signed by your PGP key in `~/gitian/gitian.sigs/<VERSION>-<ARCH>/<KEYNAME>/`. Commit the changes (= addition of your signatures) and submit a PR to [rhombus/gitian.sigs](https://github.com/rhombus-project/gitian.sigs).

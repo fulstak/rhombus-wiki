@@ -29,7 +29,7 @@
             <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
         </label>
         
-        <a class="gdoc-header__link" href="https://rhombus.io/wiki">
+        <a class="gdoc-header__link" href="https://rhom.com/wiki">
             <span class="gdoc-brand flex align-center">
                 <img class="gdoc-brand__img" src="/wiki/rhombus-wiki-symbol.svg" alt="Rhombus Project Wiki" width=26 height=26>
                 Rhombus Project Wiki
@@ -224,6 +224,36 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/airdrop/" class="gdoc-nav__entry ">
+                        Airdrop
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/ico/" class="gdoc-nav__entry ">
+                        ICO
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
             
             
             <li>
@@ -523,7 +553,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.io"
+                <a href="https://rhom.com"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -548,7 +578,7 @@
 
             <span class="flex">
                 <svg class="icon download"><use xlink:href="#download"></use></svg>
-                <a href="https://rhombus.io/downloads"
+                <a href="https://rhom.com/downloads"
                     class="gdoc-nav__entry ">
                     Downloads
                 </a>
@@ -671,15 +701,15 @@
     
 
 
-<p>Your funds are backed up by <a href="/tutorial/security/recovery-phrase">Recovery Phrase</a> (~ mnemonic seed) during wallet creation and that is enough to keep your coins safe. However if you want to backup all the additional data like addresses saved in Address Book and more, you&rsquo;ll need to backup your <code>wallet.dat</code> file.</p>
+<p>Your funds are backed up by <a href="/wiki/tutorial/security/recovery-phrase">Recovery Phrase</a> (~ mnemonic seed) during wallet creation and that is enough to keep your coins safe. However if you want to backup all the additional data like addresses saved in Address Book and more, you&rsquo;ll need to backup your <code>wallet.dat</code> file.</p>
 <blockquote class="gdoc-hint warning">
   <strong>Always backup your <code>wallet.dat</code> to a secure place</strong> (USB, external drive etc.) – if anyone would get access to it and knew your wallet password, they could steal your coins! That is the main reason to encrypt your wallet right after you created one.
 </blockquote>
 
 <p>Keep in mind that this backup approach only saves data created up to that point. All data created after backup was made won&rsquo;t be included in the backup. You should backup your <code>wallet.dat</code> file periodically.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="manual-back-up">Manual back-up<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/backup-restore-wallet/#manual-back-up" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Manual back-up" href="#manual-back-up"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="manual-back-up">Manual back-up<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/backup-restore-wallet/#manual-back-up" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Manual back-up" href="#manual-back-up"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <blockquote class="gdoc-hint info">
-  With <a href="/tutorial/wallets/rhombus-core/">Rhombus Core</a>, you can easily backup your <code>wallet.dat</code> file via <em>File</em> → <em>Backup wallet&hellip;</em>
+  With <a href="/wiki/tutorial/wallets/rhombus-core/">Rhombus Core</a>, you can easily backup your <code>wallet.dat</code> file via <em>File</em> → <em>Backup wallet&hellip;</em>
 </blockquote>
 
 <ol>
@@ -687,8 +717,8 @@
 <li>manually locate your <code>wallet.dat</code> file on disk (see below)</li>
 <li>copy the file to a safe and secure place manually (do not move – copy!)</li>
 </ol>
-<p>When making backups, it&rsquo;s sane to name the backup files properly, e.g. including wallet name/type and date, like <code>part-wallet-personal_2019-06-03.dat</code>. This will help you greatly later, when you&rsquo;ll have many backup files.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="where-is-walletdat">Where is wallet.dat?<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/backup-restore-wallet/#where-is-walletdat" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Where is wallet.dat?" href="#where-is-walletdat"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>When making backups, it&rsquo;s sane to name the backup files properly, e.g. including wallet name/type and date, like <code>rhom-wallet-personal_2019-06-03.dat</code>. This will help you greatly later, when you&rsquo;ll have many backup files.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="where-is-walletdat">Where is wallet.dat?<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/backup-restore-wallet/#where-is-walletdat" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Where is wallet.dat?" href="#where-is-walletdat"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Look in these folders (depending on your OS):</p>
 <table>
 <thead>
@@ -699,21 +729,21 @@
 </thead>
 <tbody>
 <tr>
-<td><img src="/media/icons/win.svg" alt="Win" title="Win" class="icon win"> Windows</td>
+<td><img src="/wiki/media/icons/win.svg" alt="Win" title="Win" class="icon win"> Windows</td>
 <td><code>%AppData%\Rhombus</code></td>
 </tr>
 <tr>
-<td><img src="/media/icons/apple.svg" alt="Apple" title="Apple" class="icon apple"> macOS</td>
+<td><img src="/wiki/media/icons/apple.svg" alt="Apple" title="Apple" class="icon apple"> macOS</td>
 <td><code>~/Library/Application Support/Rhombus</code></td>
 </tr>
 <tr>
-<td><img src="/media/icons/linux.svg" alt="Linux" title="Linux" class="icon linux"> Linux</td>
+<td><img src="/wiki/media/icons/linux.svg" alt="Linux" title="Linux" class="icon linux"> Linux</td>
 <td><code>~/.rhombus</code></td>
 </tr>
 </tbody>
 </table>
 <p>You should look for either a file called <code>wallet.dat</code> or a folder called <code>wallet</code> (or something else, if you chose a custom wallet name when creating it), in which you should find the <code>wallet.dat</code> file.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="restoring-existing-wallet">Restoring existing wallet<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/backup-restore-wallet/#restoring-existing-wallet" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Restoring existing wallet" href="#restoring-existing-wallet"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="restoring-existing-wallet">Restoring existing wallet<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/backup-restore-wallet/#restoring-existing-wallet" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Restoring existing wallet" href="#restoring-existing-wallet"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>Restoring from your <code>wallet.dat</code> file is the same as doing manual backups, only in reverse:</p>
 <ol>
 <li>close your wallet (if running)</li>
@@ -728,8 +758,8 @@
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-11-10T06:08:56Z">
-                    November 10, 2020
+                <time datetime="2021-01-08T07:33:03Z">
+                    January 8, 2021
                 </time>
             </p>
             
@@ -777,7 +807,7 @@
       <li>
         <a href="/wiki/learn/staking/intro/">
           <span class="title">About Rhombus&#39;s PoS</span>
-          <small>The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (PPoS), as its consensus mechanism</small>
+          <small>The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (RPoS), as its consensus mechanism</small>
         </a>
       </li>
       
@@ -805,7 +835,7 @@
       <li>
         <a href="/wiki/learn/privacy/transaction-types/">
           <span class="title">Transaction types</span>
-          <small>The Rhombus coin can be sent as three different privacy states, each with their own degree of privacy and cost</small>
+          <small>The Rhombus coin can be sent in one of three privacy states, each with their own degree of privacy and cost</small>
         </a>
       </li>
       
@@ -836,12 +866,12 @@
         <footer class="gdoc-footer">
     <div class="container flex flex-wrap">
         <span class="gdoc-footer__item">
-            (cc) BY-NC-SA 2017-2020 <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
+             <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
         </span>
-        <a href="/contribute" class="gdoc-footer__item">
+        <a href="/wiki/contribute" class="gdoc-footer__item">
             Contribute
         </a>
-        <a href="/tags" class="gdoc-footer__item">
+        <a href="/wiki/tags" class="gdoc-footer__item">
             Browse tags
         </a>
         <span class="gdoc-footer__item">

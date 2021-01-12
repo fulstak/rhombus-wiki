@@ -16,7 +16,7 @@ In fact, cold staking pools allow you to “team up” with other stakers and co
 
 {{< hint info >}}
 **How to cold stake on a Pool?**\
-Follow our guide at [Tutorial: Cold Staking setup](tutorial:staking:cold-staking)
+Follow our guide at [Tutorial: Cold Staking setup](/wiki/tutorial/staking/cold-staking)
 {{< /hint >}}
 
 ## The importance of decentralization
@@ -48,5 +48,5 @@ _Last update: 2020/10/01_
 ### Running your own Pool
 
 {{< hint info >}}
-**If you're confident enough to run your own Pool**, visit [official Rhombus Coldstake Pool repo](https://github.com/rhombus/coldstakepool) and follow instructions in its [doc folder](https://github.com/rhombus/coldstakepool/tree/master/doc).
+**If you're confident enough to run your own Pool**, visit [official Rhombus Coldstake Pool repo](https://github.com/rhombus-project/coldstakepool) and follow instructions in its [doc folder](https://github.com/rhombus-project/coldstakepool/tree/master/doc).
 {{< /hint >}}

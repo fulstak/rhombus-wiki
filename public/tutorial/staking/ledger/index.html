@@ -29,7 +29,7 @@
             <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
         </label>
         
-        <a class="gdoc-header__link" href="https://rhombus.io/wiki">
+        <a class="gdoc-header__link" href="https://rhom.com/wiki">
             <span class="gdoc-brand flex align-center">
                 <img class="gdoc-brand__img" src="/wiki/rhombus-wiki-symbol.svg" alt="Rhombus Project Wiki" width=26 height=26>
                 Rhombus Project Wiki
@@ -224,6 +224,36 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/airdrop/" class="gdoc-nav__entry ">
+                        Airdrop
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/ico/" class="gdoc-nav__entry ">
+                        ICO
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
             
             
             <li>
@@ -523,7 +553,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.io"
+                <a href="https://rhom.com"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -548,7 +578,7 @@
 
             <span class="flex">
                 <svg class="icon download"><use xlink:href="#download"></use></svg>
-                <a href="https://rhombus.io/downloads"
+                <a href="https://rhom.com/downloads"
                     class="gdoc-nav__entry ">
                     Downloads
                 </a>
@@ -671,22 +701,22 @@
     
 
 
-<p>This tutorial assumes Rhombus has been <a href="/tutorial/wallets/ledger">properly installed on your Ledger Nano S/X</a> hardware device and that your <a href="/tutorial/wallets/rhombus-core/">Rhombus Core</a> wallet is set up for Rhombus on Ledger.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="requirements">Requirements<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Requirements" href="#requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>This tutorial assumes Rhombus has been <a href="/wiki/tutorial/wallets/ledger">properly installed on your Ledger Nano S/X</a> hardware device and that your <a href="/wiki/tutorial/wallets/rhombus-core/">Rhombus Core</a> wallet is set up for Rhombus on Ledger.</p>
+<div class="gdoc-page__anchorwrap"><h2 id="requirements">Requirements<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#requirements" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Requirements" href="#requirements"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>Before starting the setup process, make sure you have:</p>
 <ul>
 <li><strong>Cold staking public key</strong> – you can get it by either:
 <ul>
-<li>self-hosting a <a href="/tutorial/staking/on-dedicated-device/">cold staking node</a> (on Raspberri Pi/Rock64 etc.)</li>
-<li>or by joining one of the <a href="/learn/staking/pools#available-staking-pools">available staking pools</a></li>
+<li>self-hosting a <a href="/wiki/tutorial/staking/on-dedicated-device/">cold staking node</a> (on Raspberri Pi/Rock64 etc.)</li>
+<li>or by joining one of the <a href="/wiki/learn/staking/pools#available-staking-pools">available staking pools</a></li>
 </ul>
 </li>
-<li>A <a href="/tutorial/wallets/ledger">Ledger hardware wallet with Rhombus installed on it</a></li>
+<li>A <a href="/wiki/tutorial/wallets/ledger">Ledger hardware wallet with Rhombus installed on it</a></li>
 <li><strong>Ledger Live</strong> app <a href="https://support.ledgerwallet.com/hc/en-us/articles/360006395233">ready to use</a></li>
-<li><strong><a href="/tutorial/wallets/rhombus-core/">Rhombus Core</a></strong> wallet installed and fully synced</li>
+<li><strong><a href="/wiki/tutorial/wallets/rhombus-core/">Rhombus Core</a></strong> wallet installed and fully synced</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h2 id="staking-setup">Staking setup<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#staking-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Staking setup" href="#staking-setup"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="gdoc-page__anchorwrap"><h3 id="get-your-staking-public-key">Get your staking public key<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#get-your-staking-public-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Get your staking public key" href="#get-your-staking-public-key"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h2 id="staking-setup">Staking setup<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#staking-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Staking setup" href="#staking-setup"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h3 id="get-your-staking-public-key">Get your staking public key<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#get-your-staking-public-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Get your staking public key" href="#get-your-staking-public-key"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 
 
 
@@ -699,8 +729,8 @@
       Staking Pool
     </label>
     <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <div class="gdoc-page__anchorwrap"><h4 id="via-staking-pool">Via staking pool<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#via-staking-pool" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via staking pool" href="#via-staking-pool"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>Choose one of the <a href="/learn/staking/pools#available-staking-pools">available staking pools</a> and note somewhere its <strong>staking public key</strong> (they are usually right there on the top of the page).
+      <div class="gdoc-page__anchorwrap"><h4 id="via-staking-pool">Via staking pool<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#via-staking-pool" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via staking pool" href="#via-staking-pool"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>Choose one of the <a href="/wiki/learn/staking/pools#available-staking-pools">available staking pools</a> and note somewhere its <strong>staking public key</strong> (they are usually right there on the top of the page).
     </div>
   
     <input type="radio" class="gdoc-tabs__control hidden" name="tabs-pubkey" id="tabs-pubkey-1"
@@ -709,12 +739,12 @@
       Dedicated Staking Device
     </label>
     <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <div class="gdoc-page__anchorwrap"><h4 id="via-self-hosted-staking-node">Via self-hosted staking node<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#via-self-hosted-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via self-hosted staking node" href="#via-self-hosted-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+      <div class="gdoc-page__anchorwrap"><h4 id="via-self-hosted-staking-node">Via self-hosted staking node<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#via-self-hosted-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via self-hosted staking node" href="#via-self-hosted-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <ol>
-<li><a href="/tutorial/staking/on-dedicated-device/">Set a staking node up</a> (if you haven&rsquo;t already done so)</li>
-<li>In your staking node&rsquo;s terminal screen, <strong>create a new public key</strong> by entering the following in partyman&rsquo;s folder:</li>
+<li><a href="/wiki/tutorial/staking/on-dedicated-device/">Set a staking node up</a> (if you haven&rsquo;t already done so)</li>
+<li>In your staking node&rsquo;s terminal screen, <strong>create a new public key</strong> by entering the following in rhomtools&rsquo;s folder:</li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./partyman stakingnode new
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">./rhomtools stakingnode new
 </code></pre></div><ol start="3">
 <li>Note the public key somewhere, you will need it for later</li>
 </ol>
@@ -723,7 +753,7 @@
   
 </div>
 
-<div class="gdoc-page__anchorwrap"><h3 id="connect-rhombus-core-to-your-staking-node">Connect Rhombus Core to your staking node<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#connect-rhombus-core-to-your-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Connect Rhombus Core to your staking node" href="#connect-rhombus-core-to-your-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="connect-rhombus-core-to-your-staking-node">Connect Rhombus Core to your staking node<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#connect-rhombus-core-to-your-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Connect Rhombus Core to your staking node" href="#connect-rhombus-core-to-your-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <ol>
 <li>open and unlock <strong>Rhombus Core</strong></li>
 <li>plug your Ledger to your computer and make sure it is ready to transact (verify if there isn&rsquo;t any required update and that everything is okay on Ledger Live)</li>
@@ -759,7 +789,7 @@
   
 </figure>
 </p>
-<div class="gdoc-page__anchorwrap"><h3 id="initiate-cold-staking">Initiate cold staking<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#initiate-cold-staking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Initiate cold staking" href="#initiate-cold-staking"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="initiate-cold-staking">Initiate cold staking<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#initiate-cold-staking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Initiate cold staking" href="#initiate-cold-staking"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <blockquote>
 <p>AKA &ldquo;zapping&rdquo; coins</p>
 </blockquote>
@@ -803,17 +833,17 @@
   
 </figure>
 <p>This will send all but those 0.001 RHOM to your cold staking address(es). Once the sent coins mature for staking (about 8 hours), they will start staking automatically on your Ledger.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="verify-your-setup">Verify your setup<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#verify-your-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Verify your setup" href="#verify-your-setup"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="verify-your-setup">Verify your setup<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#verify-your-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Verify your setup" href="#verify-your-setup"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>You can check that your coins are correctly sent to your staking node (or a pool).</p>
-<div class="gdoc-page__anchorwrap"><h4 id="via-rhombus-core">Via Rhombus Core<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#via-rhombus-core" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via Rhombus Core" href="#via-rhombus-core"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<div class="gdoc-page__anchorwrap"><h4 id="via-rhombus-core">Via Rhombus Core<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#via-rhombus-core" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via Rhombus Core" href="#via-rhombus-core"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
 <p>In Rhombus Core, go to Staking setup again (<em>Window</em> → <em>Staking Setup</em>) – you should see:</p>
 <ul>
 <li>Cold staking enabled: True</li>
 <li>Percent in cold staking script: 100.00 (or something really close like 99.81)</li>
 </ul>
-<div class="gdoc-page__anchorwrap"><h4 id="via-your-staking-node">Via your staking node<a data-clipboard-text="https://rhombus.io/wiki/tutorial/staking/ledger/#via-your-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via your staking node" href="#via-your-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
-<p>If you&rsquo;re self-hosting your staking node, SSH into your device again and in partyman&rsquo;s folder run:</p>
-<pre><code>./partyman status
+<div class="gdoc-page__anchorwrap"><h4 id="via-your-staking-node">Via your staking node<a data-clipboard-text="https://rhom.com/wiki/tutorial/staking/ledger/#via-your-staking-node" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Via your staking node" href="#via-your-staking-node"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h4></div>
+<p>If you&rsquo;re self-hosting your staking node, SSH into your device again and in rhomtools&rsquo;s folder run:</p>
+<pre><code>./rhomtools status
 </code></pre><p>The output of that command should indicate <code>rhombusd staking currently?: YES</code> as well as display the number of coins being staked by the staking node next to <code>rhombusd staking wallet weight: &lt;amount of your coins&gt;</code></p>
 <p>Congratulations, you&rsquo;re now successfully (and safely!) staking your RHOM from Ledger hardware wallet!</p>
 
@@ -823,7 +853,7 @@
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-11-10T06:08:56Z">
+                <time datetime="2020-11-10T23:34:35Z">
                     November 10, 2020
                 </time>
             </p>
@@ -865,7 +895,7 @@
       <li>
         <a href="/wiki/learn/staking/intro/">
           <span class="title">About Rhombus&#39;s PoS</span>
-          <small>The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (PPoS), as its consensus mechanism</small>
+          <small>The Rhombus platform uses a custom Proof-of-Stake protocol, Rhombus Proof-of-Stake (RPoS), as its consensus mechanism</small>
         </a>
       </li>
       
@@ -887,13 +917,6 @@
         <a href="/wiki/learn/staking/dedicated-devices/">
           <span class="title">Dedicated Staking Devices</span>
           <small>Turn your Raspberry Pi into a dedicated staking device and run a full node of Rhombus&#39;s blockchain</small>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/wiki/learn/wallets/hardware/">
-          <span class="title">Hardware wallets</span>
-          <small>A hardware wallet is a special type of cryptocurrency wallet which stores the user&#39;s private keys in a secure hardware device</small>
         </a>
       </li>
       
@@ -926,9 +949,9 @@
       </li>
       
       <li>
-        <a href="/wiki/learn/staking/partyman/">
-          <span class="title">Partyman staking utility</span>
-          <small>Partyman is a CLI utility for managing your self-hosted staking nodes, like DSD or servers</small>
+        <a href="/wiki/learn/staking/rhomtools/">
+          <span class="title">Rhomtools staking utility</span>
+          <small>Rhomtools is a CLI utility for managing your self-hosted staking nodes, like DSD or servers</small>
         </a>
       </li>
       
@@ -941,7 +964,7 @@
       
       <li>
         <a href="/wiki/tutorial/staking/on-dedicated-device/">
-          <span class="title">Staking on DSD with Partyman</span>
+          <span class="title">Staking on DSD with Rhomtools</span>
           <small>DSD are ideal way for running Rhombus full node and getting staking rewards for securing the network 24/7</small>
         </a>
       </li>
@@ -959,12 +982,12 @@
         <footer class="gdoc-footer">
     <div class="container flex flex-wrap">
         <span class="gdoc-footer__item">
-            (cc) BY-NC-SA 2017-2020 <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
+             <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
         </span>
-        <a href="/contribute" class="gdoc-footer__item">
+        <a href="/wiki/contribute" class="gdoc-footer__item">
             Contribute
         </a>
-        <a href="/tags" class="gdoc-footer__item">
+        <a href="/wiki/tags" class="gdoc-footer__item">
             Browse tags
         </a>
         <span class="gdoc-footer__item">

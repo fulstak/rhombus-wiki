@@ -198,7 +198,7 @@ Look for the video ID in URL (the part after `?v=`), e.g.: this video's ID `http
 
 ### Icons
 
-For inserting icons from [`/static/media/icons/`](https://github.com/AllienWorks/rhombus-wiki/tree/master/static/media/icons) folder (second word equals to file name of the icon) e.g.:
+For inserting icons from [`/static/media/icons/`](https://github.com/l0rdicon/rhombus-wiki/tree/master/static/media/icons) folder (second word equals to file name of the icon) e.g.:
 
 {{< ico yes >}}
 {{< ico no >}}

@@ -7,7 +7,7 @@ tags:
   - support
 ---
 
-If you're experiencing that [Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/) or [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) wallet is not syncing any further, then it might be because you got caught on a fork due to the latest hardfork.
+If you're experiencing that [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) wallet is not syncing any further, then it might be because you got caught on a fork due to the latest hardfork.
 
 If you execute any transaction during this time, it will appear as if you've lost the coins, but don't worry. Nothing has left your wallet.
 
@@ -35,4 +35,4 @@ Open up the debug console in Rhombus Desktop or Rhombus Core and execute the fol
 
 ### 5. Make sure you're fully synced
 
-Take a look at the [block explorer](https://rhom.com/explorer) and verify that your client is syncing to the latest height indicated there. `getblockchaininfo` will return the height to which you're synced. You might have to repeat step 4 again. 
+Take a look at the [block explorer](https://explorer.rhom.com/) and verify that your client is syncing to the latest height indicated there. `getblockchaininfo` will return the height to which you're synced. You might have to repeat step 4 again. 

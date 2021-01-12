@@ -2,100 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TODO on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tags/TODO/</link>
+    <link>https://rhom.com/wiki/tags/TODO/</link>
     <description>Recent content in TODO on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tags/TODO/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tags/TODO/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing syncing issues</title>
-      <link>https://rhombus.io/wiki/support/syncing/</link>
+      <link>https://rhom.com/wiki/support/syncing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/support/syncing/</guid>
+      <guid>https://rhom.com/wiki/support/syncing/</guid>
       <description>Rhombus wallets are a network-based software. Make sure that no firewall or anti-virus software is blocking Rhombus from running or connecting the internet. If in doubt, disable them for testing purposes and enable them afterwards if you have identified your problem.
 Update to latest version Make sure you&amp;rsquo;re running on latest version.
 If not, update your wallet.
 Reindex blockchain Relaunch the client with -reindex flag:
-Windows  Windows  Rhombus Desktop: FIXME Rhombus Core: FIXME   macOS  macOS  Rhombus Desktop: launch via /rhombus-desktop.</description>
+Windows  Windows  Rhombus Core: FIXME   macOS  macOS  Rhombus Desktop: launch via /rhombus-desktop.</description>
     </item>
     
     <item>
       <title>Proposals</title>
-      <link>https://rhombus.io/wiki/learn/misc/proposals/</link>
+      <link>https://rhom.com/wiki/learn/misc/proposals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/misc/proposals/</guid>
+      <guid>https://rhom.com/wiki/learn/misc/proposals/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>RPC</title>
-      <link>https://rhombus.io/wiki/dev/api/rpc/</link>
+      <link>https://rhom.com/wiki/dev/api/rpc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/api/rpc/</guid>
+      <guid>https://rhom.com/wiki/dev/api/rpc/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>How to choose a good password</title>
-      <link>https://rhombus.io/wiki/tutorial/security/good-passwords/</link>
+      <link>https://rhom.com/wiki/tutorial/security/good-passwords/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/security/good-passwords/</guid>
+      <guid>https://rhom.com/wiki/tutorial/security/good-passwords/</guid>
       <description>Trezor wrote a very detailed and in-depth article about choosing strong passphrases for protecting recovery seeds. You can obviously follow this guide to password/passphrase-protect any kind of valuable information (like your Rhombus recovery seed).</description>
     </item>
     
     <item>
       <title>Dedicated Staking Devices</title>
-      <link>https://rhombus.io/wiki/learn/staking/dedicated-devices/</link>
+      <link>https://rhom.com/wiki/learn/staking/dedicated-devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/staking/dedicated-devices/</guid>
+      <guid>https://rhom.com/wiki/learn/staking/dedicated-devices/</guid>
       <description>   This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>Multi-signature wallets</title>
-      <link>https://rhombus.io/wiki/tutorial/security/multisig/</link>
+      <link>https://rhom.com/wiki/tutorial/security/multisig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/security/multisig/</guid>
+      <guid>https://rhom.com/wiki/tutorial/security/multisig/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>Rhombus Copay</title>
-      <link>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</link>
+      <link>https://rhom.com/wiki/dev/wallets/rhombus-copay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</guid>
-      <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
-    </item>
-    
-    <item>
-      <title>Trezor Wallet</title>
-      <link>https://rhombus.io/wiki/tutorial/wallets/trezor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tutorial/wallets/trezor/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/rhombus-copay/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>Cold staking on Trezor wallet</title>
-      <link>https://rhombus.io/wiki/tutorial/staking/trezor/</link>
+      <link>https://rhom.com/wiki/tutorial/staking/trezor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/staking/trezor/</guid>
+      <guid>https://rhom.com/wiki/tutorial/staking/trezor/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     
     <item>
       <title>Ledger wallet</title>
-      <link>https://rhombus.io/wiki/dev/wallets/ledger/</link>
+      <link>https://rhom.com/wiki/dev/wallets/ledger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/dev/wallets/ledger/</guid>
+      <guid>https://rhom.com/wiki/dev/wallets/ledger/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     

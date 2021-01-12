@@ -3,505 +3,537 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/blockchain/bitcoin-codebase/</loc>
+    <loc>https://rhom.com/wiki/learn/blockchain/rhombus-airdrop/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/blockchain/rhombus-ico/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/blockchain/bitcoin-codebase/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/blockchain/blockchain-scalability/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/blockchain/rhombus-specifications/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/privacy/transaction-types/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/merchants/accepting-rhom/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/blockchain/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/blockchain/blockchain-scalability/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/dev/wallets/rhombus-core/compile-sign-builds/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/blockchain/rhombus-specifications/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/privacy/transaction-types/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/merchants/accepting-rhom/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/blockchain/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/rhombus-core/compile-sign-builds/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/support/faq/</loc>
+    <loc>https://rhom.com/wiki/support/faq/</loc>
     <lastmod>2020-10-15T18:36:32+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/support/faq/rhom-coin/</loc>
+    <loc>https://rhom.com/wiki/support/faq/rhom-coin/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/support/syncing/</loc>
+    <loc>https://rhom.com/wiki/support/syncing/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/getting-started/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/advanced/hosting-coldstaking-pool/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/staking/overview/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/getting-started/</loc>
+    <loc>https://rhom.com/wiki/learn/misc/proposals/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/advanced/hosting-coldstaking-pool/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tutorial/privacy/tor/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/overview/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/misc/proposals/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/rhombus-desktop/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/rhombus-desktop/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/tor/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/rpc/</loc>
+    <loc>https://rhom.com/wiki/dev/api/rpc/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/multiwallet/</loc>
+    <loc>https://rhom.com/wiki/tutorial/privacy/multiwallet/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/security/recovery-phrase/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/wallets/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/recovery-phrase/</loc>
+    <loc>https://rhom.com/wiki/learn/wallets/overview/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/security/backup-restore-wallet/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/staking/cold-staking/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/support/connections/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/security/good-passwords/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/</loc>
+    <loc>https://rhom.com/wiki/learn/privacy/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/wallets/overview/</loc>
+    <loc>https://rhom.com/wiki/dev/wallets/rhombus-core/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/wallets/rhombus-core/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/api/insight/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/merchants/rhom-payment-process/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/wallets/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/backup-restore-wallet/</loc>
+    <loc>https://rhom.com/wiki/learn/staking/intro/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/airdrop/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/api/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/cold-staking/</loc>
+    <loc>https://rhom.com/wiki/support/fork/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/api/coingecko/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/support/connections/</loc>
+    <loc>https://rhom.com/wiki/learn/staking/pools/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/staking/dedicated-devices/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/good-passwords/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/support/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/privacy/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tutorial/ico/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/rhombus-core/</loc>
+    <loc>https://rhom.com/wiki/tutorial/wallets/ledger/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/rhombus-core/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/insight/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/staking/intro/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/support/fork/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/coingecko/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/staking/pools/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/staking/dedicated-devices/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/support/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/ledger/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/multisig/</loc>
+    <loc>https://rhom.com/wiki/tutorial/security/multisig/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/staking/partyman/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/</loc>
+    <loc>https://rhom.com/wiki/tutorial/privacy/</loc>
     <lastmod>2020-09-23T18:21:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/tor-hidden-service/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tutorial/privacy/tor-hidden-service/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/rhombus-copay/</loc>
+    <loc>https://rhom.com/wiki/dev/wallets/rhombus-copay/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/staking/</loc>
+    <loc>https://rhom.com/wiki/learn/staking/rhomtools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/staking/</loc>
     <lastmod>2020-09-23T18:21:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/on-dedicated-device/</loc>
+    <loc>https://rhom.com/wiki/tutorial/staking/on-dedicated-device/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/privacy/tips/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/airdrop/api/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/api/chainz/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/tips/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/chainz/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/privacy/coin-control/</loc>
+    <loc>https://rhom.com/wiki/tutorial/privacy/coin-control/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/ledger/</loc>
+    <loc>https://rhom.com/wiki/tutorial/staking/ledger/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/dev/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/airdrop/airdrop-claim/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/airdrop/signing/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/ico/invest-ico/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tutorial/staking/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/dev/</loc>
+    <loc>https://rhom.com/wiki/tutorial/security/verify-downloads/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/learn/wallets/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/trezor/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/trezor/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/verify-downloads/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/wallets/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/dev/api/coinmarketcap/</loc>
+    <loc>https://rhom.com/wiki/dev/api/coinmarketcap/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/staking/trezor/</loc>
+    <loc>https://rhom.com/wiki/tutorial/staking/trezor/</loc>
     <lastmod>2020-10-13T18:52:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/dev/wallets/ledger/</loc>
+    <loc>https://rhom.com/wiki/dev/wallets/ledger/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/rhombus-copay/</loc>
+    <loc>https://rhom.com/wiki/tutorial/wallets/rhombus-copay/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/wallets/rhombus-cli/</loc>
+    <loc>https://rhom.com/wiki/tutorial/wallets/rhombus-cli/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/security/</loc>
+    <loc>https://rhom.com/wiki/tutorial/security/</loc>
     <lastmod>2020-09-23T18:21:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/advanced/</loc>
+    <loc>https://rhom.com/wiki/tutorial/advanced/</loc>
     <lastmod>2020-09-23T18:21:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tutorial/merchants/</loc>
+    <loc>https://rhom.com/wiki/tutorial/merchants/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/learn/wallets/hardware/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/learn/misc/</loc>
+    <loc>https://rhom.com/wiki/learn/misc/</loc>
     <lastmod>2020-09-23T18:21:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/API/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/airdrop/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/bitcoin/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/API/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/blockchain/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/bitcoin/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/bulletproofs/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/blockchain/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/coin-control/</loc>
+    <loc>https://rhom.com/wiki/tags/bulletproofs/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/coin-control/</loc>
     <lastmod>2020-10-21T16:19:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/community/</loc>
+    <loc>https://rhom.com/wiki/tags/community/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Contribute/</loc>
+    <loc>https://rhom.com/wiki/tags/Contribute/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/contribute/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/CT/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/dev/</loc>
+    <lastmod>2020-11-10T23:34:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/DSD/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/faq/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhom.com/wiki/tags/governance/</loc>
     <lastmod>2020-11-10T06:08:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/contribute/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/ico/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/CT/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/important/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/dev/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/Ledger-wallet/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/DSD/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/lightning/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/faq/</loc>
+    <loc>https://rhom.com/wiki/tags/multiwallet/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/governance/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/pools/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/important/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/privacy/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Ledger-wallet/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/Rhombus-CLI/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/lightning/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/Rhombus-Copay/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/multiwallet/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/Rhombus-Core/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/pools/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/privacy/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/RingCT/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Rhombus-CLI/</loc>
+    <loc>https://rhom.com/wiki/tags/scalability/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Rhombus-Copay/</loc>
+    <loc>https://rhom.com/wiki/tags/security/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Rhombus-Core/</loc>
+    <loc>https://rhom.com/wiki/tags/segwit/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/Rhombus-Desktop/</loc>
+    <loc>https://rhom.com/wiki/tags/sellers/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/staking/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/RingCT/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/support/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/scalability/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/security/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/TODO/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhombus.io/wiki/tags/segwit/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/sellers/</loc>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/staking/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/support/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/TODO/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/tor/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhombus.io/wiki/tags/Trezor-wallet/</loc>
-    <lastmod>2020-11-10T06:08:56+00:00</lastmod>
+    <loc>https://rhom.com/wiki/tags/tor/</loc>
+    <lastmod>2021-01-08T07:33:03+00:00</lastmod>
   </url>
   
 </urlset>

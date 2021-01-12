@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tutorial/privacy/</link>
+    <link>https://rhom.com/wiki/tutorial/privacy/</link>
     <description>Recent content in Privacy on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tutorial/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tutorial/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rhombus with Tor</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tor/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tor/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tor/</guid>
       <description>a) Using the Tor Browser b) Using the Tor Daemon c) Tor as a Hidden Service     The only privacy protocol that’s not enabled by default on Rhombus Desktop is the ability to hide your IP address using the Tor network.
 While it could eventually be enabled by default or through the Settings page, Tor currently needs to be activated manually to route your Rhombus Desktop connection through its network.</description>
     </item>
     
     <item>
       <title>Running multiple wallets</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/multiwallet/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/multiwallet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/multiwallet/</guid>
-      <description>Multiwallet setup  Rhombus Desktop Rhombus Core   Autostart multiwallet  Rhombus Desktop Rhombus Core  Linux         You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won&amp;rsquo;t mix up. This approach will also help you gain a bit more privacy (never linking all of your available funds).</description>
+      <guid>https://rhom.com/wiki/tutorial/privacy/multiwallet/</guid>
+      <description>Multiwallet setup  Rhombus Core   Autostart multiwallet  Rhombus Desktop Rhombus Core  Linux         You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won&amp;rsquo;t mix up. This approach will also help you gain a bit more privacy (never linking all of your available funds).</description>
     </item>
     
     <item>
       <title>Rhombus as Tor Hidden Service</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tor-hidden-service/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tor-hidden-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tor-hidden-service/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tor-hidden-service/</guid>
       <description>Download Rhombus wallet Install Tor Define HS in Tor config Find your IP for HS Modify rhombus.conf Start wallet     It also protects your machine from geolocation and its possible ugly consequences, and automatically sets you up for both incoming and outgoing connections, helping the Rhombus network. It is recommended to always run the Rhombus through Tor.
 This guide is written purely for Linux (specificaly Ubuntu-based distributions).</description>
     </item>
     
     <item>
       <title>Tips for increasing privacy</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tips/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tips/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tips/</guid>
       <description>Basics Rhombus  Transactions Balances   Network Other resources     Here are a few tips to keep you private as much as possible:
 Basics  Never brag about how much RHOM or BTC you own, online or offline. All it does is bringing attention to you; scammers and hackers would surely love to get a piece of your pie. It&amp;rsquo;s not worth the risk.</description>
     </item>
     
     <item>
       <title>Coin Control</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/coin-control/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/coin-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/coin-control/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/coin-control/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     

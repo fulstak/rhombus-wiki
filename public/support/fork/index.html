@@ -29,7 +29,7 @@
             <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
         </label>
         
-        <a class="gdoc-header__link" href="https://rhombus.io/wiki">
+        <a class="gdoc-header__link" href="https://rhom.com/wiki">
             <span class="gdoc-brand flex align-center">
                 <img class="gdoc-brand__img" src="/wiki/rhombus-wiki-symbol.svg" alt="Rhombus Project Wiki" width=26 height=26>
                 Rhombus Project Wiki
@@ -224,6 +224,36 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/airdrop/" class="gdoc-nav__entry ">
+                        Airdrop
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/ico/" class="gdoc-nav__entry ">
+                        ICO
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
             
             
             <li>
@@ -523,7 +553,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.io"
+                <a href="https://rhom.com"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -548,7 +578,7 @@
 
             <span class="flex">
                 <svg class="icon download"><use xlink:href="#download"></use></svg>
-                <a href="https://rhombus.io/downloads"
+                <a href="https://rhom.com/downloads"
                     class="gdoc-nav__entry ">
                     Downloads
                 </a>
@@ -664,21 +694,21 @@
     
 
 
-<p>If you&rsquo;re experiencing that <a href="/tutorial/wallets/rhombus-desktop/">Rhombus Desktop</a> or <a href="/tutorial/wallets/rhombus-core/">Rhombus Core</a> wallet is not syncing any further, then it might be because you got caught on a fork due to the latest hardfork.</p>
+<p>If you&rsquo;re experiencing that <a href="/wiki/tutorial/wallets/rhombus-core/">Rhombus Core</a> wallet is not syncing any further, then it might be because you got caught on a fork due to the latest hardfork.</p>
 <p>If you execute any transaction during this time, it will appear as if you&rsquo;ve lost the coins, but don&rsquo;t worry. Nothing has left your wallet.</p>
-<div class="gdoc-page__anchorwrap"><h2 id="getting-on-the-right-chain">Getting on the right chain<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#getting-on-the-right-chain" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Getting on the right chain" href="#getting-on-the-right-chain"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="getting-on-the-right-chain">Getting on the right chain<a data-clipboard-text="https://rhom.com/wiki/support/fork/#getting-on-the-right-chain" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Getting on the right chain" href="#getting-on-the-right-chain"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>Getting your client back to a working state requires a bit of work.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="1-update-to-the-latest-version-of-the-wallet">1. Update to the latest version of the wallet<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#1-update-to-the-latest-version-of-the-wallet" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 1. Update to the latest version of the wallet" href="#1-update-to-the-latest-version-of-the-wallet"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>Updating to the <a href="https://rhombus.io/downloads">latest version</a> will ensure that you have the latest list of &ldquo;checkpoints&rdquo;.
+<div class="gdoc-page__anchorwrap"><h3 id="1-update-to-the-latest-version-of-the-wallet">1. Update to the latest version of the wallet<a data-clipboard-text="https://rhom.com/wiki/support/fork/#1-update-to-the-latest-version-of-the-wallet" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 1. Update to the latest version of the wallet" href="#1-update-to-the-latest-version-of-the-wallet"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>Updating to the <a href="https://rhom.com/downloads">latest version</a> will ensure that you have the latest list of &ldquo;checkpoints&rdquo;.
 These checkpoints are known blockhashes of the correct chain, which help guide the client guide itself to the right fork.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="2-list-all-banned-nodes-and-clear-them">2. List all banned nodes and clear them<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#2-list-all-banned-nodes-and-clear-them" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 2. List all banned nodes and clear them" href="#2-list-all-banned-nodes-and-clear-them"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="2-list-all-banned-nodes-and-clear-them">2. List all banned nodes and clear them<a data-clipboard-text="https://rhom.com/wiki/support/fork/#2-list-all-banned-nodes-and-clear-them" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 2. List all banned nodes and clear them" href="#2-list-all-banned-nodes-and-clear-them"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Sometimes the client will ban others nodes for misbehaving. It might be that your client has banned all legitimate nodes because you were on an older version. Open up the debug console and check whether you have any banned peers by <code>listbanned</code>. If that&rsquo;s the case, consider clearing the list by executing <code>clearbanned</code>.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="3-wait-a-few-minutes">3. Wait a few minutes<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#3-wait-a-few-minutes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 3. Wait a few minutes" href="#3-wait-a-few-minutes"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="3-wait-a-few-minutes">3. Wait a few minutes<a data-clipboard-text="https://rhom.com/wiki/support/fork/#3-wait-a-few-minutes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 3. Wait a few minutes" href="#3-wait-a-few-minutes"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Sometimes the client will detect that it has made a mistake and will automatically get itself back on track.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="4-find-out-where-your-client-got-stuck">4. Find out where your client got stuck<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#4-find-out-where-your-client-got-stuck" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 4. Find out where your client got stuck" href="#4-find-out-where-your-client-got-stuck"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h3 id="4-find-out-where-your-client-got-stuck">4. Find out where your client got stuck<a data-clipboard-text="https://rhom.com/wiki/support/fork/#4-find-out-where-your-client-got-stuck" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 4. Find out where your client got stuck" href="#4-find-out-where-your-client-got-stuck"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Open up the debug console in Rhombus Desktop or Rhombus Core and execute the following command <code>getchaintips</code>. Look for any chains that are marked <code>invalid</code>. Get the corresponding <code>hash</code> of that chain and execute: <code>reconsiderblock HASH_HERE</code>, where <code>HASH_HERE</code> is value that was returned previously.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="5-make-sure-youre-fully-synced">5. Make sure you&rsquo;re fully synced<a data-clipboard-text="https://rhombus.io/wiki/support/fork/#5-make-sure-youre-fully-synced" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 5. Make sure you&rsquo;re fully synced" href="#5-make-sure-youre-fully-synced"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>Take a look at the <a href="https://explorer.rhombus.io/">block explorer</a> and verify that your client is syncing to the latest height indicated there. <code>getblockchaininfo</code> will return the height to which you&rsquo;re synced. You might have to repeat step 4 again.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="5-make-sure-youre-fully-synced">5. Make sure you&rsquo;re fully synced<a data-clipboard-text="https://rhom.com/wiki/support/fork/#5-make-sure-youre-fully-synced" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 5. Make sure you&rsquo;re fully synced" href="#5-make-sure-youre-fully-synced"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>Take a look at the <a href="https://explorer.rhom.com/">block explorer</a> and verify that your client is syncing to the latest height indicated there. <code>getblockchaininfo</code> will return the height to which you&rsquo;re synced. You might have to repeat step 4 again.</p>
 
 
 
@@ -686,8 +716,8 @@ These checkpoints are known blockhashes of the correct chain, which help guide t
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-11-10T06:08:56Z">
-                    November 10, 2020
+                <time datetime="2021-01-08T07:33:03Z">
+                    January 8, 2021
                 </time>
             </p>
             
@@ -746,12 +776,12 @@ These checkpoints are known blockhashes of the correct chain, which help guide t
         <footer class="gdoc-footer">
     <div class="container flex flex-wrap">
         <span class="gdoc-footer__item">
-            (cc) BY-NC-SA 2017-2020 <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
+             <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
         </span>
-        <a href="/contribute" class="gdoc-footer__item">
+        <a href="/wiki/contribute" class="gdoc-footer__item">
             Contribute
         </a>
-        <a href="/tags" class="gdoc-footer__item">
+        <a href="/wiki/tags" class="gdoc-footer__item">
             Browse tags
         </a>
         <span class="gdoc-footer__item">

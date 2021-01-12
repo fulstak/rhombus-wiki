@@ -1,5 +1,5 @@
 ---
-title: Staking on DSD with Partyman
+title: Staking on DSD with Rhomtools
 subtitle: DSD are ideal way for running Rhombus full node and getting staking rewards for securing the network 24/7
 slug: 
 weight: 3
@@ -19,7 +19,7 @@ Before you'll dive into this guide, **familiarize yourself with [Dedicated Staki
 
 Even though you could set up `rhombusd` for staking on your DSD manually, we'll focus on using Rhomtools staking utility, thanks to all the automation and ease of use it offers.
 
-- **Rhombus wallet** – your primary wallet with funds on it ([Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/), [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) or [Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/))
+- **Rhombus wallet** – your primary wallet with funds on it ([Rhombus Core](/wiki/tutorial/wallets/rhombus-core/) or [Rhombus Copay](/wiki/tutorial/wallets/rhombus-copay/))
 - **hardware for staking** – Raspberry Pi +3, Rock64 or other ("DSD")
   - older versions of RPi should work as well, but keep in mind that CPU performance does matter when staking, so you might not get ideal results
   - at least **32 GB of storage** (SD card)
@@ -30,7 +30,7 @@ Even though you could set up `rhombusd` for staking on your DSD manually, we'll 
 ## Installation
 
 {{< hint info >}}
-**Visit [Rhomtools's Github repo](https://github.com/rhombus-dev-team/rhomtools)** for more information if needed.
+**Visit [Rhomtools's Github repo](https://github.com/rhombus-project/rhomtools)** for more information if needed.
 {{< /hint >}}
 
 1. SSH to your device (or connect your monitor)
@@ -72,7 +72,7 @@ Check `rhombusd` status and verify everything is running correctly (you might ne
 
 You should see a summary similar to this:
 
-{{< image src="partyman-status.png" alt="Output of './partyman status' command" >}}
+{{< image src="partyman-status.png" alt="Output of './rhomtools status' command" >}}
 
 Great! Your node is now managed by Rhomtools and you have the latest `rhombusd` daemon running!
 
@@ -143,7 +143,7 @@ To update your node:
 
 1. SSH to your device (or connect your monitor)
 2. Make sure your system is up-to-date: `sudo apt update && sudo apt upgrade`
-3. To update partyman: `~/rhomtools/rhomtools update` and follow on-screen instructions
+3. To update rhomtools: `~/rhomtools/rhomtools update` and follow on-screen instructions
 4. Wait a couple minutes for `rhombusd` to restart and check status of your node with `~/rhomtools/rhomtools status` - look for `rhombusd staking currently? : YES`
 
 #### Updating to pre-release versions
@@ -158,7 +158,7 @@ git pull
 
 ### Updating Rhomtools
 
-In case partyman complains about updates available, you can install them simply by going to rhomtools directory and getting the latest code from GitHub:
+In case rhomtools complains about updates available, you can install them simply by going to rhomtools directory and getting the latest code from GitHub:
 
 ```bash
 cd ~/rhomtools/

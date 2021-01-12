@@ -7,6 +7,6 @@ tags:
   - staking
 ---
 
-For information about hosting your own [coldstaking pool](/wiki/learn/staking/pools/), visit the documentation in the [rhombus/coldstakepool repository](https://github.com/rhombus/coldstakepool/) on GitHub:
+For information about hosting your own [coldstaking pool](/wiki/learn/staking/pools/), visit the documentation in the [rhombus/coldstakepool repository](https://github.com/rhombus-project/coldstakepool/) on GitHub:
 
-{{< button href="https://github.com/rhombus/coldstakepool/tree/master/doc" >}}VPS Setup Example{{< /button >}}
+{{< button href="https://github.com/rhombus-project/coldstakepool/tree/master/doc" >}}VPS Setup Example{{< /button >}}

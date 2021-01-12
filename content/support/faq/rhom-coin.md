@@ -11,7 +11,7 @@ tags:
 
 ## What is RHOM?
 
-It’s a technically advanced [privacy coin](/wiki/learn/privacy/transaction-types), a [source of passive income](/learn/staking/intro), and much more. It is multi-purpose.
+It’s a technically advanced [privacy coin](/wiki/learn/privacy/transaction-types), a [source of passive income](/wiki/learn/staking/intro), and much more. It is multi-purpose.
 
 
 ## Where can I buy RHOM coins?

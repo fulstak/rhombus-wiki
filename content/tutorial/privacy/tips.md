@@ -25,19 +25,19 @@ Here are a few tips to keep you private as much as possible:
 
 ### Transactions
 
-- **Use unique addresses for each transaction.** That doesn't mean that you should always change e.g. address for donations you posted on your website, but when transacting with others, it's better to use unique addresses each time. Fortunately, [Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/) does generate new receiving address each time. With [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/), you'll need to generate them manually.
+- **Use unique addresses for each transaction.** That doesn't mean that you should always change e.g. address for donations you posted on your website, but when transacting with others, it's better to use unique addresses each time. With [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/), you'll need to generate them manually.
 - **Use Anon transactions** whenever possible. Paying a little more for transaction fee makes the whole network a bit more private (everybody profits)
 
 
 ### Balances
 
-- **Grow your "pool" of Private coins** – in other words, keep a portion of your coins in Private balances forever. The more Private coins are in existence, the better for the whole network (regarding privacy). Consider keeping at least 10 % of your funds in Private balances and use those for spending. The rest can stay in Public balance, [staking](/wiki/tutorial/staking/intro/) and earning you interest.
+- **Grow your "pool" of Private coins** – in other words, keep a portion of your coins in Private balances forever. The more Private coins are in existence, the better for the whole network (regarding privacy). Consider keeping at least 10 % of your funds in Private balances and use those for spending. The rest can stay in Public balance, [staking](/wiki/tutorial/staking/overview/) and earning you interest.
 - When receiving [Private balances (Blind/Anon)](/wiki/learn/privacy/transaction-types/) **never convert all of them** (i.e. exact amount of coins received) back to Public RHOM immediately. This will make it harder for the bad guys to correlate the links between original Public coins and those you just converted from Private ones.
 
 
 ## Network
 
-- **Use Tor** to anonymize your IP and location – visit our dedicated [guide on running Tor with Rhombus](/tutorial/privacy/tor/)
+- **Use Tor** to anonymize your IP and location – visit our dedicated [guide on running Tor with Rhombus](/wiki/tutorial/privacy/tor/)
 
 
 ## Other resources

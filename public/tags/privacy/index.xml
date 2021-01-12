@@ -2,83 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>privacy on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tags/privacy/</link>
+    <link>https://rhom.com/wiki/tags/privacy/</link>
     <description>Recent content in privacy on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Specifications</title>
-      <link>https://rhombus.io/wiki/learn/blockchain/rhombus-specifications/</link>
+      <link>https://rhom.com/wiki/learn/blockchain/rhombus-specifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/blockchain/rhombus-specifications/</guid>
-      <description>Blockchain          Codebase Always up-to-date with latest Bitcoin Core   Consensus mechanism Rhombus Proof-of-Stake (PPoS)   Block time 120 seconds (5× faster than BTC)   Block size 2 MB (2× larger than BTC)    Coin supply          Total &amp;amp; circulating supply 9+ million RHOM (check link for exact number)   Community fund ~33,000 RHOM (owned by RHOM community)    Staking          Block reward ~0.</description>
+      <guid>https://rhom.com/wiki/learn/blockchain/rhombus-specifications/</guid>
+      <description>Blockchain          Codebase Always up-to-date with latest Bitcoin Core   Consensus mechanism Rhombus Proof-of-Stake (RPoS)   Block time 150 seconds (Quicker then BTC)   Block size 2 MB (2× larger than BTC)    Coin supply          Total &amp;amp; circulating supply between 1-11 billion RHOM (check link for exact number)   ICO Disptrubtion max 200 Million RHOM   Airdrop Distrubution max 10 billion RHOM    Staking          Block reward 100 RHOM   Coin maturity 192 confirmations (~8 hours)   Yearly interest rate 0.</description>
     </item>
     
     <item>
       <title>Transaction types</title>
-      <link>https://rhombus.io/wiki/learn/privacy/transaction-types/</link>
+      <link>https://rhom.com/wiki/learn/privacy/transaction-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/learn/privacy/transaction-types/</guid>
+      <guid>https://rhom.com/wiki/learn/privacy/transaction-types/</guid>
       <description>As the highest privacy state requires the most transaction fee, it may not always be the best type of transaction depending on the situation, especially when privacy is not predominantly required by the user.
- Rhombus&amp;#39;s multiple privacy states      Public Blind Anon     Staking      Privacy ∗ ∗∗ ∗∗∗   Hidden TX amount      Anon TX participants      TX fees $ $$ $$$       Open Marketplace Public Blind Anon     Paying for Listing fees  – –   Flagging items  – –   Purchasing items – –    Funding MAD Escrow – –     Why has RHOM different privacy states?</description>
+ Rhombus&amp;#39;s multiple privacy states      Public Blind Anon     Staking      Privacy ∗ ∗∗ ∗∗∗   Hidden TX amount      Anon TX participants      TX fees $ $$ $$$    Why has RHOM different privacy states?</description>
     </item>
     
     <item>
       <title>Rhombus with Tor</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tor/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tor/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tor/</guid>
       <description>a) Using the Tor Browser b) Using the Tor Daemon c) Tor as a Hidden Service     The only privacy protocol that’s not enabled by default on Rhombus Desktop is the ability to hide your IP address using the Tor network.
 While it could eventually be enabled by default or through the Settings page, Tor currently needs to be activated manually to route your Rhombus Desktop connection through its network.</description>
     </item>
     
     <item>
       <title>Running multiple wallets</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/multiwallet/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/multiwallet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/multiwallet/</guid>
-      <description>Multiwallet setup  Rhombus Desktop Rhombus Core   Autostart multiwallet  Rhombus Desktop Rhombus Core  Linux         You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won&amp;rsquo;t mix up. This approach will also help you gain a bit more privacy (never linking all of your available funds).</description>
+      <guid>https://rhom.com/wiki/tutorial/privacy/multiwallet/</guid>
+      <description>Multiwallet setup  Rhombus Core   Autostart multiwallet  Rhombus Desktop Rhombus Core  Linux         You might want to create and use multiple wallets for different usage. The goal is to separate your finances, so they won&amp;rsquo;t mix up. This approach will also help you gain a bit more privacy (never linking all of your available funds).</description>
     </item>
     
     <item>
       <title>Self-hosting RHOM payment processor</title>
-      <link>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</link>
+      <link>https://rhom.com/wiki/tutorial/merchants/rhom-payment-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/merchants/rhom-payment-process/</guid>
+      <guid>https://rhom.com/wiki/tutorial/merchants/rhom-payment-process/</guid>
       <description>By hosting your own instance of Rhombus&amp;rsquo;s BTCPayServer, you can create your very own independent payment processor for both Rhombus and Bitcoin.
-   About BTCPayServer Features Available servers Installation  Requirements Generate docker-compose.yml Run BTCPayServer       About BTCPayServer   BTCPayServer has been ported to work on Rhombus by Rob (spazzymoto) by claiming a community-posted bounty on forums.  Features See official BTCPayServer website for complete info about features and abilities.</description>
+   About BTCPayServer Features Available servers Installation  Requirements Generate docker-compose.yml Run BTCPayServer       About BTCPayServer   Features See official BTCPayServer website for complete info about features and abilities. To name a few:
+ No fees – no processing/transaction fees or any 3rd-party eating up your profits Peer to peer – coins are sent directly from buyer to seller, they don&amp;rsquo;t sit on the server itself (no middleman) Multiple coins supported – BTC (with optional Lightning), RHOM, LTC and more&amp;hellip; No KYC – keep your identity to yourself Self-hosted – you&amp;rsquo;re in control  Available servers Following BTCPayServer servers are run by the community and open for public, in case you don&amp;rsquo;t want/need to run your own:</description>
     </item>
     
     <item>
       <title>Rhombus as Tor Hidden Service</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tor-hidden-service/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tor-hidden-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tor-hidden-service/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tor-hidden-service/</guid>
       <description>Download Rhombus wallet Install Tor Define HS in Tor config Find your IP for HS Modify rhombus.conf Start wallet     It also protects your machine from geolocation and its possible ugly consequences, and automatically sets you up for both incoming and outgoing connections, helping the Rhombus network. It is recommended to always run the Rhombus through Tor.
 This guide is written purely for Linux (specificaly Ubuntu-based distributions).</description>
     </item>
     
     <item>
       <title>Tips for increasing privacy</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/tips/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/tips/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/tips/</guid>
       <description>Basics Rhombus  Transactions Balances   Network Other resources     Here are a few tips to keep you private as much as possible:
 Basics  Never brag about how much RHOM or BTC you own, online or offline. All it does is bringing attention to you; scammers and hackers would surely love to get a piece of your pie. It&amp;rsquo;s not worth the risk.</description>
     </item>
     
     <item>
       <title>Coin Control</title>
-      <link>https://rhombus.io/wiki/tutorial/privacy/coin-control/</link>
+      <link>https://rhom.com/wiki/tutorial/privacy/coin-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tutorial/privacy/coin-control/</guid>
+      <guid>https://rhom.com/wiki/tutorial/privacy/coin-control/</guid>
       <description> This article hasn&#39;t been written yet, we&#39;re working on it!  Want to help out? Contribute your articles!   </description>
     </item>
     

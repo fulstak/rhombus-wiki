@@ -20,8 +20,7 @@ aliases:
 
 Hardware wallets have major advantages over standard software wallets: **private keys are stored in a secure chip, and cannot be transferred out of the device**. That means your funds are safe even when connected to an infected or malicious computer or a phishing/scam web page.
 
-For these reasons, we highly recommend users to protect their funds by setting up a Ledger or other [compatible hardware wallet](/wiki/learn/wallets/hardware/).
-
+For these reasons, we highly recommend users to protect their funds by setting up a Ledger
 
 ## Requirements
 

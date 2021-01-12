@@ -2,294 +2,294 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rhombus Project Wiki</title>
-    <link>https://rhombus.io/wiki/tags/</link>
+    <link>https://rhom.com/wiki/tags/</link>
     <description>Recent content in Tags on Rhombus Project Wiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhombus.io/wiki/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://rhom.com/wiki/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>API</title>
-      <link>https://rhombus.io/wiki/tags/API/</link>
+      <title>airdrop</title>
+      <link>https://rhom.com/wiki/tags/airdrop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/API/</guid>
+      <guid>https://rhom.com/wiki/tags/airdrop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>https://rhom.com/wiki/tags/API/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rhom.com/wiki/tags/API/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bitcoin</title>
-      <link>https://rhombus.io/wiki/tags/bitcoin/</link>
+      <link>https://rhom.com/wiki/tags/bitcoin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/bitcoin/</guid>
+      <guid>https://rhom.com/wiki/tags/bitcoin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blockchain</title>
-      <link>https://rhombus.io/wiki/tags/blockchain/</link>
+      <link>https://rhom.com/wiki/tags/blockchain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/blockchain/</guid>
+      <guid>https://rhom.com/wiki/tags/blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bulletproofs</title>
-      <link>https://rhombus.io/wiki/tags/bulletproofs/</link>
+      <link>https://rhom.com/wiki/tags/bulletproofs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/bulletproofs/</guid>
+      <guid>https://rhom.com/wiki/tags/bulletproofs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coin control</title>
-      <link>https://rhombus.io/wiki/tags/coin-control/</link>
+      <link>https://rhom.com/wiki/tags/coin-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/coin-control/</guid>
+      <guid>https://rhom.com/wiki/tags/coin-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>community</title>
-      <link>https://rhombus.io/wiki/tags/community/</link>
+      <link>https://rhom.com/wiki/tags/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/community/</guid>
+      <guid>https://rhom.com/wiki/tags/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contribute</title>
-      <link>https://rhombus.io/wiki/tags/Contribute/</link>
+      <link>https://rhom.com/wiki/tags/Contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/Contribute/</guid>
+      <guid>https://rhom.com/wiki/tags/Contribute/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CT</title>
-      <link>https://rhombus.io/wiki/tags/CT/</link>
+      <link>https://rhom.com/wiki/tags/CT/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/CT/</guid>
+      <guid>https://rhom.com/wiki/tags/CT/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dev</title>
-      <link>https://rhombus.io/wiki/tags/dev/</link>
+      <link>https://rhom.com/wiki/tags/dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/dev/</guid>
+      <guid>https://rhom.com/wiki/tags/dev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DSD</title>
-      <link>https://rhombus.io/wiki/tags/DSD/</link>
+      <link>https://rhom.com/wiki/tags/DSD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/DSD/</guid>
+      <guid>https://rhom.com/wiki/tags/DSD/</guid>
       <description></description>
     </item>
     
     <item>
       <title>faq</title>
-      <link>https://rhombus.io/wiki/tags/faq/</link>
+      <link>https://rhom.com/wiki/tags/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/faq/</guid>
+      <guid>https://rhom.com/wiki/tags/faq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>governance</title>
-      <link>https://rhombus.io/wiki/tags/governance/</link>
+      <link>https://rhom.com/wiki/tags/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/governance/</guid>
+      <guid>https://rhom.com/wiki/tags/governance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ico</title>
+      <link>https://rhom.com/wiki/tags/ico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rhom.com/wiki/tags/ico/</guid>
       <description></description>
     </item>
     
     <item>
       <title>important</title>
-      <link>https://rhombus.io/wiki/tags/important/</link>
+      <link>https://rhom.com/wiki/tags/important/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/important/</guid>
+      <guid>https://rhom.com/wiki/tags/important/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ledger wallet</title>
-      <link>https://rhombus.io/wiki/tags/Ledger-wallet/</link>
+      <link>https://rhom.com/wiki/tags/Ledger-wallet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/Ledger-wallet/</guid>
+      <guid>https://rhom.com/wiki/tags/Ledger-wallet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lightning</title>
-      <link>https://rhombus.io/wiki/tags/lightning/</link>
+      <link>https://rhom.com/wiki/tags/lightning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/lightning/</guid>
+      <guid>https://rhom.com/wiki/tags/lightning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multiwallet</title>
-      <link>https://rhombus.io/wiki/tags/multiwallet/</link>
+      <link>https://rhom.com/wiki/tags/multiwallet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/multiwallet/</guid>
+      <guid>https://rhom.com/wiki/tags/multiwallet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pools</title>
-      <link>https://rhombus.io/wiki/tags/pools/</link>
+      <link>https://rhom.com/wiki/tags/pools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/pools/</guid>
+      <guid>https://rhom.com/wiki/tags/pools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://rhombus.io/wiki/tags/privacy/</link>
+      <link>https://rhom.com/wiki/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/privacy/</guid>
+      <guid>https://rhom.com/wiki/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rhombus CLI</title>
-      <link>https://rhombus.io/wiki/tags/Rhombus-CLI/</link>
+      <link>https://rhom.com/wiki/tags/Rhombus-CLI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/Rhombus-CLI/</guid>
+      <guid>https://rhom.com/wiki/tags/Rhombus-CLI/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rhombus Copay</title>
-      <link>https://rhombus.io/wiki/tags/Rhombus-Copay/</link>
+      <link>https://rhom.com/wiki/tags/Rhombus-Copay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/Rhombus-Copay/</guid>
+      <guid>https://rhom.com/wiki/tags/Rhombus-Copay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rhombus Core</title>
-      <link>https://rhombus.io/wiki/tags/Rhombus-Core/</link>
+      <link>https://rhom.com/wiki/tags/Rhombus-Core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/Rhombus-Core/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rhombus Desktop</title>
-      <link>https://rhombus.io/wiki/tags/Rhombus-Desktop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/Rhombus-Desktop/</guid>
+      <guid>https://rhom.com/wiki/tags/Rhombus-Core/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RingCT</title>
-      <link>https://rhombus.io/wiki/tags/RingCT/</link>
+      <link>https://rhom.com/wiki/tags/RingCT/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/RingCT/</guid>
+      <guid>https://rhom.com/wiki/tags/RingCT/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scalability</title>
-      <link>https://rhombus.io/wiki/tags/scalability/</link>
+      <link>https://rhom.com/wiki/tags/scalability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/scalability/</guid>
+      <guid>https://rhom.com/wiki/tags/scalability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>https://rhombus.io/wiki/tags/security/</link>
+      <link>https://rhom.com/wiki/tags/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/security/</guid>
+      <guid>https://rhom.com/wiki/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>segwit</title>
-      <link>https://rhombus.io/wiki/tags/segwit/</link>
+      <link>https://rhom.com/wiki/tags/segwit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/segwit/</guid>
+      <guid>https://rhom.com/wiki/tags/segwit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sellers</title>
-      <link>https://rhombus.io/wiki/tags/sellers/</link>
+      <link>https://rhom.com/wiki/tags/sellers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/sellers/</guid>
+      <guid>https://rhom.com/wiki/tags/sellers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>staking</title>
-      <link>https://rhombus.io/wiki/tags/staking/</link>
+      <link>https://rhom.com/wiki/tags/staking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/staking/</guid>
+      <guid>https://rhom.com/wiki/tags/staking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>support</title>
-      <link>https://rhombus.io/wiki/tags/support/</link>
+      <link>https://rhom.com/wiki/tags/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/support/</guid>
+      <guid>https://rhom.com/wiki/tags/support/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TODO</title>
-      <link>https://rhombus.io/wiki/tags/TODO/</link>
+      <link>https://rhom.com/wiki/tags/TODO/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/TODO/</guid>
+      <guid>https://rhom.com/wiki/tags/TODO/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tor</title>
-      <link>https://rhombus.io/wiki/tags/tor/</link>
+      <link>https://rhom.com/wiki/tags/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rhombus.io/wiki/tags/tor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trezor wallet</title>
-      <link>https://rhombus.io/wiki/tags/Trezor-wallet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rhombus.io/wiki/tags/Trezor-wallet/</guid>
+      <guid>https://rhom.com/wiki/tags/tor/</guid>
       <description></description>
     </item>
     

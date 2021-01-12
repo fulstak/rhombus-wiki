@@ -20,7 +20,7 @@ This guide is written purely for Linux (specificaly Ubuntu-based distributions).
 
 ## Download Rhombus wallet
 
-If you don't have a Rhombus wallet yet, [download it](learn:wallets:) (we highly recommend [verifying wallet checksums](tutorial:verify-downloads) before installing) and then install it.
+If you don't have a Rhombus wallet yet, [download it](/wiki/learn/wallets) (we highly recommend [verifying wallet checksums](/wiki/tutorial/security/verify-downloads) before installing) and then install it.
 
 
 ## Install Tor

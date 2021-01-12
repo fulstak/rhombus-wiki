@@ -29,7 +29,7 @@
             <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
         </label>
         
-        <a class="gdoc-header__link" href="https://rhombus.io/wiki">
+        <a class="gdoc-header__link" href="https://rhom.com/wiki">
             <span class="gdoc-brand flex align-center">
                 <img class="gdoc-brand__img" src="/wiki/rhombus-wiki-symbol.svg" alt="Rhombus Project Wiki" width=26 height=26>
                 Rhombus Project Wiki
@@ -224,6 +224,36 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/airdrop/" class="gdoc-nav__entry ">
+                        Airdrop
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/ico/" class="gdoc-nav__entry ">
+                        ICO
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
             
             
             <li>
@@ -523,7 +553,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.io"
+                <a href="https://rhom.com"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -548,7 +578,7 @@
 
             <span class="flex">
                 <svg class="icon download"><use xlink:href="#download"></use></svg>
-                <a href="https://rhombus.io/downloads"
+                <a href="https://rhom.com/downloads"
                     class="gdoc-nav__entry ">
                     Downloads
                 </a>
@@ -671,27 +701,6 @@
     
 
 
-<blockquote class="gdoc-hint info">
-  <strong>This API also supports testnet data</strong>,<br>
-just replace the url with <a href="https://explorer-testnet.rhombus.io">https://explorer-testnet.rhombus.io</a>
-</blockquote>
-
-<p>
-
-
-
-  
-  
-
-
-
-
-<span class="gdoc-button">
-<a  href="https://github.com/rhombus/rhombus-insight-api/blob/master/README.md#api-http-endpoints"   target="_blank"  class="gdoc-button__link">
-  API Docs
-</a>
-</span>
-
 
 
 
@@ -703,11 +712,11 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
 
 
 <span class="gdoc-button">
-<a  href="https://explorer.rhombus.io"   target="_blank"  class="gdoc-button__link">
+<a  href="https://explorer.rhom.com"   target="_blank"  class="gdoc-button__link">
   Block Explorer
 </a>
 </span>
-</p>
+
 
 
 
@@ -723,11 +732,11 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
       </ul></nav><hr></div>
 
 
-<div class="gdoc-page__anchorwrap"><h2 id="example-api-calls">Example API calls<a data-clipboard-text="https://rhombus.io/wiki/dev/api/insight/#example-api-calls" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Example API calls" href="#example-api-calls"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<p>This is a non-exhaustive list of API example usage. <a href="https://github.com/rhombus/rhombus-insight-api/blob/master/README.md#api-http-endpoints">See official API docs</a> for complete list.</p>
-<div class="gdoc-page__anchorwrap"><h3 id="blockchain-status">Blockchain status<a data-clipboard-text="https://rhombus.io/wiki/dev/api/insight/#blockchain-status" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blockchain status" href="#blockchain-status"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<div class="gdoc-page__anchorwrap"><h2 id="example-api-calls">Example API calls<a data-clipboard-text="https://rhom.com/wiki/dev/api/insight/#example-api-calls" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Example API calls" href="#example-api-calls"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>This is a non-exhaustive list of API example usage. <a href="https://github.com/rhombus-dev-team/rhombus-insight-api/blob/master/README.md#api-http-endpoints">See official API docs</a> for complete list.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="blockchain-status">Blockchain status<a data-clipboard-text="https://rhom.com/wiki/dev/api/insight/#blockchain-status" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blockchain status" href="#blockchain-status"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Get current blockchain data (block height, supply, difficulty(&hellip;)):</p>
-<p><a href="https://explorer.rhombus.io/rhombus-insight-api/status">https://explorer.rhombus.io/rhombus-insight-api/status</a></p>
+<p><a href="https://explorer.rhom.com/rhombus-insight-api/status">https://explorer.rhom.com/rhombus-insight-api/status</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;info&#34;</span><span class="p">:</span> <span class="p">{</span>
     <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="mi">18010001</span><span class="p">,</span>
@@ -741,9 +750,9 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
     <span class="nt">&#34;network&#34;</span><span class="p">:</span> <span class="s2">&#34;main&#34;</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="latest-blocks">Latest blocks<a data-clipboard-text="https://rhombus.io/wiki/dev/api/insight/#latest-blocks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Latest blocks" href="#latest-blocks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="latest-blocks">Latest blocks<a data-clipboard-text="https://rhom.com/wiki/dev/api/insight/#latest-blocks" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Latest blocks" href="#latest-blocks"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Gets latest blocks info (height, block size, hash, time, number of transactions(&hellip;)):</p>
-<p><a href="https://explorer.rhombus.io/rhombus-insight-api/blocks">https://explorer.rhombus.io/rhombus-insight-api/blocks</a></p>
+<p><a href="https://explorer.rhom.com/rhombus-insight-api/blocks">https://explorer.rhom.com/rhombus-insight-api/blocks</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;blocks&#34;</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
@@ -762,9 +771,9 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
       <span class="nt">&#34;txlength&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
       <span class="nt">&#34;poolInfo&#34;</span><span class="p">:</span> <span class="p">{}</span>
     <span class="p">},</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="block-info">Block info<a data-clipboard-text="https://rhombus.io/wiki/dev/api/insight/#block-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Block info" href="#block-info"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="block-info">Block info<a data-clipboard-text="https://rhom.com/wiki/dev/api/insight/#block-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Block info" href="#block-info"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Get info for <code>blockId</code> (block <code>abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770</code> in this example):</p>
-<p><a href="https://explorer.rhombus.io/rhombus-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770">https://explorer.rhombus.io/rhombus-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770</a></p>
+<p><a href="https://explorer.rhom.com/rhombus-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770">https://explorer.rhom.com/rhombus-insight-api/block/abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;hash&#34;</span><span class="p">:</span> <span class="s2">&#34;abf0c4e5463eacc37fd92c25513d555662e8131179d047386117e9614e04d770&#34;</span><span class="p">,</span>
   <span class="nt">&#34;size&#34;</span><span class="p">:</span> <span class="mi">485</span><span class="p">,</span>
@@ -787,9 +796,9 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
   <span class="nt">&#34;isMainChain&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
   <span class="nt">&#34;poolInfo&#34;</span><span class="p">:</span> <span class="p">{}</span>
 <span class="p">}</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="transaction-info">Transaction info<a data-clipboard-text="https://rhombus.io/wiki/dev/api/insight/#transaction-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Transaction info" href="#transaction-info"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="transaction-info">Transaction info<a data-clipboard-text="https://rhom.com/wiki/dev/api/insight/#transaction-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Transaction info" href="#transaction-info"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 <p>Get info for <code>txId</code> (<code>52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28</code> in this example):</p>
-<p><a href="https://explorer.rhombus.io/rhombus-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28">https://explorer.rhombus.io/rhombus-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28</a></p>
+<p><a href="https://explorer.rhom.com/rhombus-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28">https://explorer.rhom.com/rhombus-insight-api/tx/52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;txid&#34;</span><span class="p">:</span> <span class="s2">&#34;52fcaac3582cffb1ee5c5617a67cd6fbf11aa2b0cb600f74f0c86dc0dcd55c28&#34;</span><span class="p">,</span>
   <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="mi">672</span><span class="p">,</span>
@@ -860,8 +869,8 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-11-10T06:08:56Z">
-                    November 10, 2020
+                <time datetime="2021-01-08T07:33:03Z">
+                    January 8, 2021
                 </time>
             </p>
             
@@ -934,12 +943,12 @@ just replace the url with <a href="https://explorer-testnet.rhombus.io">https://
         <footer class="gdoc-footer">
     <div class="container flex flex-wrap">
         <span class="gdoc-footer__item">
-            (cc) BY-NC-SA 2017-2020 <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
+             <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
         </span>
-        <a href="/contribute" class="gdoc-footer__item">
+        <a href="/wiki/contribute" class="gdoc-footer__item">
             Contribute
         </a>
-        <a href="/tags" class="gdoc-footer__item">
+        <a href="/wiki/tags" class="gdoc-footer__item">
             Browse tags
         </a>
         <span class="gdoc-footer__item">

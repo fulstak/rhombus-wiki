@@ -30,7 +30,7 @@ You can choose from few options on how to stake:
 | ----------------------- |:------------------:|:---------:|:--------------------:|
 | **Difficulty to setup** | easiest            | easy      | moderate             |
 | **Staking happens**     | directly in wallet | on a pool | on dedicated device  |
-| **Staking type**        | "hot" staking      | [Cold Staking](/wiki/learn/staking/intro#cold-staking/) | [Cold Staking](/wiki/learn/staking:#cold-staking) |
+| **Staking type**        | "hot" staking      | [Cold Staking](/wiki/learn/staking/intro#cold-staking/) | [Cold Staking](/wiki/learn/staking#cold-staking) |
 | **Fees**			          | –                  | 1–3 %     | –                    |
 | **Security**			      | lower              | high      | high                 |
 | **Howto guides**        | –                  | [setup guide](/wiki/tutorial/staking/cold-staking/) | [setup guide](/wiki/tutorial/staking/on-dedicated-device/) |
@@ -40,7 +40,7 @@ Standalone staking is easiest and fastest way to start staking. However as you c
 
 ### Standalone staking
 
-If you want to stake directly in your wallet (with [Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/) or [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)), you need to make sure, that:
+If you want to stake directly in your wallet (with [Rhombus Core](/wiki/tutorial/wallets/rhombus-core/)), you need to make sure, that:
 
 - **Your wallet is unlocked.** You can check lock state by moving your mouse over the Lock icon in the bottom corner of your client. If your client is locked, click the icon and enter your password (you chose this password when you encrypted your wallet).
 - **You have mature coins.** However weird that may sound, your coins need to mature first. When you withdraw coins from exchanges or receives them from friends, buyers, or from the escrow deal after a successful marketplace transaction, you'll need to wait at least 8 hours (225 confirmations) for them to mature. Only then they will stake. Keep in mind that first staking may be a bit longer than that – wait at least one day till you'll be getting regular staking rewards.

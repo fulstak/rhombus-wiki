@@ -10,6 +10,6 @@ aliases:
   - /dev/rhombus-core
 ---
 
-[Rhombus Core](/tutorial/wallets/rhombus-core) is a Qt-based wallet with advanced features focused on stability.
+[Rhombus Core](/wiki/tutorial/wallets/rhombus-core) is a Qt-based wallet with advanced features focused on stability.
 
 {{< toc-tree >}}

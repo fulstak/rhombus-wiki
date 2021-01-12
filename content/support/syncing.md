@@ -25,7 +25,6 @@ Relaunch the client with `-reindex` flag:
 {{< tab "Windows" >}}
 ### Windows
 
-- **Rhombus Desktop**: FIXME
 - **Rhombus Core**: FIXME
 {{< /tab >}}
 

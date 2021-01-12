@@ -29,7 +29,7 @@
             <svg class="icon arrow-back"><use xlink:href="#arrow_back"></use></svg>
         </label>
         
-        <a class="gdoc-header__link" href="https://rhombus.io/wiki">
+        <a class="gdoc-header__link" href="https://rhom.com/wiki">
             <span class="gdoc-brand flex align-center">
                 <img class="gdoc-brand__img" src="/wiki/rhombus-wiki-symbol.svg" alt="Rhombus Project Wiki" width=26 height=26>
                 Rhombus Project Wiki
@@ -224,6 +224,36 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/airdrop/" class="gdoc-nav__entry ">
+                        Airdrop
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/wiki/tutorial/ico/" class="gdoc-nav__entry ">
+                        ICO
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
             
             
             <li>
@@ -523,7 +553,7 @@
 
             <span class="flex">
                 <svg class="icon notification"><use xlink:href="#notification"></use></svg>
-                <a href="https://rhombus.io"
+                <a href="https://rhom.com"
                     class="gdoc-nav__entry ">
                     Rhombus News
                 </a>
@@ -548,7 +578,7 @@
 
             <span class="flex">
                 <svg class="icon download"><use xlink:href="#download"></use></svg>
-                <a href="https://rhombus.io/downloads"
+                <a href="https://rhom.com/downloads"
                     class="gdoc-nav__entry ">
                     Downloads
                 </a>
@@ -671,7 +701,7 @@
     
 
 
-<div class="gdoc-page__anchorwrap"><h2 id="about-checksums">About checksums<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/verify-downloads/#about-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor About checksums" href="#about-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="about-checksums">About checksums<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/verify-downloads/#about-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor About checksums" href="#about-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>While compiling from source is the recommended and most secure way to build the Rhombus platform, the team realizes this is an advanced technique that a large number of users aren&rsquo;t comfortable with. For most users, each release is distributed with source code and pre-compiled distributions for Windows, Mac &amp; Linux.</p>
 <p><strong>To ensure the highest level of security, the Rhombus Project team provides <code>sha256sums</code> for all of these releases.</strong></p>
 <p>Each checksum is a hash of the download file that verifies that nothing has been added or taken away either in-transit or by a third party. By using sha256 encryption with these sums every computer will generate the same hash unless the file has been compromised, which in response, will generate a different hash.</p>
@@ -679,7 +709,7 @@
   <strong>It is recommended to always validate</strong> the Rhombus build releases with the provided sha256sums.
 </blockquote>
 
-<div class="gdoc-page__anchorwrap"><h2 id="validating-checksums">Validating checksums<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/verify-downloads/#validating-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Validating checksums" href="#validating-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="validating-checksums">Validating checksums<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/verify-downloads/#validating-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Validating checksums" href="#validating-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 
 
 
@@ -694,7 +724,7 @@
     <div class="gdoc-markdown--nested gdoc-tabs__content">
       <p>There are a number of hash generators online, this tutorial will highlight Hash Online Convert:</p>
 <ol>
-<li>Download preferred <a href="https://github.com/rhombus/rhombus-core/releases/latest">Rhombus release from GitHub</a> e.g. Windows client</li>
+<li>Download preferred <a href="https://github.com/rhombus-project/rhombus-core/releases/latest">Rhombus release from GitHub</a> e.g. Windows client</li>
 <li>Visit <a href="http://hash.online-convert.com/sha256-generator">Hash Online Convert</a></li>
 <li>Find <strong>Or upload and generate a SHA-256 checksum of a file:</strong> section</li>
 <li>Select <strong>Choose File</strong> button</li>
@@ -718,28 +748,27 @@
 <li>Download latest Linux release from Github (replace “0.14.2.1” with current version number, if newer):</li>
 </ol>
 <pre><code>$ cd Downloads ~/Downloads
-$ wget https://github.com/rhombus/rhombus-core/releases/download/v0.14.2.1/rhombus-0.14.2.1-x86_64-linux-gnu.tar.gz
+$ wget https://github.com/rhombus-project/rhombus-core/releases/download/v0.20.99.1/rhombus-0.20.99.1-x86_64-linux-gnu.tar.gz
 </code></pre><ol start="2">
 <li>Run <code>sha256sum</code> on downloaded file:</li>
 </ol>
-<pre><code>~/Downloads$ sha256sum rhombus-0.14.2.1-x86_64-linux-gnu.tar.gz
+<pre><code>~/Downloads$ sha256sum rhombus-0.20.99.1-x86_64-linux-gnu.tar.gz
 sha256sum hash result: 5545cb7f2364ab773f3228ea1f0283fd389cc2ea43a886eb27d114f96ac54762
 </code></pre>
     </div>
   
 </div>
 
-<div class="gdoc-page__anchorwrap"><h3 id="compare-checksums">Compare checksums<a data-clipboard-text="https://rhombus.io/wiki/tutorial/security/verify-downloads/#compare-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compare checksums" href="#compare-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<p>When you found out the hash of your downloaded file, visit release page of your downloaded <a href="/learn/wallets/overview">Rhombus wallet</a> on Github:</p>
+<div class="gdoc-page__anchorwrap"><h3 id="compare-checksums">Compare checksums<a data-clipboard-text="https://rhom.com/wiki/tutorial/security/verify-downloads/#compare-checksums" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compare checksums" href="#compare-checksums"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<p>When you found out the hash of your downloaded file, visit release page of your downloaded <a href="/wiki/learn/wallets/overview">Rhombus wallet</a> on Github:</p>
 <ul>
-<li>link to <a href="https://github.com/rhombus/rhombus-desktop/releases">Rhombus Desktop release page</a></li>
-<li>link to <a href="https://github.com/rhombus/rhombus-core/releases">Rhombus Core release page</a></li>
+<li>link to <a href="https://github.com/rhombus-project/rhombus-core/releases">Rhombus Core release page</a></li>
 </ul>
 <p>Find the version you&rsquo;ve downloaded and <strong>compare the checksum on your PC with the one published on GitHub</strong>.</p>
 <p><strong>Ensure both checksums are identical before installing software!</strong></p>
 <blockquote class="gdoc-hint alert">
   <strong>If the checksums aren&rsquo;t matching, you have a bad/malicious download and you shouldn&rsquo;t install the wallet!</strong><br>
-If this happens, make absolutely sure, you&rsquo;re checking the right versions and correct variant for your OS. If you&rsquo;re in doubt, it&rsquo;s always better to <a href="/support/overview">seek assistance in the community</a>.
+If this happens, make absolutely sure, you&rsquo;re checking the right versions and correct variant for your OS. If you&rsquo;re in doubt, it&rsquo;s always better to <a href="/wiki/support/overview">seek assistance in the community</a>.
 </blockquote>
 
 
@@ -749,8 +778,8 @@ If this happens, make absolutely sure, you&rsquo;re checking the right versions 
             <p class="updated">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 Updated
-                <time datetime="2020-11-10T06:08:56Z">
-                    November 10, 2020
+                <time datetime="2021-01-08T07:33:03Z">
+                    January 8, 2021
                 </time>
             </p>
             
@@ -816,12 +845,12 @@ If this happens, make absolutely sure, you&rsquo;re checking the right versions 
         <footer class="gdoc-footer">
     <div class="container flex flex-wrap">
         <span class="gdoc-footer__item">
-            (cc) BY-NC-SA 2017-2020 <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
+             <a href="https://github.com/l0rdicon/rhombus-wiki/graphs/contributors">Rhombus Community</a>
         </span>
-        <a href="/contribute" class="gdoc-footer__item">
+        <a href="/wiki/contribute" class="gdoc-footer__item">
             Contribute
         </a>
-        <a href="/tags" class="gdoc-footer__item">
+        <a href="/wiki/tags" class="gdoc-footer__item">
             Browse tags
         </a>
         <span class="gdoc-footer__item">

@@ -11,7 +11,7 @@ aliases:
 
 {{< image class="side-thumb" src="rhombus-core.png" alt="Preview of Rhombus Core" >}}
 
-Rhombus Core is more lightweight than [Rhombus Desktop](/wiki/tutorial/wallets/rhombus-desktop/), offers some advanced features like Coin Control and compatibility with [hardware wallets](/lwiki/earn/wallets/hardware/).
+Rhombus Core is more lightweight and offers some advanced features like Coin Control
 
 
 {{< button href="https://rhom.com/downloads" class="primary" >}}Download Rhombus Core{{< /button >}}
