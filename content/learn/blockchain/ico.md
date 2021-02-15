@@ -1,5 +1,5 @@
 ---
-title: ICO Detials
+title: ICO Details
 subtitle: Detail for the Rhombus ICO
 slug: rhombus-ico
 weight: -10
